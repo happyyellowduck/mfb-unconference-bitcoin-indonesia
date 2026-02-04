@@ -1,0 +1,57 @@
+import { useTranslation } from 'react-i18next';
+import { motion } from 'framer-motion';
+import { ArrowRight, ExternalLink } from 'lucide-react';
+
+const CTASection = () => {
+  const { t } = useTranslation();
+
+  return (
+    <section id="about" className="section-padding">
+      <div className="container-custom">
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="glass-card p-8 sm:p-12 md:p-16 text-center relative overflow-hidden"
+        >
+          {/* Background decoration */}
+          <div className="absolute top-0 left-0 w-64 h-64 bg-gradient-to-br from-primary/10 to-transparent rounded-full -translate-x-1/2 -translate-y-1/2" />
+          <div className="absolute bottom-0 right-0 w-64 h-64 bg-gradient-to-tl from-secondary/10 to-transparent rounded-full translate-x-1/2 translate-y-1/2" />
+
+          <div className="relative z-10 max-w-3xl mx-auto">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
+              {t('cta.title')}
+            </h2>
+            <p className="text-lg text-muted-foreground mb-8">
+              {t('cta.subtitle')}
+            </p>
+
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a
+                href="https://myfirstbitcoin.io"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-orange inline-flex items-center justify-center gap-2"
+              >
+                {t('cta.button')}
+                <ArrowRight className="w-5 h-5" />
+              </a>
+              <a
+                href="https://myfirstbitcoin.io/indonesia"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-purple inline-flex items-center justify-center gap-2"
+              >
+                {t('cta.learnMore')}
+                <ExternalLink className="w-5 h-5" />
+              </a>
+            </div>
+          </div>
+        </motion.div>
+      </div>
+    </section>
+  );
+};
+
+export default CTASection;
