@@ -21,9 +21,8 @@ const Navigation = () => {
 
   const navItems = [
     { href: '#tickets', label: t('nav.tickets') },
+     { href: '#about-unconference', label: t('nav.about') },
     { href: '#venue', label: t('nav.venue') },
-    { href: '#food', label: t('nav.food') },
-    { href: '#about', label: t('nav.about') },
   ];
 
   return (

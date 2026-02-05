@@ -6,9 +6,8 @@ const resources = {
     translation: {
       nav: {
         tickets: 'Tickets',
-        venue: 'Venue',
-        food: 'Food & Drinks',
-        about: 'About MFB',
+         about: 'About',
+         venue: 'Venue',
       },
       hero: {
         title: 'Bitcoin Unconference',
@@ -23,6 +22,24 @@ const resources = {
           seconds: 'Seconds',
         },
       },
+       spirit: {
+         title: 'The spirit of an Unconference',
+         network: {
+           title: 'Network',
+           description: 'Meet the people that you have always wanted to meet. We aim to attract all type of bitcoin educators from the space. We invite builders, those who create proof-of-work.',
+         },
+         speaker: {
+           title: 'Everyone can be a speaker',
+           description: "Our stage is permissionless. At the start of the event, we'll ask everyone to pitch their project, share proof-of-work or bring talking points. After that, we'll organize break-out rooms!",
+         },
+         highSignal: {
+           title: 'High signal',
+           description: "We're not here to sell you something. We're here to bring people together, to create synergy and have a space for real connections. Whether you want to speak, listen to others giving a keynote, or just talk and connect? Join us!",
+         },
+       },
+       video: {
+         description: 'Learn from John Dennehy, founder of My First Bitcoin, about the idea and concept behind Unconferences.',
+       },
       tickets: {
         title: 'Secure Your Spot',
         subtitle: 'Exclusive Event — Strictly capped at 200 participants',
@@ -57,6 +74,7 @@ const resources = {
         title: 'The Venue',
         name: 'Rustic Market Forest Tree',
         description: 'A European-style forest escape in the heart of Surabaya. Wood, nature, and Bitcoin.',
+         exploreAreas: 'Explore the different areas',
         zones: {
           mainStage: {
             title: 'Main Stage',
@@ -83,22 +101,12 @@ const resources = {
         address: 'Jl. Golf 1 No. 159A, Gunung Sari, Surabaya',
         viewMap: 'View on Maps',
       },
-      hospitality: {
-        title: 'Fueling the Revolution',
-        subtitle: 'Tickets include a full Rustic Market BBQ & Buffet',
-        menu: {
-          steak: 'Tenderloin Steak',
-          yakitori: 'Chicken Yakitori',
-          seafood: 'Seafood Brochettes',
-          pasta: 'Aglio Olio',
-          drinks: 'Free Flow Drinks',
-        },
-      },
       cta: {
-        title: 'Want to bring Bitcoin education to your community?',
-        subtitle: 'Join the movement. Learn more about MFB Indonesia or become part of our next cohort.',
-        button: 'Join a Cohort',
-        learnMore: 'Learn More About MFB',
+         title: 'Want to start learning about Bitcoin now?',
+         subtitle: 'Bitcoin Indonesia provides FREE education opportunities. Start your learning journey today!',
+         meetup: 'Join a meetup',
+         mfbClass: 'Join a MFB class',
+         followIg: 'Follow us on IG',
       },
       footer: {
         slogan: 'Decentralize Education',
@@ -112,8 +120,7 @@ const resources = {
       nav: {
         tickets: 'Tiket',
         venue: 'Tempat',
-        food: 'Makanan & Minuman',
-        about: 'Tentang MFB',
+         about: 'Tentang',
       },
       hero: {
         title: 'Bitcoin Unconference',
@@ -128,6 +135,24 @@ const resources = {
           seconds: 'Detik',
         },
       },
+       spirit: {
+         title: 'Semangat Unconference',
+         network: {
+           title: 'Jaringan',
+           description: 'Temui orang-orang yang selalu ingin Anda temui. Kami bertujuan menarik semua jenis pendidik bitcoin dari ruang ini. Kami mengundang para pembangun, mereka yang menciptakan proof-of-work.',
+         },
+         speaker: {
+           title: 'Semua orang bisa jadi pembicara',
+           description: 'Panggung kami tanpa izin. Di awal acara, kami akan meminta semua orang untuk mempresentasikan proyek mereka, berbagi proof-of-work atau membawa topik diskusi. Setelah itu, kami akan mengatur ruang diskusi!',
+         },
+         highSignal: {
+           title: 'Sinyal tinggi',
+           description: 'Kami tidak di sini untuk menjual sesuatu. Kami di sini untuk menyatukan orang, menciptakan sinergi dan memiliki ruang untuk koneksi nyata. Apakah Anda ingin berbicara, mendengarkan keynote orang lain, atau hanya berbicara dan terhubung? Bergabunglah!',
+         },
+       },
+       video: {
+         description: 'Belajar dari John Dennehy, pendiri My First Bitcoin, tentang ide dan konsep di balik Unconference.',
+       },
       tickets: {
         title: 'Amankan Tempatmu',
         subtitle: 'Acara Eksklusif — Terbatas hanya 200 peserta',
@@ -162,6 +187,7 @@ const resources = {
         title: 'Lokasi Acara',
         name: 'Rustic Market Forest Tree',
         description: 'Suasana hutan bergaya Eropa di jantung Surabaya. Kayu, alam, dan Bitcoin.',
+         exploreAreas: 'Jelajahi area yang berbeda',
         zones: {
           mainStage: {
             title: 'Panggung Utama',
@@ -188,22 +214,12 @@ const resources = {
         address: 'Jl. Golf 1 No. 159A, Gunung Sari, Surabaya',
         viewMap: 'Lihat di Maps',
       },
-      hospitality: {
-        title: 'Mengisi Energi Revolusi',
-        subtitle: 'Tiket termasuk BBQ & Buffet Rustic Market lengkap',
-        menu: {
-          steak: 'Steak Tenderloin',
-          yakitori: 'Yakitori Ayam',
-          seafood: 'Brochettes Seafood',
-          pasta: 'Aglio Olio',
-          drinks: 'Minuman Sepuasnya',
-        },
-      },
       cta: {
-        title: 'Ingin membawa edukasi Bitcoin ke komunitasmu?',
-        subtitle: 'Bergabung dalam gerakan. Pelajari lebih lanjut tentang MFB Indonesia atau menjadi bagian dari kohort kami.',
-        button: 'Gabung Kohort',
-        learnMore: 'Pelajari Tentang MFB',
+         title: 'Ingin mulai belajar tentang Bitcoin sekarang?',
+         subtitle: 'Bitcoin Indonesia menyediakan kesempatan edukasi GRATIS. Mulai perjalanan belajar Anda hari ini!',
+         meetup: 'Gabung meetup',
+         mfbClass: 'Gabung kelas MFB',
+         followIg: 'Ikuti kami di IG',
       },
       footer: {
         slogan: 'Desentralisasi Pendidikan',

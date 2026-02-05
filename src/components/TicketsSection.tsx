@@ -33,9 +33,9 @@ const TicketsSection = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="glass-card p-8 relative overflow-hidden group hover:scale-[1.02] transition-transform duration-300"
+             className="glass-card p-8 relative overflow-hidden group hover:scale-[1.02] transition-transform duration-300 border-primary/30"
           >
-            <div className="absolute top-0 right-0 w-40 h-40 bg-gradient-to-br from-primary/10 to-transparent rounded-full -translate-y-1/2 translate-x-1/2" />
+             <div className="absolute top-0 right-0 w-40 h-40 bg-gradient-to-br from-primary/20 to-transparent rounded-full -translate-y-1/2 translate-x-1/2" />
             
             <h3 className="text-2xl font-bold mb-2">{t('tickets.standard.title')}</h3>
             <div className="flex items-baseline gap-2 mb-6">
@@ -45,7 +45,7 @@ const TicketsSection = () => {
             <ul className="space-y-4 mb-8">
               {standardFeatures.map((feature, index) => (
                 <li key={index} className="flex items-center gap-3">
-                  <div className="w-5 h-5 rounded-full bg-primary/10 flex items-center justify-center">
+                   <div className="w-5 h-5 rounded-full bg-primary/20 flex items-center justify-center">
                     <Check className="w-3 h-3 text-primary" />
                   </div>
                   <span className="text-foreground/80">{feature}</span>
@@ -66,7 +66,7 @@ const TicketsSection = () => {
                 href="https://satlantis.io"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-full text-center block py-3 px-6 rounded-lg border-2 border-secondary text-secondary font-semibold hover:bg-secondary/10 transition-all duration-300"
+                 className="w-full text-center block py-3 px-6 rounded-lg border-2 border-primary text-primary font-semibold hover:bg-primary/10 transition-all duration-300"
               >
                 {t('tickets.ctaBitcoin')}
               </a>
@@ -82,7 +82,7 @@ const TicketsSection = () => {
             className="glass-card p-8 relative overflow-hidden group hover:scale-[1.02] transition-transform duration-300 border-primary/30"
           >
             {/* Popular Badge */}
-            <div className="absolute top-4 right-4 flex items-center gap-1 bg-secondary text-secondary-foreground px-3 py-1 rounded-full text-sm font-semibold">
+             <div className="absolute top-4 right-4 flex items-center gap-1 bg-secondary text-white px-3 py-1 rounded-full text-sm font-semibold">
               <Star className="w-3 h-3" />
               {t('tickets.alumni.badge')}
             </div>
@@ -110,7 +110,7 @@ const TicketsSection = () => {
                 href="https://megatix.co.id"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn-orange w-full text-center block"
+                 className="btn-purple w-full text-center block"
               >
                 {t('tickets.ctaMegatix')}
               </a>
@@ -118,7 +118,7 @@ const TicketsSection = () => {
                 href="https://satlantis.io"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-full text-center block py-3 px-6 rounded-lg border-2 border-secondary text-secondary font-semibold hover:bg-secondary/10 transition-all duration-300"
+                 className="w-full text-center block py-3 px-6 rounded-lg border-2 border-secondary text-secondary font-semibold hover:bg-secondary/10 transition-all duration-300"
               >
                 {t('tickets.ctaBitcoin')}
               </a>
