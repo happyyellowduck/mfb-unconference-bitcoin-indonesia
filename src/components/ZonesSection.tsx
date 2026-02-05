@@ -40,8 +40,20 @@
    ];
  
    return (
-     <section className="section-padding bg-background">
+     <section className="section-padding bg-muted/30">
        <div className="container-custom">
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="text-center mb-12"
+        >
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold">
+            {t('zones.title')}
+          </h2>
+        </motion.div>
+
          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
            {zones.map((zone, index) => (
              <motion.div
