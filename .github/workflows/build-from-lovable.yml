@@ -12,9 +12,11 @@ on:
 jobs:
   build_and_publish:
     runs-on: ubuntu-latest
+
     env:
       PREVIEW_URL: "https://id-preview--184f49e9-a6ef-4ad2-8764-c7f74a6fd053.lovable.app/"
       BUILD_BRANCH: "build"
+      BASE_PATH: "/unconference/"
 
     steps:
       - name: Checkout repo
@@ -22,12 +24,12 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Install Python deps
+      - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
           pip install requests beautifulsoup4
 
-      - name: Fetch preview HTML and assets and produce build files
+      - name: Fetch Lovable preview and build static site
         run: |
           python3 - <<'PY'
           import os, sys
@@ -35,7 +37,8 @@ jobs:
           import requests
           from bs4 import BeautifulSoup
 
-          PREVIEW = os.environ.get('PREVIEW_URL')
+          PREVIEW = os.environ.get("PREVIEW_URL")
+          BASE_PATH = os.environ.get("BASE_PATH", "/")
           if not PREVIEW:
               print("PREVIEW_URL not set")
               sys.exit(1)
@@ -44,13 +47,18 @@ jobs:
           print("Fetching:", PREVIEW)
           r = session.get(PREVIEW)
           r.raise_for_status()
-          soup = BeautifulSoup(r.text, 'html.parser')
 
-          assets_dir = 'assets'
+          soup = BeautifulSoup(r.text, "html.parser")
+
+          # Inject <base href="/unconference/">
+          base_tag = soup.new_tag("base", href=BASE_PATH)
+          soup.head.insert(0, base_tag)
+
+          assets_dir = "assets"
           os.makedirs(assets_dir, exist_ok=True)
 
           def save_url(url):
-              if url.startswith('data:'):
+              if not url or url.startswith("data:"):
                   return None
               full = urljoin(PREVIEW, url)
               parsed = urlparse(full)
@@ -58,31 +66,33 @@ jobs:
               if not filename:
                   return None
               out_path = os.path.join(assets_dir, filename)
-              print("Downloading", full, "->", out_path)
+              print("Downloading", full)
               resp = session.get(full)
               resp.raise_for_status()
-              with open(out_path, 'wb') as f:
+              with open(out_path, "wb") as f:
                   f.write(resp.content)
               return filename
 
-          for tag in soup.find_all(['link','script','img']):
-              if tag.name == 'link' and tag.get('href'):
-                  fn = save_url(tag['href'])
-                  if fn:
-                      tag['href'] = './assets/' + fn
-              if tag.name == 'script' and tag.get('src'):
-                  fn = save_url(tag['src'])
-                  if fn:
-                      tag['src'] = './assets/' + fn
-              if tag.name == 'img' and tag.get('src'):
-                  fn = save_url(tag['src'])
-                  if fn:
-                      tag['src'] = './assets/' + fn
+          # Remove dev-only scripts like /src/main.tsx
+          for script in soup.find_all("script"):
+              src = script.get("src", "")
+              if src.startswith("/src/"):
+                  script.decompose()
 
-          with open('index.html', 'w', encoding='utf-8') as f:
+          # Download and rewrite assets
+          for tag in soup.find_all(["link", "script", "img"]):
+              attr = "href" if tag.name == "link" else "src"
+              if tag.get(attr):
+                  fn = save_url(tag.get(attr))
+                  if fn:
+                      tag[attr] = "./assets/" + fn
+
+          # Write index.html
+          with open("index.html", "w", encoding="utf-8") as f:
               f.write(str(soup))
 
-          with open('index.php','w') as f:
+          # index.php to serve static HTML as WP theme
+          with open("index.php", "w") as f:
               f.write(
                   "<?php\n"
                   "$path = get_stylesheet_directory() . '/index.html';\n"
@@ -93,7 +103,8 @@ jobs:
                   "}\n"
               )
 
-          with open('style.css','w') as f:
+          # style.css theme header (required by WordPress)
+          with open("style.css", "w") as f:
               f.write(
                   "/*\n"
                   "Theme Name: MFB Unconference\n"
@@ -103,20 +114,20 @@ jobs:
                   "*/\n"
               )
 
-          print("Build complete.")
+          print("Static build complete.")
           PY
 
-      - name: Publish build into orphan 'build' branch
+      - name: Publish build to orphan build branch
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BUILD_BRANCH: ${{ env.BUILD_BRANCH }}
         run: |
-          echo "Preparing clean build branch: $BUILD_BRANCH"
+          echo "Publishing to branch: $BUILD_BRANCH"
 
           REPO="https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git"
 
           mkdir -p ../buildrepo
-          cp index.html index.php style.css -r assets ../buildrepo/ || true
+          cp index.html index.php style.css -r assets ../buildrepo/
           cd ../buildrepo
 
           git init
@@ -126,5 +137,5 @@ jobs:
           git remote add origin "$REPO"
           git checkout -b "$BUILD_BRANCH"
           git add .
-          git commit -m "chore: build from Lovable preview" || echo "nothing to commit"
+          git commit -m "chore: build from Lovable preview" || echo "No changes"
           git push origin "$BUILD_BRANCH" --force
