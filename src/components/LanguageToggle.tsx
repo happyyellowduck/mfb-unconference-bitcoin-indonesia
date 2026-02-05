@@ -12,24 +12,24 @@ const LanguageToggle = () => {
   return (
     <button
       onClick={toggleLanguage}
-      className="relative flex items-center h-10 rounded-full p-1 glass-card cursor-pointer min-w-[100px]"
+      className="relative flex items-center h-9 rounded-full p-1 glass-card cursor-pointer"
       aria-label="Toggle language"
     >
       <motion.div
-        className="absolute h-8 w-12 rounded-full bg-primary"
+        className="absolute h-7 w-10 rounded-full bg-primary"
         initial={false}
-        animate={{ x: isEnglish ? 2 : 46 }}
+        animate={{ x: isEnglish ? 2 : 42 }}
         transition={{ type: 'spring', stiffness: 500, damping: 30 }}
       />
       <span
-        className={`relative z-10 px-3 py-1 text-sm font-semibold transition-colors ${
+        className={`relative z-10 w-10 text-center text-sm font-semibold transition-colors ${
           isEnglish ? 'text-primary-foreground' : 'text-muted-foreground'
         }`}
       >
         EN
       </span>
       <span
-        className={`relative z-10 px-3 py-1 text-sm font-semibold transition-colors ${
+        className={`relative z-10 w-10 text-center text-sm font-semibold transition-colors ${
           !isEnglish ? 'text-primary-foreground' : 'text-muted-foreground'
         }`}
       >

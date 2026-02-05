@@ -31,23 +31,23 @@ const Navigation = () => {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? 'glass-card !rounded-none py-3' : 'py-6'
+        isScrolled ? 'glass-card !rounded-none py-2 sm:py-3' : 'py-3 sm:py-6'
       }`}
     >
-      <div className="container-custom">
+      <div className="container-custom px-4 sm:px-6">
         <div className="flex items-center justify-between">
           {/* Logos */}
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-2 sm:gap-4">
             <img
               src={bitcoinIndoLogo}
               alt="Bitcoin Indonesia"
-              className="h-8 sm:h-10 w-auto"
+              className="h-7 sm:h-10 w-auto"
             />
-            <div className="w-px h-8 bg-border" />
+            <div className="w-px h-6 sm:h-8 bg-border" />
             <img
               src={mfbLogo}
               alt="My First Bitcoin"
-              className="h-8 sm:h-10 w-auto"
+              className="h-7 sm:h-10 w-auto"
             />
           </div>
 
@@ -65,14 +65,14 @@ const Navigation = () => {
           </div>
 
           {/* Language Toggle & Mobile Menu */}
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-2 sm:gap-4">
             <LanguageToggle />
             <button
-              className="md:hidden p-2 rounded-lg hover:bg-muted transition-colors"
+              className="md:hidden p-1.5 sm:p-2 rounded-lg hover:bg-muted transition-colors"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               aria-label="Toggle menu"
             >
-              {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+              {isMobileMenuOpen ? <X size={22} /> : <Menu size={22} />}
             </button>
           </div>
         </div>
