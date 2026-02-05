@@ -71,13 +71,13 @@ const VenueSection = () => {
            className="relative mb-12"
         >
            <div className="overflow-hidden rounded-2xl" ref={emblaRef}>
-             <div className="flex gap-4">
+             <div className="flex">
                {venueImages.map((image, index) => (
                  <div
                    key={index}
-                   className="flex-[0_0_100%] md:flex-[0_0_calc(33.333%-11px)] min-w-0"
+                   className="flex-[0_0_100%] md:flex-[0_0_33.333%] min-w-0 px-2"
                  >
-                   <div className="aspect-[5/4] rounded-2xl overflow-hidden">
+                   <div className="aspect-[4/5] rounded-2xl overflow-hidden">
                      <img
                        src={image}
                        alt={`Venue ${index + 1}`}
@@ -131,7 +131,9 @@ const VenueSection = () => {
            className="mb-12"
         >
            <h3 className="text-2xl sm:text-3xl font-bold text-center mb-8">
+           <span className="text-lg text-muted-foreground">
              {t('venue.exploreAreas')}
+           </span>
            </h3>
            <div className="rounded-2xl overflow-hidden shadow-lg">
              <img

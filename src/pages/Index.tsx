@@ -6,6 +6,7 @@ import TicketsSection from '@/components/TicketsSection';
  import ZonesSection from '@/components/ZonesSection';
  import VideoSection from '@/components/VideoSection';
 import VenueSection from '@/components/VenueSection';
+import FAQSection from '@/components/FAQSection';
 import CTASection from '@/components/CTASection';
 import Footer from '@/components/Footer';
 
@@ -20,6 +21,7 @@ const Index = () => {
          <ZonesSection />
          <VideoSection />
         <VenueSection />
+        <FAQSection />
         <CTASection />
       </main>
       <Footer />

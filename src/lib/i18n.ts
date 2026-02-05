@@ -6,12 +6,13 @@ const resources = {
     translation: {
       nav: {
         tickets: 'Tickets',
-         about: 'About',
+         experience: 'Experience',
          venue: 'Venue',
+        faq: 'FAQs',
       },
       hero: {
         title: 'Bitcoin Unconference',
-        subtitle: 'A day full of learning, community & fun',
+        subtitle: 'A full day experience of learning, community & fun',
         hostedBy: 'Surabaya, Indonesia | August 22, 2026',
         network: 'Hosted by Bitcoin Indonesia & My First Bitcoin',
         getTicket: 'Get your ticket now!',
@@ -101,6 +102,29 @@ const resources = {
         address: 'Jl. Golf 1 No. 159A, Gunung Sari, Surabaya',
         viewMap: 'View on Maps',
       },
+      faq: {
+        title: 'Frequently Asked Questions',
+        q1: {
+          question: 'What is an Unconference?',
+          answer: 'An Unconference is a participant-driven event where the agenda is created by attendees at the start of the day. Unlike traditional conferences, there are no pre-scheduled speakers—everyone has the opportunity to share, learn, and connect.',
+        },
+        q2: {
+          question: 'Do I need to prepare anything before the event?',
+          answer: 'No preparation is required! However, if you have a project, idea, or topic you\'d like to share, feel free to bring it. At the start of the event, we\'ll invite everyone to pitch their ideas and form discussion groups.',
+        },
+        q3: {
+          question: 'What is included in the ticket price?',
+          answer: 'Your ticket includes full access to all stages and workshop areas, a BBQ buffet lunch with beverages, networking opportunities, and the chance to participate in all Unconference sessions throughout the day.',
+        },
+        q4: {
+          question: 'Can I pay with Bitcoin?',
+          answer: 'Yes! We accept Bitcoin payments through Satlantis. Simply click the "Pay in Bitcoin" button on your preferred ticket tier and follow the instructions to complete your payment.',
+        },
+        q5: {
+          question: 'Is the event in English or Indonesian?',
+          answer: 'The event is bilingual! Sessions and discussions will be held in both Bahasa Indonesia 🇮🇩 and English 🇬🇧. Feel free to participate in whichever language you\'re most comfortable with.',
+        },
+      },
       cta: {
          title: 'Want to start learning about Bitcoin now?',
          subtitle: 'Bitcoin Indonesia provides FREE education opportunities. Start your learning journey today!',
@@ -119,12 +143,13 @@ const resources = {
     translation: {
       nav: {
         tickets: 'Tiket',
+        experience: 'Pengalaman',
         venue: 'Tempat',
-         about: 'Tentang',
+        faq: 'FAQ',
       },
       hero: {
         title: 'Bitcoin Unconference',
-        subtitle: 'Sehari penuh belajar, komunitas & kesenangan',
+        subtitle: 'Pengalaman sehari penuh belajar, komunitas & kesenangan',
         hostedBy: 'Surabaya, Indonesia | 22 Agustus 2026',
         network: 'Diselenggarakan oleh Bitcoin Indonesia & My First Bitcoin',
         getTicket: 'Dapatkan tiketmu sekarang!',
@@ -213,6 +238,29 @@ const resources = {
         },
         address: 'Jl. Golf 1 No. 159A, Gunung Sari, Surabaya',
         viewMap: 'Lihat di Maps',
+      },
+      faq: {
+        title: 'Pertanyaan yang Sering Diajukan',
+        q1: {
+          question: 'Apa itu Unconference?',
+          answer: 'Unconference adalah acara yang digerakkan oleh peserta di mana agenda dibuat oleh peserta di awal hari. Berbeda dengan konferensi tradisional, tidak ada pembicara yang dijadwalkan sebelumnya—semua orang memiliki kesempatan untuk berbagi, belajar, dan terhubung.',
+        },
+        q2: {
+          question: 'Apakah saya perlu menyiapkan sesuatu sebelum acara?',
+          answer: 'Tidak perlu persiapan! Namun, jika Anda memiliki proyek, ide, atau topik yang ingin dibagikan, silakan bawa. Di awal acara, kami akan mengundang semua orang untuk mempresentasikan ide mereka dan membentuk grup diskusi.',
+        },
+        q3: {
+          question: 'Apa yang termasuk dalam harga tiket?',
+          answer: 'Tiket Anda termasuk akses penuh ke semua panggung dan area workshop, makan siang BBQ buffet dengan minuman, kesempatan networking, dan kesempatan untuk berpartisipasi dalam semua sesi Unconference sepanjang hari.',
+        },
+        q4: {
+          question: 'Bisakah saya membayar dengan Bitcoin?',
+          answer: 'Ya! Kami menerima pembayaran Bitcoin melalui Satlantis. Cukup klik tombol "Bayar dengan Bitcoin" pada tier tiket pilihan Anda dan ikuti instruksi untuk menyelesaikan pembayaran.',
+        },
+        q5: {
+          question: 'Apakah acaranya dalam bahasa Inggris atau Indonesia?',
+          answer: 'Acara ini bilingual! Sesi dan diskusi akan diadakan dalam Bahasa Indonesia 🇮🇩 dan Inggris 🇬🇧. Silakan berpartisipasi dalam bahasa mana pun yang paling nyaman bagi Anda.',
+        },
       },
       cta: {
          title: 'Ingin mulai belajar tentang Bitcoin sekarang?',
