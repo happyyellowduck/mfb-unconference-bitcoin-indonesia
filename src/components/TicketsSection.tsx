@@ -53,14 +53,24 @@ const TicketsSection = () => {
               ))}
             </ul>
 
-            <a
-              href="https://megatix.co.id"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-orange w-full text-center block"
-            >
-              {t('tickets.ctaMegatix')}
-            </a>
+            <div className="space-y-3">
+              <a
+                href="https://megatix.co.id"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-orange w-full text-center block"
+              >
+                {t('tickets.ctaMegatix')}
+              </a>
+              <a
+                href="https://satlantis.io"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full text-center block py-3 px-6 rounded-lg border-2 border-secondary text-secondary font-semibold hover:bg-secondary/10 transition-all duration-300"
+              >
+                {t('tickets.ctaBitcoin')}
+              </a>
+            </div>
           </motion.div>
 
           {/* Alumni Ticket */}
@@ -95,14 +105,24 @@ const TicketsSection = () => {
               ))}
             </ul>
 
-            <a
-              href="https://satlantis.io"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-purple w-full text-center block"
-            >
-              {t('tickets.ctaBitcoin')}
-            </a>
+            <div className="space-y-3">
+              <a
+                href="https://megatix.co.id"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-orange w-full text-center block"
+              >
+                {t('tickets.ctaMegatix')}
+              </a>
+              <a
+                href="https://satlantis.io"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full text-center block py-3 px-6 rounded-lg border-2 border-secondary text-secondary font-semibold hover:bg-secondary/10 transition-all duration-300"
+              >
+                {t('tickets.ctaBitcoin')}
+              </a>
+            </div>
           </motion.div>
         </div>
       </div>

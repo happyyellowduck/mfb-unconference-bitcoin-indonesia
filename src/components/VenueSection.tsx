@@ -2,17 +2,14 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronLeft, ChevronRight, MapPin, Users, Cpu, Palette, MessageCircle, BookOpen } from 'lucide-react';
-import venueImage1 from '@/assets/venue-forest-1.jpg';
-import venueImage2 from '@/assets/venue-forest-2.jpg';
+import venueImage1 from '@/assets/venue-1.jpg';
+import venueImage2 from '@/assets/venue-2.jpg';
+import venueImage3 from '@/assets/venue-3.jpg';
+import venueImage4 from '@/assets/venue-4.jpg';
+import venueImage5 from '@/assets/venue-5.jpg';
+import venueImage6 from '@/assets/venue-6.jpg';
 
-const venueImages = [
-  venueImage1,
-  venueImage2,
-  venueImage1,
-  venueImage2,
-  venueImage1,
-  venueImage2,
-];
+const venueImages = [venueImage1, venueImage2, venueImage3, venueImage4, venueImage5, venueImage6];
 
 const VenueSection = () => {
   const { t } = useTranslation();
@@ -90,7 +87,7 @@ const VenueSection = () => {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="relative mb-16 rounded-2xl overflow-hidden"
         >
-          <div className="aspect-[16/9] relative">
+          <div className="aspect-[21/9] relative">
             <AnimatePresence mode="wait">
               <motion.img
                 key={currentSlide}
@@ -100,7 +97,7 @@ const VenueSection = () => {
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
                 transition={{ duration: 0.5 }}
-                className="absolute inset-0 w-full h-full object-cover"
+                className="absolute inset-0 w-full h-full object-cover object-center"
               />
             </AnimatePresence>
             

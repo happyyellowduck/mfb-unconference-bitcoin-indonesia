@@ -67,7 +67,7 @@ const HeroSection = () => {
             transition={{ delay: 0.8, duration: 0.6 }}
           >
             <p className="text-sm uppercase tracking-widest text-muted-foreground mb-6 font-medium">
-              August 22, 2026 • 8:00 AM
+              {t('hero.getTicket')}
             </p>
             <CountdownTimer />
           </motion.div>
@@ -77,13 +77,10 @@ const HeroSection = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 1, duration: 0.6 }}
-            className="mt-12 flex flex-col sm:flex-row gap-4 justify-center"
+            className="mt-12 flex justify-center"
           >
-            <a href="#tickets" className="btn-orange text-lg">
-              {t('tickets.ctaMegatix')}
-            </a>
-            <a href="#tickets" className="btn-purple text-lg">
-              {t('tickets.ctaBitcoin')}
+            <a href="#tickets" className="btn-purple text-lg px-10">
+              {t('tickets.ctaLearnMore')}
             </a>
           </motion.div>
         </motion.div>
