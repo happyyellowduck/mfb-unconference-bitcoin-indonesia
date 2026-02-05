@@ -6,8 +6,9 @@ const resources = {
     translation: {
       nav: {
         tickets: 'Tickets',
-         experience: 'Experience',
-         venue: 'Venue',
+        experience: 'Experience',
+        speakers: 'Speakers',
+        venue: 'Venue',
         faq: 'FAQs',
       },
       hero: {
@@ -33,14 +34,43 @@ const resources = {
            title: 'Everyone can be a speaker',
            description: "Our stage is permissionless. At the start of the event, we'll ask everyone to pitch their project, share proof-of-work or bring talking points. After that, we'll organize break-out rooms!",
          },
-         highSignal: {
-           title: 'High signal',
-           description: "We're not here to sell you something. We're here to bring people together, to create synergy and have a space for real connections. Whether you want to speak, listen to others giving a keynote, or just talk and connect? Join us!",
-         },
+        beginners: {
+          title: 'For beginners',
+          description: "New to Bitcoin? This is the perfect place to start. We welcome everyone, from curious newcomers to experienced Bitcoiners. Learn at your own pace in a friendly, supportive environment.",
+        },
        },
        video: {
          description: 'Learn from John Dennehy, founder of My First Bitcoin, about the idea and concept behind Unconferences.',
        },
+      speakers: {
+        title: 'Speakers',
+        subtitle: 'Meet the educators and builders shaping the Bitcoin community',
+        john: {
+          role: 'Founder of My First Bitcoin',
+          bio: 'John Dennehy is the founder of My First Bitcoin, a non-profit organization dedicated to Bitcoin education. He has been instrumental in bringing Bitcoin education to schools and communities around the world, starting in El Salvador and now expanding globally.',
+        },
+        dimas: {
+          role: 'Bitcoin Indonesia & Bitcoin House Bali',
+          bio: "Dimas is the Co-Founder of Bitcoin Indonesia and the Bitcoin House Bali. He's a strong voice in the Indonesian Bitcoin community, podcaster, and a passionate Bitcoin educator.",
+        },
+        depoll: {
+          role: 'Bitcoin House Bali Manager',
+          bio: 'Depoll is a My First Bitcoin graduate from Bali and a valuable team member at Bitcoin Indonesia. He plays a key role in running the Bitcoin House in Bali, hosting meetups and workshops, and growing the local Bitcoin community. Additionally, Depoll creates educational content in Bahasa Indonesia to help expand Bitcoin knowledge across the country.',
+        },
+        hansen: {
+          role: 'Apa Ada Dengan Bitcoin',
+          bio: 'Hansen Malau is an entrepreneur, sats stacker, and Bitcoin community leader. He runs the Indonesian-focused X account Apa Ada Dengan Bitcoin, breaking down language barriers and making Bitcoin content accessible to the local audience.',
+        },
+        ricky: {
+          role: 'Bitcoinstitutions',
+          bio: 'Ricky helps institutions and professionals be more profitable and crisis-proof, just by accumulating the best money humanity ever invented.',
+        },
+        you: {
+          name: 'You?',
+          role: 'The next speaker',
+          bio: 'At an Unconference, everyone has the chance to share their thoughts and knowledge. Whether you have a project to present, insights to share, or just want to participate in the conversation – the stage is yours!',
+        },
+      },
       zones: {
         title: 'The event areas',
       },
@@ -147,6 +177,7 @@ const resources = {
       nav: {
         tickets: 'Tiket',
         experience: 'Pengalaman',
+        speakers: 'Pembicara',
         venue: 'Tempat',
         faq: 'FAQ',
       },
@@ -173,14 +204,43 @@ const resources = {
            title: 'Semua orang bisa jadi pembicara',
            description: 'Panggung kami tanpa izin. Di awal acara, kami akan meminta semua orang untuk mempresentasikan proyek mereka, berbagi proof-of-work atau membawa topik diskusi. Setelah itu, kami akan mengatur ruang diskusi!',
          },
-         highSignal: {
-           title: 'Sinyal tinggi',
-           description: 'Kami tidak di sini untuk menjual sesuatu. Kami di sini untuk menyatukan orang, menciptakan sinergi dan memiliki ruang untuk koneksi nyata. Apakah Anda ingin berbicara, mendengarkan keynote orang lain, atau hanya berbicara dan terhubung? Bergabunglah!',
-         },
+        beginners: {
+          title: 'Untuk pemula',
+          description: 'Baru mengenal Bitcoin? Ini adalah tempat yang sempurna untuk memulai. Kami menyambut semua orang, dari pendatang baru yang penasaran hingga Bitcoiner berpengalaman. Belajar sesuai kecepatan Anda sendiri dalam lingkungan yang ramah dan mendukung.',
+        },
        },
        video: {
          description: 'Belajar dari John Dennehy, pendiri My First Bitcoin, tentang ide dan konsep di balik Unconference.',
        },
+      speakers: {
+        title: 'Pembicara',
+        subtitle: 'Temui para pendidik dan pembangun yang membentuk komunitas Bitcoin',
+        john: {
+          role: 'Pendiri My First Bitcoin',
+          bio: 'John Dennehy adalah pendiri My First Bitcoin, organisasi nirlaba yang didedikasikan untuk pendidikan Bitcoin. Dia berperan penting dalam membawa pendidikan Bitcoin ke sekolah dan komunitas di seluruh dunia, dimulai dari El Salvador dan sekarang berkembang secara global.',
+        },
+        dimas: {
+          role: 'Bitcoin Indonesia & Bitcoin House Bali',
+          bio: 'Dimas adalah Co-Founder Bitcoin Indonesia dan Bitcoin House Bali. Dia adalah suara kuat dalam komunitas Bitcoin Indonesia, podcaster, dan pendidik Bitcoin yang penuh semangat.',
+        },
+        depoll: {
+          role: 'Manajer Bitcoin House Bali',
+          bio: 'Depoll adalah lulusan My First Bitcoin dari Bali dan anggota tim yang berharga di Bitcoin Indonesia. Dia memainkan peran kunci dalam menjalankan Bitcoin House di Bali, mengadakan pertemuan dan lokakarya, serta mengembangkan komunitas Bitcoin lokal. Selain itu, Depoll membuat konten edukatif dalam Bahasa Indonesia untuk membantu memperluas pengetahuan Bitcoin di seluruh negeri.',
+        },
+        hansen: {
+          role: 'Apa Ada Dengan Bitcoin',
+          bio: 'Hansen Malau adalah pengusaha, penumpuk sats, dan pemimpin komunitas Bitcoin. Dia menjalankan akun X berbahasa Indonesia Apa Ada Dengan Bitcoin, mendobrak hambatan bahasa dan membuat konten Bitcoin dapat diakses oleh audiens lokal.',
+        },
+        ricky: {
+          role: 'Bitcoinstitutions',
+          bio: 'Ricky membantu institusi dan profesional menjadi lebih menguntungkan dan tahan krisis, hanya dengan mengakumulasi uang terbaik yang pernah diciptakan manusia.',
+        },
+        you: {
+          name: 'Anda?',
+          role: 'Pembicara berikutnya',
+          bio: 'Di Unconference, semua orang memiliki kesempatan untuk berbagi pemikiran dan pengetahuan mereka. Apakah Anda memiliki proyek untuk dipresentasikan, wawasan untuk dibagikan, atau hanya ingin berpartisipasi dalam percakapan – panggungnya adalah milik Anda!',
+        },
+      },
       zones: {
         title: 'Area acara',
       },

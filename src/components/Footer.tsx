@@ -17,6 +17,13 @@ const TikTokIcon = ({ className }: { className?: string }) => (
   </svg>
 );
 
+// Custom Nostr icon
+const NostrIcon = ({ className }: { className?: string }) => (
+  <svg className={className} viewBox="0 0 24 24" fill="currentColor">
+    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15h-2v-6h2v6zm4 0h-2v-6h2v6zm0-8H9V7h6v2z" />
+  </svg>
+);
+
 const Footer = () => {
   const { t } = useTranslation();
 
@@ -25,6 +32,7 @@ const Footer = () => {
     { icon: TikTokIcon, href: 'https://tiktok.com/@bitcoinindo21', label: 'TikTok' },
     { icon: XIcon, href: 'https://x.com/bitcoinindo21', label: 'X' },
     { icon: Send, href: 'https://t.me/+miAiJI6HJ7AxZjI8', label: 'Telegram' },
+    { icon: NostrIcon, href: 'https://primal.net/p/npub1y4qd2zhtn05gnsaaq5xfejzfk4a32638tx6gpp9g8k6e42g9d66qaxhcr3', label: 'Nostr' },
   ];
 
   return (
