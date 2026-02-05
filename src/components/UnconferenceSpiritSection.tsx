@@ -10,22 +10,22 @@
        icon: Users,
        title: t('spirit.network.title'),
        description: t('spirit.network.description'),
-       bgColor: 'bg-gradient-to-br from-amber-500 to-orange-600',
-       iconBg: 'bg-white/20',
+      borderColor: 'border-amber-500',
+      iconColor: 'text-amber-500',
      },
      {
        icon: Mic,
        title: t('spirit.speaker.title'),
        description: t('spirit.speaker.description'),
-       bgColor: 'bg-gradient-to-br from-violet-600 to-purple-700',
-       iconBg: 'bg-white/20',
+      borderColor: 'border-secondary',
+      iconColor: 'text-secondary',
      },
      {
        icon: Sparkles,
        title: t('spirit.highSignal.title'),
        description: t('spirit.highSignal.description'),
-       bgColor: 'bg-gradient-to-br from-emerald-500 to-teal-600',
-       iconBg: 'bg-white/20',
+      borderColor: 'border-emerald-500',
+      iconColor: 'text-emerald-500',
      },
    ];
  
@@ -52,13 +52,13 @@
                whileInView={{ opacity: 1, y: 0 }}
                viewport={{ once: true }}
                transition={{ duration: 0.5, delay: index * 0.1 }}
-               className={`${tile.bgColor} rounded-2xl p-8 text-white shadow-lg hover:scale-[1.02] transition-transform`}
+              className={`bg-card border-2 ${tile.borderColor} rounded-2xl p-8 shadow-lg hover:scale-[1.02] transition-transform`}
              >
-               <div className={`w-14 h-14 rounded-xl ${tile.iconBg} flex items-center justify-center mb-6`}>
-                 <tile.icon className="w-7 h-7 text-white" />
+              <div className={`w-14 h-14 rounded-xl bg-muted flex items-center justify-center mb-6`}>
+                <tile.icon className={`w-7 h-7 ${tile.iconColor}`} />
                </div>
-               <h3 className="text-xl font-bold mb-3">{tile.title}</h3>
-               <p className="text-white/90 leading-relaxed">{tile.description}</p>
+              <h3 className="text-xl font-bold mb-3 text-foreground">{tile.title}</h3>
+              <p className="text-muted-foreground leading-relaxed">{tile.description}</p>
              </motion.div>
            ))}
          </div>

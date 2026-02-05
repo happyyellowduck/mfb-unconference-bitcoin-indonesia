@@ -50,7 +50,7 @@ const CTASection = () => {
                  href="https://www.instagram.com/bitcoinindo21"
                  target="_blank"
                  rel="noopener noreferrer"
-                 className="inline-flex items-center justify-center gap-2 py-3 px-6 rounded-lg border-2 border-secondary text-secondary font-semibold hover:bg-secondary/10 transition-all duration-300"
+                 className="btn-cherry inline-flex items-center justify-center gap-2"
                >
                  <Instagram className="w-5 h-5" />
                  {t('cta.followIg')}

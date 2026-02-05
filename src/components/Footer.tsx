@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import { Instagram } from 'lucide-react';
+import { Instagram, Send } from 'lucide-react';
 import bitcoinIndoLogo from '@/assets/bitcoin-indonesia-logo.svg';
 import mfbLogo from '@/assets/my-first-bitcoin-logo.webp';
 
@@ -24,6 +24,7 @@ const Footer = () => {
     { icon: Instagram, href: 'https://instagram.com/bitcoinindo21', label: 'Instagram' },
     { icon: TikTokIcon, href: 'https://tiktok.com/@bitcoinindo21', label: 'TikTok' },
     { icon: XIcon, href: 'https://x.com/bitcoinindo21', label: 'X' },
+    { icon: Send, href: 'https://t.me/+miAiJI6HJ7AxZjI8', label: 'Telegram' },
   ];
 
   return (
