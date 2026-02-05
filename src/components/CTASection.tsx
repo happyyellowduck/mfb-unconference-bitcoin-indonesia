@@ -1,12 +1,12 @@
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
-import { ArrowRight, ExternalLink } from 'lucide-react';
+ import { Calendar, GraduationCap, Instagram } from 'lucide-react';
 
 const CTASection = () => {
   const { t } = useTranslation();
 
   return (
-    <section id="about" className="section-padding">
+     <section className="section-padding">
       <div className="container-custom">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -27,24 +27,33 @@ const CTASection = () => {
               {t('cta.subtitle')}
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+             <div className="flex flex-col sm:flex-row gap-4 justify-center flex-wrap">
               <a
-                href="https://myfirstbitcoin.io"
+                 href="https://bitcoinindonesia.xyz/community/bitcoin-indonesia-events/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-orange inline-flex items-center justify-center gap-2"
               >
-                {t('cta.button')}
-                <ArrowRight className="w-5 h-5" />
+                 <Calendar className="w-5 h-5" />
+                 {t('cta.meetup')}
               </a>
               <a
-                href="https://myfirstbitcoin.io/indonesia"
+                 href="https://bitcoinindonesia.xyz/my-first-bitcoin/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-purple inline-flex items-center justify-center gap-2"
               >
-                {t('cta.learnMore')}
-                <ExternalLink className="w-5 h-5" />
+                 <GraduationCap className="w-5 h-5" />
+                 {t('cta.mfbClass')}
+               </a>
+               <a
+                 href="https://www.instagram.com/bitcoinindo21"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 className="inline-flex items-center justify-center gap-2 py-3 px-6 rounded-lg border-2 border-secondary text-secondary font-semibold hover:bg-secondary/10 transition-all duration-300"
+               >
+                 <Instagram className="w-5 h-5" />
+                 {t('cta.followIg')}
               </a>
             </div>
           </div>
