@@ -94,19 +94,24 @@ jobs:
           PY
 
       - name: Publish build into orphan 'build' branch
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BUILD_BRANCH: ${{ env.BUILD_BRANCH }}
-        run: |
-          echo "Preparing clean build branch: $BUILD_BRANCH"
-          REPO="https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git"
-          mkdir -p ../buildrepo
-          # copy only the generated build files and theme helpers
-          cp index.html index.php style.css -r assets ../buildrepo/ || true
-          cd ../buildrepo
-          git init
-          git remote add origin "$REPO"
-          git checkout -b "$BUILD_BRANCH"
-          git add .
-          git commit -m "chore: build from Lovable preview" || echo "nothing to commit"
-          git push origin "$BUILD_BRANCH" --force
+  env:
+    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    BUILD_BRANCH: ${{ env.BUILD_BRANCH }}
+  run: |
+    echo "Preparing clean build branch: $BUILD_BRANCH"
+    REPO="https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git"
+    mkdir -p ../buildrepo
+
+    cp index.html index.php style.css -r assets ../buildrepo/ || true
+    cd ../buildrepo
+
+    git init
+    git config user.name "github-actions"
+    git config user.email "github-actions@github.com"
+
+    git remote add origin "$REPO"
+    git checkout -b "$BUILD_BRANCH"
+    git add .
+    git commit -m "chore: build from Lovable preview" || echo "nothing to commit"
+    git push origin "$BUILD_BRANCH" --force
+
