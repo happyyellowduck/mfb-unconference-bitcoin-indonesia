@@ -2,9 +2,10 @@ import '@/lib/i18n';
 import Navigation from '@/components/Navigation';
 import HeroSection from '@/components/HeroSection';
 import TicketsSection from '@/components/TicketsSection';
- import UnconferenceSpiritSection from '@/components/UnconferenceSpiritSection';
- import ZonesSection from '@/components/ZonesSection';
- import VideoSection from '@/components/VideoSection';
+import UnconferenceSpiritSection from '@/components/UnconferenceSpiritSection';
+import ZonesSection from '@/components/ZonesSection';
+import VideoSection from '@/components/VideoSection';
+import SpeakersSection from '@/components/SpeakersSection';
 import VenueSection from '@/components/VenueSection';
 import FAQSection from '@/components/FAQSection';
 import CTASection from '@/components/CTASection';
@@ -17,9 +18,10 @@ const Index = () => {
       <main>
         <HeroSection />
         <TicketsSection />
-         <UnconferenceSpiritSection />
-         <VideoSection />
-         <ZonesSection />
+        <UnconferenceSpiritSection />
+        <VideoSection />
+        <ZonesSection />
+        <SpeakersSection />
         <VenueSection />
         <FAQSection />
         <CTASection />

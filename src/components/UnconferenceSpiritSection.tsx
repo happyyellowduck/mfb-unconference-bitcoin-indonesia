@@ -20,8 +20,8 @@
      },
      {
        icon: Sparkles,
-       title: t('spirit.highSignal.title'),
-       description: t('spirit.highSignal.description'),
+      title: t('spirit.beginners.title'),
+      description: t('spirit.beginners.description'),
       bgColor: 'bg-gradient-to-br from-emerald-500 to-teal-600',
      },
    ];
