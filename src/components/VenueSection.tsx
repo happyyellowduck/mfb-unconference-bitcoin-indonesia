@@ -51,6 +51,18 @@ const VenueSection = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
+          {/* Venue Map */}
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
+            {t('venue.exploreMap')}
+          </p>
+          <div className="rounded-2xl overflow-hidden shadow-lg mb-16">
+            <img
+              src={venueLayout}
+              alt="Venue Layout"
+              className="w-full h-auto"
+            />
+          </div>
+
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-2">
             {t('venue.title')}
           </h2>
@@ -120,28 +132,6 @@ const VenueSection = () => {
                />
              ))}
           </div>
-        </motion.div>
-
-         {/* Layout Image */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.4 }}
-           className="mb-12"
-        >
-           <h3 className="text-2xl sm:text-3xl font-bold text-center mb-8">
-           <span className="text-lg text-muted-foreground">
-             {t('venue.exploreAreas')}
-           </span>
-           </h3>
-           <div className="rounded-2xl overflow-hidden shadow-lg">
-             <img
-               src={venueLayout}
-               alt="Venue Layout"
-               className="w-full h-auto"
-             />
-           </div>
         </motion.div>
 
         {/* Map */}

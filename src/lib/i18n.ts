@@ -41,6 +41,9 @@ const resources = {
        video: {
          description: 'Learn from John Dennehy, founder of My First Bitcoin, about the idea and concept behind Unconferences.',
        },
+      zones: {
+        title: 'The event areas',
+      },
       tickets: {
         title: 'Secure Your Spot',
         subtitle: 'Exclusive Event — Strictly capped at 200 participants',
@@ -75,7 +78,7 @@ const resources = {
         title: 'The Venue',
         name: 'Rustic Market Forest Tree',
         description: 'A European-style forest escape in the heart of Surabaya. Wood, nature, and Bitcoin.',
-         exploreAreas: 'Explore the different areas',
+        exploreMap: 'Explore the venue map',
         zones: {
           mainStage: {
             title: 'Main Stage',
@@ -178,6 +181,9 @@ const resources = {
        video: {
          description: 'Belajar dari John Dennehy, pendiri My First Bitcoin, tentang ide dan konsep di balik Unconference.',
        },
+      zones: {
+        title: 'Area acara',
+      },
       tickets: {
         title: 'Amankan Tempatmu',
         subtitle: 'Acara Eksklusif — Terbatas hanya 200 peserta',
@@ -212,7 +218,7 @@ const resources = {
         title: 'Lokasi Acara',
         name: 'Rustic Market Forest Tree',
         description: 'Suasana hutan bergaya Eropa di jantung Surabaya. Kayu, alam, dan Bitcoin.',
-         exploreAreas: 'Jelajahi area yang berbeda',
+        exploreMap: 'Jelajahi peta venue',
         zones: {
           mainStage: {
             title: 'Panggung Utama',
