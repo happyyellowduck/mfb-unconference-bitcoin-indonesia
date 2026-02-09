@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
-import { Check, Star } from 'lucide-react';
+import { Check, Star, Ticket } from 'lucide-react';
 
 const TicketsSection = () => {
   const { t } = useTranslation();
@@ -58,17 +58,10 @@ const TicketsSection = () => {
                 href="https://megatix.co.id"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn-orange w-full text-center block"
+                className="btn-orange w-full text-center block flex items-center justify-center gap-2"
               >
+                <Ticket className="w-4 h-4" />
                 {t('tickets.ctaMegatix')}
-              </a>
-              <a
-                href="https://satlantis.io"
-                target="_blank"
-                rel="noopener noreferrer"
-                 className="w-full text-center block py-3 px-6 rounded-lg border-2 border-primary text-primary font-semibold hover:bg-primary/10 transition-all duration-300"
-              >
-                {t('tickets.ctaBitcoin')}
               </a>
             </div>
           </motion.div>
@@ -110,17 +103,10 @@ const TicketsSection = () => {
                 href="https://megatix.co.id"
                 target="_blank"
                 rel="noopener noreferrer"
-                 className="btn-purple w-full text-center block"
+                 className="btn-purple w-full text-center block flex items-center justify-center gap-2"
               >
+                <Ticket className="w-4 h-4" />
                 {t('tickets.ctaMegatix')}
-              </a>
-              <a
-                href="https://satlantis.io"
-                target="_blank"
-                rel="noopener noreferrer"
-                 className="w-full text-center block py-3 px-6 rounded-lg border-2 border-secondary text-secondary font-semibold hover:bg-secondary/10 transition-all duration-300"
-              >
-                {t('tickets.ctaBitcoin')}
               </a>
             </div>
           </motion.div>
