@@ -83,7 +83,7 @@ const resources = {
           features: [
             'Full day Unconference pass',
             'BBQ buffet & beverages included',
-            '3 stages, 5 workshop areas & 2 networking spots',
+            '2 stages, 8 workshop areas & 2 networking spots',
             'In Bahasa 🇮🇩 & English 🇬🇧',
             'Learning & networking sessions',
           ],
@@ -95,13 +95,12 @@ const resources = {
           features: [
             'Full day Unconference pass',
             'BBQ buffet & beverages included',
-            '3 stages, 5 workshop areas & 2 networking spots',
+            '2 stages, 8 workshop areas & 2 networking spots',
             'In Bahasa 🇮🇩 & English 🇬🇧',
             'Learning & networking sessions',
           ],
         },
-        ctaMegatix: 'Pay in Rupiah (via Megatix)',
-        ctaBitcoin: 'Pay in Bitcoin (via Satlantis)',
+        ctaMegatix: 'Get Early Bird Ticket Now',
         ctaLearnMore: 'Learn more',
       },
       venue: {
@@ -253,7 +252,7 @@ const resources = {
           features: [
             'Akses Unconference sehari penuh',
             'BBQ buffet & minuman termasuk',
-            '3 panggung, 5 area workshop & 2 spot networking',
+            '2 panggung, 8 area workshop & 2 spot networking',
             'Dalam Bahasa 🇮🇩 & Inggris 🇬🇧',
             'Sesi belajar & networking',
           ],
@@ -265,13 +264,12 @@ const resources = {
           features: [
             'Akses Unconference sehari penuh',
             'BBQ buffet & minuman termasuk',
-            '3 panggung, 5 area workshop & 2 spot networking',
+            '2 panggung, 8 area workshop & 2 spot networking',
             'Dalam Bahasa 🇮🇩 & Inggris 🇬🇧',
             'Sesi belajar & networking',
           ],
         },
-        ctaMegatix: 'Bayar Rupiah (via Megatix)',
-        ctaBitcoin: 'Bayar Bitcoin (via Satlantis)',
+        ctaMegatix: 'Dapatkan Tiket Early Bird Sekarang',
         ctaLearnMore: 'Pelajari lebih lanjut',
       },
       venue: {
