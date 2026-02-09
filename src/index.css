@@ -55,6 +55,7 @@
 
     /* Cherry red for IG button */
     --cherry-red: 348 83% 47%;
+    --bitcoin-green: 142 55% 40%;
     --shadow-card: 0 4px 24px hsl(0 0% 0% / 0.08);
     --shadow-hover: 0 12px 40px hsl(33 94% 53% / 0.2);
 
@@ -173,6 +174,17 @@
     box-shadow: 0 8px 30px hsl(276 44% 38% / 0.4);
   }
 
+  .btn-green {
+    @apply px-8 py-4 rounded-xl font-semibold text-white transition-all duration-300;
+    background: linear-gradient(135deg, hsl(142 55% 40%) 0%, hsl(142 55% 33%) 100%);
+    box-shadow: 0 4px 20px hsl(142 55% 40% / 0.3);
+  }
+
+  .btn-green:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 30px hsl(142 55% 40% / 0.4);
+  }
+
   .btn-cherry {
     @apply px-8 py-4 rounded-xl font-semibold text-white transition-all duration-300;
     background: linear-gradient(135deg, hsl(348 83% 47%) 0%, hsl(348 83% 40%) 100%);
@@ -182,6 +194,11 @@
   .btn-cherry:hover {
     transform: translateY(-2px);
     box-shadow: 0 8px 30px hsl(348 83% 47% / 0.4);
+  }
+
+  .gradient-text-green {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(135deg, hsl(142 55% 40%) 0%, hsl(142 55% 33%) 100%);
   }
 
   .section-padding {

@@ -77,9 +77,12 @@ const resources = {
       tickets: {
         title: 'Secure Your Spot',
         subtitle: 'Exclusive Event — Strictly capped at 200 participants',
-        standard: {
-          title: 'Standard',
-          price: '200.000 IDR',
+        saveLabel: '50% off',
+        graduate: {
+          title: 'Graduate 2026',
+          earlyBirdPrice: '100.000 IDR',
+          regularPrice: '200.000 IDR',
+          badge: 'Best Value',
           features: [
             'Full day Unconference pass',
             'BBQ buffet & beverages included',
@@ -90,8 +93,21 @@ const resources = {
         },
         alumni: {
           title: 'MFB Alumni',
-          price: '150.000 IDR',
+          earlyBirdPrice: '150.000 IDR',
+          regularPrice: '300.000 IDR',
           badge: 'Special Rate',
+          features: [
+            'Full day Unconference pass',
+            'BBQ buffet & beverages included',
+            '2 stages, 8 workshop areas & 2 networking spots',
+            'In Bahasa 🇮🇩 & English 🇬🇧',
+            'Learning & networking sessions',
+          ],
+        },
+        standard: {
+          title: 'Standard',
+          earlyBirdPrice: '200.000 IDR',
+          regularPrice: '400.000 IDR',
           features: [
             'Full day Unconference pass',
             'BBQ buffet & beverages included',
@@ -246,9 +262,12 @@ const resources = {
       tickets: {
         title: 'Amankan Tempatmu',
         subtitle: 'Acara Eksklusif — Terbatas hanya 200 peserta',
-        standard: {
-          title: 'Standard',
-          price: '200.000 IDR',
+        saveLabel: 'Hemat 50%',
+        graduate: {
+          title: 'Graduate 2026',
+          earlyBirdPrice: '100.000 IDR',
+          regularPrice: '200.000 IDR',
+          badge: 'Terbaik',
           features: [
             'Akses Unconference sehari penuh',
             'BBQ buffet & minuman termasuk',
@@ -259,8 +278,21 @@ const resources = {
         },
         alumni: {
           title: 'Alumni MFB',
-          price: '150.000 IDR',
+          earlyBirdPrice: '150.000 IDR',
+          regularPrice: '300.000 IDR',
           badge: 'Harga Spesial',
+          features: [
+            'Akses Unconference sehari penuh',
+            'BBQ buffet & minuman termasuk',
+            '2 panggung, 8 area workshop & 2 spot networking',
+            'Dalam Bahasa 🇮🇩 & Inggris 🇬🇧',
+            'Sesi belajar & networking',
+          ],
+        },
+        standard: {
+          title: 'Standard',
+          earlyBirdPrice: '200.000 IDR',
+          regularPrice: '400.000 IDR',
           features: [
             'Akses Unconference sehari penuh',
             'BBQ buffet & minuman termasuk',
