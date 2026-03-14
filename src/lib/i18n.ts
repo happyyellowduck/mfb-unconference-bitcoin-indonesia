@@ -58,7 +58,7 @@ const resources = {
           bio: 'Depoll is a My First Bitcoin graduate from Bali and a valuable team member at Bitcoin Indonesia. He plays a key role in running the Bitcoin House in Bali, hosting meetups and workshops, and growing the local Bitcoin community. Additionally, Depoll creates educational content in Bahasa Indonesia to help expand Bitcoin knowledge across the country.',
         },
         hansen: {
-          role: 'Apa Ada Dengan Bitcoin',
+          role: 'Founder of Apa Ada Dengan Bitcoin',
           bio: 'Hansen Malau is an entrepreneur, sats stacker, and Bitcoin community leader. He runs the Indonesian-focused X account Apa Ada Dengan Bitcoin, breaking down language barriers and making Bitcoin content accessible to the local audience.',
         },
         zed: {
