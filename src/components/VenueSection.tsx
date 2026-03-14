@@ -85,7 +85,7 @@ const VenueCarouselRow = ({ images, direction = 'forward' }: { images: string[];
   return (
     <div className="relative group">
       <div className="overflow-hidden rounded-xl" ref={emblaRef}>
-        <div className="flex gap-3">
+        <div className="flex" style={{ gap: '0.75rem' }}>
           {images.map((image, index) => (
             <div
               key={index}
