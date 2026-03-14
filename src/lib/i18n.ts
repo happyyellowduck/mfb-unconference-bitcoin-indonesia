@@ -50,7 +50,7 @@ const resources = {
           bio: 'John Dennehy is the founder of My First Bitcoin, a non-profit organization dedicated to Bitcoin education. He has been instrumental in bringing Bitcoin education to schools and communities around the world, starting in El Salvador and now expanding globally.',
         },
         dimas: {
-          role: 'Bitcoin Indonesia & Bitcoin House Bali',
+          role: 'Founder of Bitcoin Indonesia & Bitcoin House Bali',
           bio: "Dimas is the Co-Founder of Bitcoin Indonesia and the Bitcoin House Bali. He's a strong voice in the Indonesian Bitcoin community, podcaster, and a passionate Bitcoin educator.",
         },
         depoll: {
@@ -58,11 +58,11 @@ const resources = {
           bio: 'Depoll is a My First Bitcoin graduate from Bali and a valuable team member at Bitcoin Indonesia. He plays a key role in running the Bitcoin House in Bali, hosting meetups and workshops, and growing the local Bitcoin community. Additionally, Depoll creates educational content in Bahasa Indonesia to help expand Bitcoin knowledge across the country.',
         },
         hansen: {
-          role: 'Apa Ada Dengan Bitcoin',
+          role: 'Founder of Apa Ada Dengan Bitcoin',
           bio: 'Hansen Malau is an entrepreneur, sats stacker, and Bitcoin community leader. He runs the Indonesian-focused X account Apa Ada Dengan Bitcoin, breaking down language barriers and making Bitcoin content accessible to the local audience.',
         },
         zed: {
-          role: 'Bitcoin for Aceh Flood Victims',
+          role: 'Founder of Bitcoin for Aceh Flood Victims',
           bio: 'As a Bitcoiner since January 2022, born in Aceh—one of the regions most severely affected by the floods and landslides—I am stepping forward to raise donations from the Bitcoin community.',
         },
         you: {
@@ -235,7 +235,7 @@ const resources = {
           bio: 'John Dennehy adalah pendiri My First Bitcoin, organisasi nirlaba yang didedikasikan untuk pendidikan Bitcoin. Dia berperan penting dalam membawa pendidikan Bitcoin ke sekolah dan komunitas di seluruh dunia, dimulai dari El Salvador dan sekarang berkembang secara global.',
         },
         dimas: {
-          role: 'Bitcoin Indonesia & Bitcoin House Bali',
+          role: 'Founder of Bitcoin Indonesia & Bitcoin House Bali',
           bio: 'Dimas adalah Co-Founder Bitcoin Indonesia dan Bitcoin House Bali. Dia adalah suara kuat dalam komunitas Bitcoin Indonesia, podcaster, dan pendidik Bitcoin yang penuh semangat.',
         },
         depoll: {
@@ -243,11 +243,11 @@ const resources = {
           bio: 'Depoll adalah lulusan My First Bitcoin dari Bali dan anggota tim yang berharga di Bitcoin Indonesia. Dia memainkan peran kunci dalam menjalankan Bitcoin House di Bali, mengadakan pertemuan dan lokakarya, serta mengembangkan komunitas Bitcoin lokal. Selain itu, Depoll membuat konten edukatif dalam Bahasa Indonesia untuk membantu memperluas pengetahuan Bitcoin di seluruh negeri.',
         },
         hansen: {
-          role: 'Apa Ada Dengan Bitcoin',
+          role: 'Founder of Apa Ada Dengan Bitcoin',
           bio: 'Hansen Malau adalah pengusaha, penumpuk sats, dan pemimpin komunitas Bitcoin. Dia menjalankan akun X berbahasa Indonesia Apa Ada Dengan Bitcoin, mendobrak hambatan bahasa dan membuat konten Bitcoin dapat diakses oleh audiens lokal.',
         },
         zed: {
-          role: 'Bitcoin untuk Korban Banjir Aceh',
+          role: 'Founder of Bitcoin untuk Korban Banjir Aceh',
           bio: 'Sebagai Bitcoiner sejak Januari 2022, lahir di Aceh—salah satu daerah yang paling terdampak banjir dan longsor—saya melangkah maju untuk menggalang donasi dari komunitas Bitcoin.',
         },
         you: {

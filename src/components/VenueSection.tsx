@@ -4,28 +4,22 @@ import { motion } from 'framer-motion';
 import { ChevronLeft, ChevronRight, MapPin } from 'lucide-react';
 import useEmblaCarousel from 'embla-carousel-react';
 import Autoplay from 'embla-carousel-autoplay';
-import venueImage1 from '@/assets/venue-1.jpg';
-import venueImage2 from '@/assets/venue-2.jpg';
-import venueImage3 from '@/assets/venue-3.jpg';
-import venueImage4 from '@/assets/venue-4.jpg';
-import venueImage5 from '@/assets/venue-5.jpg';
-import venueImage6 from '@/assets/venue-6.jpg';
 import venueImage7 from '@/assets/venue-7.png';
 import venueImage8 from '@/assets/venue-8.png';
 import venueLayoutEn from '@/assets/venue-layout-en.jpg';
 import venueLayoutId from '@/assets/venue-layout-id.jpg';
 
-const venueImages = [venueImage1, venueImage2, venueImage3, venueImage4, venueImage5, venueImage6, venueImage7, venueImage8];
+// Row 1 and Row 2 images — venue-7 at position 2, venue-8 at position 4
+// Placeholder slots will be filled when zip images are uploaded
+const row1Images = [venueImage7];
+const row2Images = [venueImage8];
 
-const VenueSection = () => {
-  const { t, i18n } = useTranslation();
+const VenueCarouselRow = ({ images, direction = 'forward' }: { images: string[]; direction?: 'forward' | 'backward' }) => {
   const [selectedIndex, setSelectedIndex] = useState(0);
-
-  const venueLayout = i18n.language === 'id' ? venueLayoutId : venueLayoutEn;
 
   const [emblaRef, emblaApi] = useEmblaCarousel(
     { loop: true, align: 'start' },
-    [Autoplay({ delay: 4000, stopOnInteraction: false })]
+    [Autoplay({ delay: direction === 'forward' ? 3500 : 4500, stopOnInteraction: false })]
   );
 
   const scrollPrev = useCallback(() => emblaApi?.scrollPrev(), [emblaApi]);
@@ -40,15 +34,56 @@ const VenueSection = () => {
     if (!emblaApi) return;
     onSelect();
     emblaApi.on('select', onSelect);
-    return () => {
-      emblaApi.off('select', onSelect);
-    };
+    return () => { emblaApi.off('select', onSelect); };
   }, [emblaApi, onSelect]);
+
+  return (
+    <div className="relative group">
+      <div className="overflow-hidden rounded-xl" ref={emblaRef}>
+        <div className="flex">
+          {images.map((image, index) => (
+            <div
+              key={index}
+              className="flex-[0_0_100%] md:flex-[0_0_50%] lg:flex-[0_0_33.333%] min-w-0 px-1.5"
+            >
+              <div className="aspect-[16/9] rounded-xl overflow-hidden">
+                <img
+                  src={image}
+                  alt={`Venue ${index + 1}`}
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <button
+        onClick={scrollPrev}
+        className="absolute left-2 top-1/2 -translate-y-1/2 w-9 h-9 rounded-full bg-background/80 backdrop-blur-sm border border-border/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity z-10 hover:bg-background"
+        aria-label="Previous slide"
+      >
+        <ChevronLeft className="w-4 h-4" />
+      </button>
+      <button
+        onClick={scrollNext}
+        className="absolute right-2 top-1/2 -translate-y-1/2 w-9 h-9 rounded-full bg-background/80 backdrop-blur-sm border border-border/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity z-10 hover:bg-background"
+        aria-label="Next slide"
+      >
+        <ChevronRight className="w-4 h-4" />
+      </button>
+    </div>
+  );
+};
+
+const VenueSection = () => {
+  const { t, i18n } = useTranslation();
+  const venueLayout = i18n.language === 'id' ? venueLayoutId : venueLayoutEn;
 
   return (
     <section id="venue" className="section-padding bg-muted/30">
       <div className="container-custom">
-        {/* Header */}
+        {/* Venue Map */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -56,7 +91,6 @@ const VenueSection = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          {/* Venue Map */}
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
             {t('venue.exploreMap')}
           </p>
@@ -79,65 +113,19 @@ const VenueSection = () => {
           </p>
         </motion.div>
 
-        {/* Image Carousel */}
+        {/* Dual Row Image Carousels */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="relative mb-12"
+          className="space-y-3 mb-12"
         >
-          <div className="overflow-hidden rounded-2xl" ref={emblaRef}>
-            <div className="flex">
-              {venueImages.map((image, index) => (
-                <div
-                  key={index}
-                  className="flex-[0_0_100%] md:flex-[0_0_33.333%] min-w-0 px-2"
-                >
-                  <div className="aspect-[4/5] rounded-2xl overflow-hidden">
-                    <img
-                      src={image}
-                      alt={`Venue ${index + 1}`}
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          <button
-            onClick={scrollPrev}
-            className="absolute left-2 md:left-4 top-1/2 -translate-y-1/2 w-10 h-10 md:w-12 md:h-12 glass-card flex items-center justify-center hover:scale-110 transition-transform z-10"
-            aria-label="Previous slide"
-          >
-            <ChevronLeft className="w-5 h-5 md:w-6 md:h-6" />
-          </button>
-          <button
-            onClick={scrollNext}
-            className="absolute right-2 md:right-4 top-1/2 -translate-y-1/2 w-10 h-10 md:w-12 md:h-12 glass-card flex items-center justify-center hover:scale-110 transition-transform z-10"
-            aria-label="Next slide"
-          >
-            <ChevronRight className="w-5 h-5 md:w-6 md:h-6" />
-          </button>
-
-          <div className="flex justify-center gap-2 mt-4">
-            {venueImages.map((_, index) => (
-              <button
-                key={index}
-                onClick={() => emblaApi?.scrollTo(index)}
-                className={`w-2 h-2 rounded-full transition-all ${
-                  index === selectedIndex
-                    ? 'w-8 bg-primary'
-                    : 'bg-foreground/30 hover:bg-foreground/50'
-                }`}
-                aria-label={`Go to slide ${index + 1}`}
-              />
-            ))}
-          </div>
+          <VenueCarouselRow images={row1Images} direction="forward" />
+          <VenueCarouselRow images={row2Images} direction="backward" />
         </motion.div>
 
-        {/* Map */}
+        {/* Address */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
