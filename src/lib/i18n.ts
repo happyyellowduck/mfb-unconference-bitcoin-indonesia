@@ -235,7 +235,7 @@ const resources = {
           bio: 'John Dennehy adalah pendiri My First Bitcoin, organisasi nirlaba yang didedikasikan untuk pendidikan Bitcoin. Dia berperan penting dalam membawa pendidikan Bitcoin ke sekolah dan komunitas di seluruh dunia, dimulai dari El Salvador dan sekarang berkembang secara global.',
         },
         dimas: {
-          role: 'Bitcoin Indonesia & Bitcoin House Bali',
+          role: 'Founder of Bitcoin Indonesia & Bitcoin House Bali',
           bio: 'Dimas adalah Co-Founder Bitcoin Indonesia dan Bitcoin House Bali. Dia adalah suara kuat dalam komunitas Bitcoin Indonesia, podcaster, dan pendidik Bitcoin yang penuh semangat.',
         },
         depoll: {
