@@ -32,8 +32,8 @@ import venueNew19 from '@/assets/venue-new-19.jpg';
 
 // Row 1: 11 images with venue-7 at position 2
 const row1Images = [
-  venueNew1,   // position 1
-  venueImage7, // position 2 (venue-7)
+  venueImage7, // position 1 (venue-7)
+  venueNew1,   // position 2
   venueNew2,   // position 3
   venueNew3,   // position 4
   venueNew4,   // position 5
