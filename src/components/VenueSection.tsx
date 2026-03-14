@@ -10,10 +10,12 @@ import venueImage3 from '@/assets/venue-3.jpg';
 import venueImage4 from '@/assets/venue-4.jpg';
 import venueImage5 from '@/assets/venue-5.jpg';
 import venueImage6 from '@/assets/venue-6.jpg';
+import venueImage7 from '@/assets/venue-7.png';
+import venueImage8 from '@/assets/venue-8.png';
 import venueLayoutEn from '@/assets/venue-layout-en.jpg';
 import venueLayoutId from '@/assets/venue-layout-id.jpg';
 
-const venueImages = [venueImage1, venueImage2, venueImage3, venueImage4, venueImage5, venueImage6];
+const venueImages = [venueImage1, venueImage2, venueImage3, venueImage4, venueImage5, venueImage6, venueImage7, venueImage8];
 
 const VenueSection = () => {
   const { t, i18n } = useTranslation();
