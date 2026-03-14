@@ -53,6 +53,9 @@ export default {
         bitcoin: {
           orange: "hsl(var(--bitcoin-orange))",
         },
+        "bitcoin-green": {
+          DEFAULT: "hsl(var(--bitcoin-green))",
+        },
         royal: {
           purple: "hsl(var(--royal-purple))",
         },

@@ -24,24 +24,24 @@ const resources = {
           seconds: 'Seconds',
         },
       },
-       spirit: {
-         title: 'The spirit of an Unconference',
-         network: {
-           title: 'Network',
-           description: 'Meet the people that you have always wanted to meet. We aim to attract all type of bitcoin educators from the space. We invite builders, those who create proof-of-work.',
-         },
-         speaker: {
-           title: 'Everyone can be a speaker',
-           description: "Our stage is permissionless. At the start of the event, we'll ask everyone to pitch their project, share proof-of-work or bring talking points. After that, we'll organize break-out rooms!",
-         },
-        beginners: {
-          title: 'For beginners',
-          description: "New to Bitcoin? This is the perfect place to start. We welcome everyone, from curious newcomers to experienced Bitcoiners. Learn at your own pace in a friendly, supportive environment.",
+      spirit: {
+        title: 'The spirit of an Unconference',
+        network: {
+          title: 'Network',
+          description: 'Connect with Bitcoin educators, builders, and community leaders from across Indonesia. This is a Bitcoin-only space designed to strengthen grassroots education and foster meaningful collaboration.',
         },
-       },
-       video: {
-         description: 'Learn from John Dennehy, founder of My First Bitcoin, about the idea and concept behind Unconferences.',
-       },
+        speaker: {
+          title: 'Everyone Can Be a Speaker',
+          description: 'Our stage is permissionless. Anyone can pitch a topic, share proof-of-work, or propose a discussion at the start of the event. Sessions are organized together and focused strictly on Bitcoin. There is no space for altcoin promotion, trading schemes, self-promotion, or hidden agendas.',
+        },
+        beginners: {
+          title: 'For Beginners',
+          description: "New to Bitcoin? You're welcome here. This is a safe and supportive environment where newcomers and experienced Bitcoiners can learn, ask questions, and share knowledge together.",
+        },
+      },
+      video: {
+        description: 'Learn from John Dennehy, founder of My First Bitcoin, about the idea and concept behind Unconferences.',
+      },
       speakers: {
         title: 'Speakers',
         subtitle: 'Meet the educators and builders shaping the Bitcoin community',
@@ -61,9 +61,9 @@ const resources = {
           role: 'Apa Ada Dengan Bitcoin',
           bio: 'Hansen Malau is an entrepreneur, sats stacker, and Bitcoin community leader. He runs the Indonesian-focused X account Apa Ada Dengan Bitcoin, breaking down language barriers and making Bitcoin content accessible to the local audience.',
         },
-        ricky: {
-          role: 'Bitcoinstitutions',
-          bio: 'Ricky helps institutions and professionals be more profitable and crisis-proof, just by accumulating the best money humanity ever invented.',
+        zed: {
+          role: 'Bitcoin for Aceh Flood Victims',
+          bio: 'As a Bitcoiner since January 2022, born in Aceh—one of the regions most severely affected by the floods and landslides—I am stepping forward to raise donations from the Bitcoin community.',
         },
         you: {
           name: 'You?',
@@ -86,9 +86,9 @@ const resources = {
           features: [
             'Full day Unconference pass',
             'BBQ buffet & beverages included',
-            '2 stages, 8 workshop areas & 2 networking spots',
+            '2 stages, 4 workshop areas & 2 discussion spots',
             'In Bahasa 🇮🇩 & English 🇬🇧',
-            'Learning & networking sessions',
+            'Learning & building',
           ],
         },
         alumni: {
@@ -99,9 +99,9 @@ const resources = {
           features: [
             'Full day Unconference pass',
             'BBQ buffet & beverages included',
-            '2 stages, 8 workshop areas & 2 networking spots',
+            '2 stages, 4 workshop areas & 2 discussion spots',
             'In Bahasa 🇮🇩 & English 🇬🇧',
-            'Learning & networking sessions',
+            'Learning & building',
           ],
         },
         standard: {
@@ -111,9 +111,9 @@ const resources = {
           features: [
             'Full day Unconference pass',
             'BBQ buffet & beverages included',
-            '2 stages, 8 workshop areas & 2 networking spots',
+            '2 stages, 4 workshop areas & 2 discussion spots',
             'In Bahasa 🇮🇩 & English 🇬🇧',
-            'Learning & networking sessions',
+            'Learning & building',
           ],
         },
         ctaMegatix: 'Get Early Bird Ticket Now',
@@ -128,19 +128,19 @@ const resources = {
           mainStage: {
             title: 'Main Stage',
             capacity: '200 pax',
-            description: 'Learn Zone, Unconference Sessions, & Debate Corner',
+            description: 'Unconference Sessions, Talks, and Debates — All About Bitcoin',
           },
           nodeMining: {
-            title: 'Node & Mining Zone',
-            description: 'Tech deep-dives with Bas, Chresna, and Hansen',
+            title: 'Self-Custody, Node & Mining Zone',
+            description: 'Bitcoin Tech Deep Dives With Experienced Bitcoiners',
           },
           artSocial: {
-            title: 'Art & Social Media',
-            description: 'Featuring NoSTR, Bitcoin Satoshi Cat, and Emily Blockhunters',
+            title: 'Art, Social Media & Nostr',
+            description: 'Explore Bitcoin culture through art, storytelling, and decentralized Bitcoin social media',
           },
           community: {
-            title: 'Community Circle',
-            description: 'Networking area for meetups, Telegram groups, and job posts',
+            title: 'MFB & Community',
+            description: 'Learn about My First Bitcoin, enroll in a class, become an educator, start your own MFB class, or connect with the community',
           },
           introvert: {
             title: 'Introvert Bitcoiner Zone',
@@ -166,7 +166,7 @@ const resources = {
         },
         q4: {
           question: 'Can I pay with Bitcoin?',
-          answer: 'Yes! We accept Bitcoin payments through Satlantis. Simply click the "Pay in Bitcoin" button on your preferred ticket tier and follow the instructions to complete your payment.',
+          answer: 'No! Currently we cannot accept Bitcoin payments due to Indonesian regulations. However, one of the goals of this event is education — helping Indonesians understand Bitcoin, self-custody, and financial freedom so that in the future Bitcoin can hopefully become legal and accessible for everyone in Indonesia. Bitcoin is freedom money.',
         },
         q5: {
           question: 'Is the event in English or Indonesian?',
@@ -174,11 +174,11 @@ const resources = {
         },
       },
       cta: {
-         title: 'Want to start learning about Bitcoin now?',
-         subtitle: 'Bitcoin Indonesia provides FREE education opportunities. Start your learning journey today!',
-         meetup: 'Join a meetup',
-         mfbClass: 'Join a MFB class',
-         followIg: 'Follow us on IG',
+        title: 'Want to start learning about Bitcoin now?',
+        subtitle: 'Bitcoin Indonesia provides FREE education opportunities. Start your learning journey today!',
+        meetup: 'Join a meetup',
+        mfbClass: 'Join a MFB class',
+        followIg: 'Follow us on IG',
       },
       footer: {
         slogan: 'Decentralize Education',
@@ -209,24 +209,24 @@ const resources = {
           seconds: 'Detik',
         },
       },
-       spirit: {
-         title: 'Semangat Unconference',
-         network: {
-           title: 'Jaringan',
-           description: 'Temui orang-orang yang selalu ingin Anda temui. Kami bertujuan menarik semua jenis pendidik bitcoin dari ruang ini. Kami mengundang para pembangun, mereka yang menciptakan proof-of-work.',
-         },
-         speaker: {
-           title: 'Semua orang bisa jadi pembicara',
-           description: 'Panggung kami tanpa izin. Di awal acara, kami akan meminta semua orang untuk mempresentasikan proyek mereka, berbagi proof-of-work atau membawa topik diskusi. Setelah itu, kami akan mengatur ruang diskusi!',
-         },
-        beginners: {
-          title: 'Untuk pemula',
-          description: 'Baru mengenal Bitcoin? Ini adalah tempat yang sempurna untuk memulai. Kami menyambut semua orang, dari pendatang baru yang penasaran hingga Bitcoiner berpengalaman. Belajar sesuai kecepatan Anda sendiri dalam lingkungan yang ramah dan mendukung.',
+      spirit: {
+        title: 'Semangat Unconference',
+        network: {
+          title: 'Network',
+          description: 'Terhubung dengan para pendidik, builder, dan pemimpin komunitas Bitcoin dari seluruh Indonesia. Ini adalah ruang Bitcoin-only yang dirancang untuk memperkuat edukasi grassroots dan mendorong kolaborasi yang bermakna.',
         },
-       },
-       video: {
-         description: 'Belajar dari John Dennehy, pendiri My First Bitcoin, tentang ide dan konsep di balik Unconference.',
-       },
+        speaker: {
+          title: 'Semua Orang Bisa Menjadi Pembicara',
+          description: 'Panggung kami bersifat permissionless. Siapa pun dapat mengajukan topik, membagikan proof-of-work, atau mengusulkan diskusi di awal acara. Sesi akan disusun bersama dan hanya berfokus pada Bitcoin. Tidak ada ruang untuk promosi altcoin, skema trading, self-promotion, agenda tersembunyi.',
+        },
+        beginners: {
+          title: 'Untuk Pemula',
+          description: 'Baru mengenal Bitcoin? Kamu tetap sangat diterima. Ini adalah lingkungan yang aman dan suportif di mana pemula dan Bitcoiner berpengalaman bisa belajar, bertanya, dan berbagi pengetahuan bersama.',
+        },
+      },
+      video: {
+        description: 'Belajar dari John Dennehy, pendiri My First Bitcoin, tentang ide dan konsep di balik Unconference.',
+      },
       speakers: {
         title: 'Pembicara',
         subtitle: 'Temui para pendidik dan pembangun yang membentuk komunitas Bitcoin',
@@ -246,9 +246,9 @@ const resources = {
           role: 'Apa Ada Dengan Bitcoin',
           bio: 'Hansen Malau adalah pengusaha, penumpuk sats, dan pemimpin komunitas Bitcoin. Dia menjalankan akun X berbahasa Indonesia Apa Ada Dengan Bitcoin, mendobrak hambatan bahasa dan membuat konten Bitcoin dapat diakses oleh audiens lokal.',
         },
-        ricky: {
-          role: 'Bitcoinstitutions',
-          bio: 'Ricky membantu institusi dan profesional menjadi lebih menguntungkan dan tahan krisis, hanya dengan mengakumulasi uang terbaik yang pernah diciptakan manusia.',
+        zed: {
+          role: 'Bitcoin untuk Korban Banjir Aceh',
+          bio: 'Sebagai Bitcoiner sejak Januari 2022, lahir di Aceh—salah satu daerah yang paling terdampak banjir dan longsor—saya melangkah maju untuk menggalang donasi dari komunitas Bitcoin.',
         },
         you: {
           name: 'Anda?',
@@ -271,9 +271,9 @@ const resources = {
           features: [
             'Akses Unconference sehari penuh',
             'BBQ buffet & minuman termasuk',
-            '2 panggung, 8 area workshop & 2 spot networking',
+            '2 panggung, 4 area workshop & 2 spot diskusi',
             'Dalam Bahasa 🇮🇩 & Inggris 🇬🇧',
-            'Sesi belajar & networking',
+            'Learning & building',
           ],
         },
         alumni: {
@@ -284,9 +284,9 @@ const resources = {
           features: [
             'Akses Unconference sehari penuh',
             'BBQ buffet & minuman termasuk',
-            '2 panggung, 8 area workshop & 2 spot networking',
+            '2 panggung, 4 area workshop & 2 spot diskusi',
             'Dalam Bahasa 🇮🇩 & Inggris 🇬🇧',
-            'Sesi belajar & networking',
+            'Learning & building',
           ],
         },
         standard: {
@@ -296,9 +296,9 @@ const resources = {
           features: [
             'Akses Unconference sehari penuh',
             'BBQ buffet & minuman termasuk',
-            '2 panggung, 8 area workshop & 2 spot networking',
+            '2 panggung, 4 area workshop & 2 spot diskusi',
             'Dalam Bahasa 🇮🇩 & Inggris 🇬🇧',
-            'Sesi belajar & networking',
+            'Learning & building',
           ],
         },
         ctaMegatix: 'Dapatkan Tiket Early Bird Sekarang',
@@ -311,25 +311,25 @@ const resources = {
         exploreMap: 'Jelajahi peta venue',
         zones: {
           mainStage: {
-            title: 'Panggung Utama',
+            title: 'Main Stage',
             capacity: '200 orang',
-            description: 'Zona Belajar, Sesi Unconference, & Pojok Debat',
+            description: 'Sesi unconference, talk, dan debat — semuanya tentang Bitcoin',
           },
           nodeMining: {
-            title: 'Zona Node & Mining',
-            description: 'Pembahasan teknis bersama Bas, Chresna, dan Hansen',
+            title: 'Self-Custody, Node & Mining Zone',
+            description: 'Pendalaman teknis Bitcoin bersama Bitcoiner berpengalaman',
           },
           artSocial: {
-            title: 'Seni & Media Sosial',
-            description: 'Menampilkan NoSTR, Bitcoin Satoshi Cat, dan Emily Blockhunters',
+            title: 'Art, Social Media & Nostr Zone',
+            description: 'Eksplorasi budaya Bitcoin melalui seni, storytelling, dan media sosial terdesentralisasi',
           },
           community: {
-            title: 'Lingkaran Komunitas',
-            description: 'Area networking untuk meetup, grup Telegram, dan lowongan kerja',
+            title: 'MFB & Community Zone',
+            description: 'Pelajari tentang My First Bitcoin, daftar kelas, menjadi educator, memulai kelas MFB sendiri, atau terhubung dengan komunitas',
           },
           introvert: {
-            title: 'Zona Introvert Bitcoiner',
-            description: "Area tenang 'tanpa ponsel' untuk percakapan mendalam dan buku",
+            title: 'Introvert Bitcoiner Zone',
+            description: 'Area tenang tanpa ponsel untuk percakapan mendalam dan membaca buku',
           },
         },
         address: 'Jl. Golf 1 No. 159A, Gunung Sari, Surabaya',
@@ -351,7 +351,7 @@ const resources = {
         },
         q4: {
           question: 'Bisakah saya membayar dengan Bitcoin?',
-          answer: 'Ya! Kami menerima pembayaran Bitcoin melalui Satlantis. Cukup klik tombol "Bayar dengan Bitcoin" pada tier tiket pilihan Anda dan ikuti instruksi untuk menyelesaikan pembayaran.',
+          answer: 'Tidak! Saat ini kami belum bisa menerima pembayaran Bitcoin karena regulasi Indonesia. Namun, salah satu tujuan acara ini adalah edukasi — membantu masyarakat Indonesia memahami Bitcoin, self-custody, dan kebebasan finansial agar di masa depan Bitcoin bisa menjadi legal dan dapat diakses oleh semua orang di Indonesia. Bitcoin is freedom money.',
         },
         q5: {
           question: 'Apakah acaranya dalam bahasa Inggris atau Indonesia?',
@@ -359,11 +359,11 @@ const resources = {
         },
       },
       cta: {
-         title: 'Ingin mulai belajar tentang Bitcoin sekarang?',
-         subtitle: 'Bitcoin Indonesia menyediakan kesempatan edukasi GRATIS. Mulai perjalanan belajar Anda hari ini!',
-         meetup: 'Gabung meetup',
-         mfbClass: 'Gabung kelas MFB',
-         followIg: 'Ikuti kami di IG',
+        title: 'Ingin mulai belajar tentang Bitcoin sekarang?',
+        subtitle: 'Bitcoin Indonesia menyediakan kesempatan edukasi GRATIS. Mulai perjalanan belajar Anda hari ini!',
+        meetup: 'Gabung meetup',
+        mfbClass: 'Gabung kelas MFB',
+        followIg: 'Ikuti kami di IG',
       },
       footer: {
         slogan: 'Desentralisasi Pendidikan',
