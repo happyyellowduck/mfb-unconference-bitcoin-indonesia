@@ -62,7 +62,7 @@ const resources = {
           bio: 'Hansen Malau is an entrepreneur, sats stacker, and Bitcoin community leader. He runs the Indonesian-focused X account Apa Ada Dengan Bitcoin, breaking down language barriers and making Bitcoin content accessible to the local audience.',
         },
         zed: {
-          role: 'Bitcoin for Aceh Flood Victims',
+          role: 'Founder of Bitcoin for Aceh Flood Victims',
           bio: 'As a Bitcoiner since January 2022, born in Aceh—one of the regions most severely affected by the floods and landslides—I am stepping forward to raise donations from the Bitcoin community.',
         },
         you: {
