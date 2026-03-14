@@ -49,8 +49,8 @@ const row1Images = [
 const row2Images = [
   venueNew11,  // position 1
   venueNew12,  // position 2
-  venueNew13,  // position 3
-  venueImage8, // position 4 (venue-8)
+  venueImage8, // position 3 (venue-8)
+  venueNew13,  // position 4
   venueNew14,  // position 5
   venueNew15,  // position 6
   venueNew16,  // position 7
