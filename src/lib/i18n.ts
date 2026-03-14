@@ -50,7 +50,7 @@ const resources = {
           bio: 'John Dennehy is the founder of My First Bitcoin, a non-profit organization dedicated to Bitcoin education. He has been instrumental in bringing Bitcoin education to schools and communities around the world, starting in El Salvador and now expanding globally.',
         },
         dimas: {
-          role: 'Bitcoin Indonesia & Bitcoin House Bali',
+          role: 'Founder of Bitcoin Indonesia & Bitcoin House Bali',
           bio: "Dimas is the Co-Founder of Bitcoin Indonesia and the Bitcoin House Bali. He's a strong voice in the Indonesian Bitcoin community, podcaster, and a passionate Bitcoin educator.",
         },
         depoll: {
