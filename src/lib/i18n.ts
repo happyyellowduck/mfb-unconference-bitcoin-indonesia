@@ -247,7 +247,7 @@ const resources = {
           bio: 'Hansen Malau adalah pengusaha, penumpuk sats, dan pemimpin komunitas Bitcoin. Dia menjalankan akun X berbahasa Indonesia Apa Ada Dengan Bitcoin, mendobrak hambatan bahasa dan membuat konten Bitcoin dapat diakses oleh audiens lokal.',
         },
         zed: {
-          role: 'Bitcoin untuk Korban Banjir Aceh',
+          role: 'Founder of Bitcoin untuk Korban Banjir Aceh',
           bio: 'Sebagai Bitcoiner sejak Januari 2022, lahir di Aceh—salah satu daerah yang paling terdampak banjir dan longsor—saya melangkah maju untuk menggalang donasi dari komunitas Bitcoin.',
         },
         you: {
