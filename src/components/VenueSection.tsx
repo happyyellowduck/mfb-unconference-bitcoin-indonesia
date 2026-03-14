@@ -32,8 +32,8 @@ import venueNew19 from '@/assets/venue-new-19.jpg';
 
 // Row 1: 11 images with venue-7 at position 2
 const row1Images = [
-  venueNew1,   // position 1
-  venueImage7, // position 2 (venue-7)
+  venueImage7, // position 1 (venue-7)
+  venueNew1,   // position 2
   venueNew2,   // position 3
   venueNew3,   // position 4
   venueNew4,   // position 5
@@ -49,8 +49,8 @@ const row1Images = [
 const row2Images = [
   venueNew11,  // position 1
   venueNew12,  // position 2
-  venueNew13,  // position 3
-  venueImage8, // position 4 (venue-8)
+  venueImage8, // position 3 (venue-8)
+  venueNew13,  // position 4
   venueNew14,  // position 5
   venueNew15,  // position 6
   venueNew16,  // position 7
@@ -85,11 +85,11 @@ const VenueCarouselRow = ({ images, direction = 'forward' }: { images: string[];
   return (
     <div className="relative group">
       <div className="overflow-hidden rounded-xl" ref={emblaRef}>
-        <div className="flex gap-3">
+        <div className="flex ml-[-0.375rem]">
           {images.map((image, index) => (
             <div
               key={index}
-              className="flex-[0_0_85%] sm:flex-[0_0_60%] md:flex-[0_0_45%] lg:flex-[0_0_32%] xl:flex-[0_0_24%] min-w-0"
+              className="flex-[0_0_85%] sm:flex-[0_0_60%] md:flex-[0_0_45%] lg:flex-[0_0_32%] xl:flex-[0_0_24%] min-w-0 px-[0.375rem]"
             >
               <div className="aspect-[16/9] rounded-xl overflow-hidden shadow-lg">
                 <img
