@@ -78,23 +78,10 @@ const resources = {
         title: 'Secure Your Spot',
         subtitle: 'Exclusive Event — Strictly capped at 200 participants',
         saveLabel: '50% off',
-        graduate: {
-          title: 'Graduate 2026',
-          earlyBirdPrice: '100.000 IDR',
-          regularPrice: '200.000 IDR',
-          badge: 'Best Value',
-          features: [
-            'Full day Unconference pass',
-            'BBQ buffet & beverages included',
-            '2 stages, 4 workshop areas & 2 discussion spots',
-            'In Bahasa 🇮🇩 & English 🇬🇧',
-            'Learning & building',
-          ],
-        },
         alumni: {
           title: 'MFB Alumni',
-          earlyBirdPrice: '150.000 IDR',
-          regularPrice: '300.000 IDR',
+          earlyBirdPrice: '75.000 IDR',
+          regularPrice: '150.000 IDR',
           badge: 'Special Rate',
           features: [
             'Full day Unconference pass',
@@ -104,10 +91,10 @@ const resources = {
             'Learning & building',
           ],
         },
-        standard: {
-          title: 'Standard',
-          earlyBirdPrice: '200.000 IDR',
-          regularPrice: '400.000 IDR',
+        public: {
+          title: 'Public',
+          earlyBirdPrice: '150.000 IDR',
+          regularPrice: '300.000 IDR',
           features: [
             'Full day Unconference pass',
             'BBQ buffet & beverages included',
