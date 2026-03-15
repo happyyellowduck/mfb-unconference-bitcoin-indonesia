@@ -13,7 +13,7 @@ const resources = {
       },
       hero: {
         title: 'Bitcoin Unconference',
-        subtitle: 'A full day experience of learning, community & fun',
+        subtitle: 'A Bitcoin-Only Event for Beginners, Educators, Alumni, and the Next Generation of Indonesian Bitcoin Builders',
         hostedBy: 'Surabaya, Indonesia | August 22, 2026',
         network: 'Hosted by Bitcoin Indonesia & My First Bitcoin',
         getTicket: 'Get your ticket now!',
