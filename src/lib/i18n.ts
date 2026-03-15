@@ -250,23 +250,10 @@ const resources = {
         title: 'Amankan Tempatmu',
         subtitle: 'Acara Eksklusif — Terbatas hanya 200 peserta',
         saveLabel: 'Hemat 50%',
-        graduate: {
-          title: 'Graduate 2026',
-          earlyBirdPrice: '100.000 IDR',
-          regularPrice: '200.000 IDR',
-          badge: 'Terbaik',
-          features: [
-            'Akses Unconference sehari penuh',
-            'BBQ buffet & minuman termasuk',
-            '2 panggung, 4 area workshop & 2 spot diskusi',
-            'Dalam Bahasa 🇮🇩 & Inggris 🇬🇧',
-            'Learning & building',
-          ],
-        },
         alumni: {
           title: 'Alumni MFB',
-          earlyBirdPrice: '150.000 IDR',
-          regularPrice: '300.000 IDR',
+          earlyBirdPrice: '75.000 IDR',
+          regularPrice: '150.000 IDR',
           badge: 'Harga Spesial',
           features: [
             'Akses Unconference sehari penuh',
@@ -276,10 +263,10 @@ const resources = {
             'Learning & building',
           ],
         },
-        standard: {
-          title: 'Standard',
-          earlyBirdPrice: '200.000 IDR',
-          regularPrice: '400.000 IDR',
+        public: {
+          title: 'Umum',
+          earlyBirdPrice: '150.000 IDR',
+          regularPrice: '300.000 IDR',
           features: [
             'Akses Unconference sehari penuh',
             'BBQ buffet & minuman termasuk',

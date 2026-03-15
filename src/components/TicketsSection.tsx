@@ -1,23 +1,22 @@
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
-import { Check, Star, Ticket, GraduationCap } from 'lucide-react';
+import { Check, Star, Ticket } from 'lucide-react';
 
 const TicketsSection = () => {
   const { t } = useTranslation();
 
-  const graduateFeatures = t('tickets.graduate.features', { returnObjects: true }) as string[];
   const alumniFeatures = t('tickets.alumni.features', { returnObjects: true }) as string[];
-  const standardFeatures = t('tickets.standard.features', { returnObjects: true }) as string[];
+  const publicFeatures = t('tickets.public.features', { returnObjects: true }) as string[];
 
   const tiers = [
     {
-      key: 'graduate',
-      features: graduateFeatures,
-      earlyBird: t('tickets.graduate.earlyBirdPrice'),
-      regular: t('tickets.graduate.regularPrice'),
-      title: t('tickets.graduate.title'),
-      badge: t('tickets.graduate.badge'),
-      badgeIcon: <GraduationCap className="w-3 h-3" />,
+      key: 'alumni',
+      features: alumniFeatures,
+      earlyBird: t('tickets.alumni.earlyBirdPrice'),
+      regular: t('tickets.alumni.regularPrice'),
+      title: t('tickets.alumni.title'),
+      badge: t('tickets.alumni.badge'),
+      badgeIcon: <Star className="w-3 h-3" />,
       gradientClass: 'gradient-text-orange',
       btnClass: 'btn-orange',
       borderColor: 'border-primary/30',
@@ -27,34 +26,18 @@ const TicketsSection = () => {
       delay: 0.2,
     },
     {
-      key: 'alumni',
-      features: alumniFeatures,
-      earlyBird: t('tickets.alumni.earlyBirdPrice'),
-      regular: t('tickets.alumni.regularPrice'),
-      title: t('tickets.alumni.title'),
-      badge: t('tickets.alumni.badge'),
-      badgeIcon: <Star className="w-3 h-3" />,
-      gradientClass: 'gradient-text-purple',
-      btnClass: 'btn-purple',
-      borderColor: 'border-secondary/30',
-      badgeBg: 'bg-secondary',
-      accentColor: 'secondary',
-      bgGradient: 'from-secondary/20',
-      delay: 0.3,
-    },
-    {
-      key: 'standard',
-      features: standardFeatures,
-      earlyBird: t('tickets.standard.earlyBirdPrice'),
-      regular: t('tickets.standard.regularPrice'),
-      title: t('tickets.standard.title'),
-      gradientClass: 'gradient-text-green',
-      btnClass: 'btn-green',
-      borderColor: 'border-bitcoin-green/30',
+      key: 'public',
+      features: publicFeatures,
+      earlyBird: t('tickets.public.earlyBirdPrice'),
+      regular: t('tickets.public.regularPrice'),
+      title: t('tickets.public.title'),
+      gradientClass: 'gradient-text-orange',
+      btnClass: 'btn-orange',
+      borderColor: 'border-primary/30',
       badgeBg: '',
-      accentColor: 'bitcoin-green',
-      bgGradient: 'from-bitcoin-green/20',
-      delay: 0.4,
+      accentColor: 'primary',
+      bgGradient: 'from-primary/20',
+      delay: 0.3,
     },
   ];
 
@@ -76,7 +59,7 @@ const TicketsSection = () => {
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
           {tiers.map((tier) => (
             <motion.div
               key={tier.key}
@@ -103,11 +86,7 @@ const TicketsSection = () => {
               </div>
               <div className="flex items-center gap-2 mb-6">
                 <span className="text-sm text-muted-foreground line-through">{tier.regular}</span>
-                <span className={`text-xs font-semibold px-2 py-0.5 rounded-full ${
-                  tier.accentColor === 'primary' ? 'text-primary bg-primary/10' :
-                  tier.accentColor === 'secondary' ? 'text-secondary bg-secondary/10' :
-                  'text-bitcoin-green bg-bitcoin-green/10'
-                }`}>
+                <span className="text-xs font-semibold px-2 py-0.5 rounded-full text-primary bg-primary/10">
                   {t('tickets.saveLabel')}
                 </span>
               </div>
@@ -115,16 +94,8 @@ const TicketsSection = () => {
               <ul className="space-y-4 mb-8">
                 {tier.features.map((feature, index) => (
                   <li key={index} className="flex items-center gap-3">
-                    <div className={`w-5 h-5 rounded-full flex items-center justify-center ${
-                      tier.accentColor === 'primary' ? 'bg-primary/20' :
-                      tier.accentColor === 'secondary' ? 'bg-secondary/20' :
-                      'bg-bitcoin-green/20'
-                    }`}>
-                      <Check className={`w-3 h-3 ${
-                        tier.accentColor === 'primary' ? 'text-primary' :
-                        tier.accentColor === 'secondary' ? 'text-secondary' :
-                        'text-bitcoin-green'
-                      }`} />
+                    <div className="w-5 h-5 rounded-full flex items-center justify-center bg-primary/20">
+                      <Check className="w-3 h-3 text-primary" />
                     </div>
                     <span className="text-foreground/80">{feature}</span>
                   </li>
