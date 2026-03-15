@@ -21,7 +21,7 @@ const Index = () => {
         <UnconferenceSpiritSection />
         <VideoSection />
         <ZonesSection />
-        <SpeakersSection />
+        {/* <SpeakersSection /> */}
         <VenueSection />
         <FAQSection />
         <CTASection />
