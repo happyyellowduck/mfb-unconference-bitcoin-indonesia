@@ -86,7 +86,7 @@ const TicketsSection = () => {
               </div>
               <div className="flex items-center gap-2 mb-6">
                 <span className="text-sm text-muted-foreground line-through">{tier.regular}</span>
-                <span className="text-xs font-semibold px-2 py-0.5 rounded-full text-primary bg-primary/10">
+                <span className={`text-xs font-semibold px-2 py-0.5 rounded-full text-${tier.accentColor} bg-${tier.accentColor}/10`}>
                   {t('tickets.saveLabel')}
                 </span>
               </div>
