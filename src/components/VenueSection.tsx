@@ -5,6 +5,10 @@ import { ChevronLeft, ChevronRight, MapPin } from 'lucide-react';
 import useEmblaCarousel from 'embla-carousel-react';
 import Autoplay from 'embla-carousel-autoplay';
 
+// Venue layout images (language-aware)
+import venueLayoutEn from '@/assets/venue-layout-en.jpg';
+import venueLayoutId from '@/assets/venue-layout-id.jpg';
+
 // Original images to keep (venue-7 at position 2, venue-8 at position 4)
 import venueImage7 from '@/assets/venue-7.png';
 import venueImage8 from '@/assets/venue-8.png';
@@ -123,17 +127,40 @@ const VenueCarouselRow = ({ images, direction = 'forward' }: { images: string[];
 };
 
 const VenueSection = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+
+  // Get the venue layout image based on current language
+  const venueLayoutImage = i18n.language === 'id' ? venueLayoutId : venueLayoutEn;
 
   return (
     <section id="venue" className="section-padding bg-muted/30">
       <div className="container-custom">
-        {/* Section Header */}
+        {/* Venue Map - Language Aware */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
+          className="text-center mb-12"
+        >
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
+            {t('venue.exploreMap', 'Explore the Venue Map')}
+          </h2>
+          <div className="relative max-w-4xl mx-auto">
+            <img
+              src={venueLayoutImage}
+              alt={t('venue.mapAlt', 'Venue Layout Map')}
+              className="w-full rounded-xl shadow-lg"
+            />
+          </div>
+        </motion.div>
+
+        {/* Section Header */}
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: 0.2 }}
           className="text-center mb-12"
         >
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-2">
