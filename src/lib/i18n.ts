@@ -282,7 +282,7 @@ const resources = {
         title: 'Lokasi Acara',
         name: 'Rustic Market Forest Tree',
         description: 'Suasana hutan bergaya Eropa di jantung Surabaya. Kayu, alam, dan Bitcoin.',
-        exploreMap: 'Jelajahi peta venue',
+        exploreMap: 'Lihat di mana semuanya berada',
         zones: {
           mainStage: {
             title: 'Main Stage',
