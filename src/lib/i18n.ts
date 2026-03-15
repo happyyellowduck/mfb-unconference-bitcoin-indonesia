@@ -110,7 +110,7 @@ const resources = {
         title: 'The Venue',
         name: 'Rustic Market Forest Tree',
         description: 'A European-style forest escape in the heart of Surabaya. Wood, nature, and Bitcoin.',
-        exploreMap: 'Explore the venue map',
+        exploreMap: 'See where everything is',
         zones: {
           mainStage: {
             title: 'Main Stage',
