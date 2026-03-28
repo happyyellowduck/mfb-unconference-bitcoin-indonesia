@@ -2,6 +2,8 @@ import { useTranslation } from 'react-i18next';
 import { Instagram, Send } from 'lucide-react';
 import bitcoinIndoLogo from '@/assets/bitcoin-indonesia-logo.svg';
 import mfbLogo from '@/assets/my-first-bitcoin-logo.webp';
+import footerArtDesktop from '@/assets/footer-art-desktop.png';
+import footerArtMobile from '@/assets/footer-art-mobile.png';
 
 // Custom X (Twitter) icon
 const XIcon = ({ className }: { className?: string }) => (
