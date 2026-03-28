@@ -18,10 +18,11 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <Navigation />
       <main>
+        <HeroSection />
         <div className="relative">
-          <HeroSection />
-          <img src={leftCorner} alt="" className="absolute bottom-0 left-0 w-28 sm:w-36 md:w-48 z-10 pointer-events-none" />
-          <img src={rightCorner} alt="" className="absolute bottom-0 right-0 w-28 sm:w-36 md:w-48 z-10 pointer-events-none" />
+          <TicketsSection />
+          <img src={leftCorner} alt="" className="absolute top-0 left-0 w-28 sm:w-36 md:w-48 z-10 pointer-events-none" />
+          <img src={rightCorner} alt="" className="absolute top-0 right-0 w-28 sm:w-36 md:w-48 z-10 pointer-events-none" />
         </div>
         <TicketsSection />
         <UnconferenceSpiritSection />

@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { ChevronLeft, ChevronRight, MapPin } from 'lucide-react';
 import useEmblaCarousel from 'embla-carousel-react';
 import Autoplay from 'embla-carousel-autoplay';
+import leafDesign from '@/assets/leaf-design.png';
 
 // Venue layout images (language-aware)
 import venueLayoutEn from '@/assets/venue-layout-en.jpg';
