@@ -55,7 +55,7 @@ const Footer = () => {
         />
       </div>
 
-      <div className="section-padding bg-muted/30 border-t border-border">
+      <div className="py-8 sm:py-10 bg-muted/30 border-t border-border">
       <div className="container-custom">
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
           {/* Logos */}
