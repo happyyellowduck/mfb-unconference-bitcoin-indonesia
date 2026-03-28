@@ -1,5 +1,6 @@
  import { useTranslation } from 'react-i18next';
- import { motion } from 'framer-motion';
+import { motion } from 'framer-motion';
+import coinCharacter from '@/assets/coin-character.png';
  import {
    Accordion,
    AccordionContent,
