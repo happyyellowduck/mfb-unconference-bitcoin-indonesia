@@ -13,7 +13,7 @@
            whileInView={{ opacity: 1, y: 0 }}
            viewport={{ once: true }}
            transition={{ duration: 0.6 }}
-           className="text-center mb-10"
+           className="text-center mb-6"
          >
              <img
                src={personCharacter}
