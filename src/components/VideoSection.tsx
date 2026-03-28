@@ -1,5 +1,6 @@
  import { useTranslation } from 'react-i18next';
  import { motion } from 'framer-motion';
+ import personCharacter from '@/assets/person-character.png';
  
  const VideoSection = () => {
    const { t } = useTranslation();
