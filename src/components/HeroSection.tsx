@@ -37,7 +37,7 @@ const HeroSection = () => {
             <img
               src={unconferenceLogo}
               alt="Bitcoin Unconference"
-              className="w-64 sm:w-80 md:w-96 h-auto"
+              className="w-80 sm:w-80 md:w-96 h-auto"
             />
           </motion.div>
 
