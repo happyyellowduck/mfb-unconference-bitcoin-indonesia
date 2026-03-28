@@ -96,7 +96,7 @@ const HeroSection = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 1, duration: 0.6 }}
-            className="mt-12 flex justify-center"
+            className="mt-8 sm:mt-12 flex justify-center"
           >
             <a href="https://megatix.co.id/events/bitcoin-unconference" target="_blank" rel="noopener noreferrer" className="btn-purple text-lg px-10">
               {t('tickets.ctaLearnMore')}
