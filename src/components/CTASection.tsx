@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { Calendar, GraduationCap, Instagram } from 'lucide-react';
 import coupleCharacter from '@/assets/couple-character.png';
-import orangeDesign from '@/assets/orange-design.png';
+
 
 const CTASection = () => {
   const { t } = useTranslation();
@@ -26,12 +26,6 @@ const CTASection = () => {
                src={coupleCharacter}
                alt="Couple character"
                className="max-w-[7rem] sm:max-w-[8rem] md:max-w-[10rem] mx-auto mb-2"
-               loading="lazy"
-             />
-             <img
-               src={orangeDesign}
-               alt=""
-               className="max-w-[8rem] sm:max-w-[10rem] md:max-w-[12rem] mx-auto mb-4"
                loading="lazy"
              />
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
