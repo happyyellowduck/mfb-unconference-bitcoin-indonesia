@@ -44,9 +44,15 @@ import coinCharacter from '@/assets/coin-character.png';
            transition={{ duration: 0.6 }}
            className="text-center mb-12"
          >
-           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold">
-             {t('faq.title')}
-           </h2>
+            <img
+              src={coinCharacter}
+              alt="Bitcoin coin character"
+              className="max-w-xs sm:max-w-sm md:max-w-md mx-auto mb-6"
+              loading="lazy"
+            />
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold">
+              {t('faq.title')}
+            </h2>
          </motion.div>
  
          <motion.div
