@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { Users, Cpu, Palette, MessageCircle, BookOpen } from 'lucide-react';
-import eventAreasArt from '@/assets/event-areas-art.png';
+import unconferenceBanner from '@/assets/unconference-banner.png';
 
 const ZonesSection = () => {
   const { t } = useTranslation();
@@ -51,6 +51,12 @@ const ZonesSection = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-12"
         >
+          <img
+            src={unconferenceBanner}
+            alt="Unconference banner"
+            className="max-w-xs sm:max-w-sm md:max-w-md mx-auto mb-6"
+            loading="lazy"
+          />
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold">
             {t('zones.title')}
           </h2>
@@ -83,15 +89,6 @@ const ZonesSection = () => {
         </div>
       </div>
 
-      {/* Full-width artwork */}
-      <div className="w-screen relative left-1/2 -translate-x-1/2 -mb-1">
-        <img
-          src={eventAreasArt}
-          alt="Bitcoin Unconference event areas artwork"
-          className="w-full h-auto block"
-          loading="lazy"
-        />
-      </div>
     </section>
   );
 };
