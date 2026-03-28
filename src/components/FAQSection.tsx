@@ -80,9 +80,12 @@ import rightPurple from '@/assets/right-purple-design.png';
                </AccordionItem>
              ))}
            </Accordion>
-         </motion.div>
-       </div>
-     </section>
+          </motion.div>
+
+          <img src={leftPurple} alt="" className="absolute bottom-0 left-0 w-24 sm:w-32 md:w-40 pointer-events-none" />
+          <img src={rightPurple} alt="" className="absolute bottom-0 right-0 w-24 sm:w-32 md:w-40 pointer-events-none" />
+        </div>
+      </section>
    );
  };
  
