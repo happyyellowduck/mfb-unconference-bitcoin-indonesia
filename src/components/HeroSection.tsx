@@ -1,7 +1,8 @@
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import CountdownTimer from './CountdownTimer';
-import heroImage from '@/assets/hero-unconference.jpg';
+import heroImage from '@/assets/hero-unconference-optimized.jpg';
+import unconferenceLogo from '@/assets/unconference-logo.svg';
 
 const HeroSection = () => {
   const { t } = useTranslation();
