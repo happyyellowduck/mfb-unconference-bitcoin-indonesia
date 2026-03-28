@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { ChevronLeft, ChevronRight, MapPin } from 'lucide-react';
 import useEmblaCarousel from 'embla-carousel-react';
 import Autoplay from 'embla-carousel-autoplay';
+import leafDesign from '@/assets/leaf-design.png';
 
 // Venue layout images (language-aware)
 import venueLayoutEn from '@/assets/venue-layout-en.jpg';
@@ -163,6 +164,12 @@ const VenueSection = () => {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="text-center mb-12"
         >
+           <img
+              src={leafDesign}
+              alt="Leaf decoration"
+              className="max-w-[6rem] sm:max-w-[8rem] md:max-w-[10rem] mx-auto mb-4"
+              loading="lazy"
+            />
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-2">
             {t('venue.title')}
           </h2>
