@@ -18,11 +18,10 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <Navigation />
       <main>
-        <HeroSection />
-        {/* Corner decorations at hero bottom */}
-        <div className="relative w-full h-0 z-10">
-          <img src={leftCorner} alt="" className="absolute bottom-0 left-0 w-28 sm:w-36 md:w-48 pointer-events-none" style={{ transform: 'translateY(-8px)' }} />
-          <img src={rightCorner} alt="" className="absolute bottom-0 right-0 w-28 sm:w-36 md:w-48 pointer-events-none" style={{ transform: 'translateY(-8px)' }} />
+        <div className="relative">
+          <HeroSection />
+          <img src={leftCorner} alt="" className="absolute bottom-0 left-0 w-28 sm:w-36 md:w-48 z-10 pointer-events-none" />
+          <img src={rightCorner} alt="" className="absolute bottom-0 right-0 w-28 sm:w-36 md:w-48 z-10 pointer-events-none" />
         </div>
         <TicketsSection />
         <UnconferenceSpiritSection />
