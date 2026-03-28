@@ -1,6 +1,8 @@
  import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import coinCharacter from '@/assets/coin-character.png';
+import leftPurple from '@/assets/left-purple-design.png';
+import rightPurple from '@/assets/right-purple-design.png';
  import {
    Accordion,
    AccordionContent,
@@ -35,7 +37,7 @@ import coinCharacter from '@/assets/coin-character.png';
    ];
  
    return (
-     <section id="faq" className="pt-8 sm:pt-10 md:pt-12 pb-16 sm:pb-20 md:pb-24 px-4 sm:px-6 lg:px-8 bg-muted/30">
+     <section id="faq" className="pt-8 sm:pt-10 md:pt-12 pb-16 sm:pb-20 md:pb-24 px-4 sm:px-6 lg:px-8 bg-muted/30 relative overflow-hidden">
        <div className="container-custom">
          <motion.div
            initial={{ opacity: 0, y: 30 }}
@@ -78,9 +80,12 @@ import coinCharacter from '@/assets/coin-character.png';
                </AccordionItem>
              ))}
            </Accordion>
-         </motion.div>
-       </div>
-     </section>
+          </motion.div>
+
+          <img src={leftPurple} alt="" className="absolute bottom-0 left-0 w-24 sm:w-32 md:w-40 pointer-events-none" />
+          <img src={rightPurple} alt="" className="absolute bottom-0 right-0 w-24 sm:w-32 md:w-40 pointer-events-none" />
+        </div>
+      </section>
    );
  };
  
