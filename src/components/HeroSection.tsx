@@ -1,7 +1,8 @@
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import CountdownTimer from './CountdownTimer';
-import heroImage from '@/assets/hero-unconference.jpg';
+import heroImage from '@/assets/hero-unconference-optimized.jpg';
+import unconferenceLogo from '@/assets/unconference-logo.svg';
 
 const HeroSection = () => {
   const { t } = useTranslation();
@@ -26,15 +27,19 @@ const HeroSection = () => {
           transition={{ duration: 0.8 }}
           className="max-w-4xl mx-auto"
         >
-          {/* Main Title */}
-          <motion.h1
+          {/* Logo */}
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2, duration: 0.6 }}
-            className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-4"
+            className="flex justify-center mb-4"
           >
-            <span className="gradient-text-orange">{t('hero.title')}</span>
-          </motion.h1>
+            <img
+              src={unconferenceLogo}
+              alt="Bitcoin Unconference"
+              className="w-64 sm:w-80 md:w-96 h-auto"
+            />
+          </motion.div>
 
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
@@ -79,7 +84,7 @@ const HeroSection = () => {
             transition={{ delay: 1, duration: 0.6 }}
             className="mt-12 flex justify-center"
           >
-            <a href="#tickets" className="btn-purple text-lg px-10">
+            <a href="https://megatix.co.id/events/bitcoin-unconference" target="_blank" rel="noopener noreferrer" className="btn-purple text-lg px-10">
               {t('tickets.ctaLearnMore')}
             </a>
           </motion.div>
