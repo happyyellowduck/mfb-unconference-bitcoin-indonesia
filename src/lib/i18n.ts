@@ -171,6 +171,8 @@ const resources = {
       footer: {
         slogan: 'Decentralize Education',
         rights: '© 2026 Bitcoin Indonesia & My First Bitcoin. All rights reserved.',
+        designsBy: 'Designs by',
+        allRights: 'All rights reserved.',
         followUs: 'Follow Us',
       },
     },
