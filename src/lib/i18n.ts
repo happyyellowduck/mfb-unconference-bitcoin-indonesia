@@ -323,7 +323,7 @@ const resources = {
         },
         q3: {
           question: 'Apa yang termasuk dalam harga tiket?',
-          answer: 'Tiket Anda termasuk akses penuh ke semua panggung dan area workshop, makan siang BBQ buffet dengan minuman, kesempatan networking, dan kesempatan untuk berpartisipasi dalam semua sesi Unconference sepanjang hari.',
+          answer: 'Tiket Anda termasuk akses penuh ke semua panggung dan area workshop, lunch buffet dengan minuman, kesempatan networking, dan kesempatan untuk berpartisipasi dalam semua sesi Unconference sepanjang hari.',
         },
         q4: {
           question: 'Bisakah saya membayar dengan Bitcoin?',

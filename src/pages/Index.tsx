@@ -10,6 +10,8 @@ import VenueSection from '@/components/VenueSection';
 import FAQSection from '@/components/FAQSection';
 import CTASection from '@/components/CTASection';
 import Footer from '@/components/Footer';
+import leftCorner from '@/assets/left-corner-design.png';
+import rightCorner from '@/assets/right-corner-design.png';
 
 const Index = () => {
   return (
