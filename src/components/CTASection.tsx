@@ -6,7 +6,7 @@ const CTASection = () => {
   const { t } = useTranslation();
 
   return (
-     <section className="section-padding">
+     <section className="section-padding pb-8 md:pb-10">
       <div className="container-custom">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
