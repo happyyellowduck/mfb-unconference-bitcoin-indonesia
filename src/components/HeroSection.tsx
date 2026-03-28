@@ -47,7 +47,21 @@ const HeroSection = () => {
             transition={{ delay: 0.4, duration: 0.6 }}
             className="text-2xl sm:text-3xl md:text-4xl font-semibold text-foreground mb-6"
           >
-            {t('hero.subtitle')}
+            {(() => {
+              const subtitle = t('hero.subtitle');
+              const keyword = 'Bitcoin-Only';
+              const keywordAlt = 'Bitcoin-only';
+              const idx = subtitle.indexOf(keyword) !== -1 ? subtitle.indexOf(keyword) : subtitle.indexOf(keywordAlt);
+              const match = subtitle.indexOf(keyword) !== -1 ? keyword : keywordAlt;
+              if (idx === -1) return subtitle;
+              return (
+                <>
+                  {subtitle.slice(0, idx)}
+                  <span className="bg-gradient-to-b from-orange-400 to-primary bg-clip-text text-transparent">{match}</span>
+                  {subtitle.slice(idx + match.length)}
+                </>
+              );
+            })()}
           </motion.h2>
 
           {/* Host Info */}
