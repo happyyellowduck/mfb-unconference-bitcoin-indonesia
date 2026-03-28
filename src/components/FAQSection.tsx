@@ -47,7 +47,7 @@ import coinCharacter from '@/assets/coin-character.png';
             <img
               src={coinCharacter}
               alt="Bitcoin coin character"
-              className="max-w-xs sm:max-w-sm md:max-w-md mx-auto mb-6"
+              className="max-w-[10rem] sm:max-w-[12rem] md:max-w-[14rem] mx-auto mb-4"
               loading="lazy"
             />
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold">
