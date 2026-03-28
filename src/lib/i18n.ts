@@ -346,6 +346,8 @@ const resources = {
       footer: {
         slogan: 'Desentralisasi Pendidikan',
         rights: '© 2026 Bitcoin Indonesia & My First Bitcoin. Hak cipta dilindungi.',
+        designsBy: 'Desain oleh',
+        allRights: 'Hak cipta dilindungi.',
         followUs: 'Ikuti Kami',
       },
     },
