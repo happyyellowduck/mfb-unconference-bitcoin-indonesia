@@ -181,6 +181,7 @@ const resources = {
         tickets: 'Tiket',
         experience: 'Pengalaman',
         speakers: 'Pembicara',
+        eventAreas: 'Area Acara',
         venue: 'Tempat',
         faq: 'FAQ',
       },
