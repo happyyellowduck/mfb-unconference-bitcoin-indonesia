@@ -86,7 +86,7 @@ const resources = {
           badge: 'Special Rate',
           features: [
             'Full day Unconference pass',
-            'BBQ buffet & beverages included',
+            'Lunch buffet & beverages included',
             '2 stages, 4 workshop areas & 2 discussion spots',
             'In Bahasa 🇮🇩 & English 🇬🇧',
             'Learning & building',
@@ -98,7 +98,7 @@ const resources = {
           regularPrice: '300.000 IDR',
           features: [
             'Full day Unconference pass',
-            'BBQ buffet & beverages included',
+            'Lunch buffet & beverages included',
             '2 stages, 4 workshop areas & 2 discussion spots',
             'In Bahasa 🇮🇩 & English 🇬🇧',
             'Learning & building',
@@ -150,7 +150,7 @@ const resources = {
         },
         q3: {
           question: 'What is included in the ticket price?',
-          answer: 'Your ticket includes full access to all stages and workshop areas, a BBQ buffet lunch with beverages, networking opportunities, and the chance to participate in all Unconference sessions throughout the day.',
+          answer: 'Your ticket includes full access to all stages and workshop areas, a lunch buffet with beverages, networking opportunities, and the chance to participate in all Unconference sessions throughout the day.',
         },
         q4: {
           question: 'Can I pay with Bitcoin?',
@@ -259,7 +259,7 @@ const resources = {
           badge: 'Harga Spesial',
           features: [
             'Akses Unconference sehari penuh',
-            'BBQ buffet & minuman termasuk',
+            'Lunch buffet & minuman termasuk',
             '2 panggung, 4 area workshop & 2 spot diskusi',
             'Dalam Bahasa 🇮🇩 & Inggris 🇬🇧',
             'Learning & building',
@@ -271,7 +271,7 @@ const resources = {
           regularPrice: '300.000 IDR',
           features: [
             'Akses Unconference sehari penuh',
-            'BBQ buffet & minuman termasuk',
+            'Lunch buffet & minuman termasuk',
             '2 panggung, 4 area workshop & 2 spot diskusi',
             'Dalam Bahasa 🇮🇩 & Inggris 🇬🇧',
             'Learning & building',
@@ -323,7 +323,7 @@ const resources = {
         },
         q3: {
           question: 'Apa yang termasuk dalam harga tiket?',
-          answer: 'Tiket Anda termasuk akses penuh ke semua panggung dan area workshop, makan siang BBQ buffet dengan minuman, kesempatan networking, dan kesempatan untuk berpartisipasi dalam semua sesi Unconference sepanjang hari.',
+          answer: 'Tiket Anda termasuk akses penuh ke semua panggung dan area workshop, lunch buffet dengan minuman, kesempatan networking, dan kesempatan untuk berpartisipasi dalam semua sesi Unconference sepanjang hari.',
         },
         q4: {
           question: 'Bisakah saya membayar dengan Bitcoin?',

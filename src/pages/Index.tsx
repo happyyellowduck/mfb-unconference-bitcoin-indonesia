@@ -10,13 +10,19 @@ import VenueSection from '@/components/VenueSection';
 import FAQSection from '@/components/FAQSection';
 import CTASection from '@/components/CTASection';
 import Footer from '@/components/Footer';
+import leftCorner from '@/assets/left-corner-design.png';
+import rightCorner from '@/assets/right-corner-design.png';
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <Navigation />
       <main>
-        <HeroSection />
+        <div className="relative">
+          <HeroSection />
+          <img src={leftCorner} alt="" className="absolute bottom-0 left-0 w-28 sm:w-36 md:w-48 z-10 pointer-events-none" />
+          <img src={rightCorner} alt="" className="absolute bottom-0 right-0 w-28 sm:w-36 md:w-48 z-10 pointer-events-none" />
+        </div>
         <TicketsSection />
         <UnconferenceSpiritSection />
         <VideoSection />
