@@ -8,6 +8,7 @@ const resources = {
         tickets: 'Tickets',
         experience: 'Experience',
         speakers: 'Speakers',
+        eventAreas: 'Event Areas',
         venue: 'Venue',
         faq: 'FAQs',
       },
