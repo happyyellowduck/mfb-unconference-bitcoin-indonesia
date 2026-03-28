@@ -38,7 +38,24 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="section-padding bg-muted/30 border-t border-border">
+    <footer>
+      {/* Footer artwork - responsive */}
+      <div className="w-full">
+        <img
+          src={footerArtDesktop}
+          alt="Bitcoin Unconference"
+          className="hidden md:block w-full h-auto"
+          loading="lazy"
+        />
+        <img
+          src={footerArtMobile}
+          alt="Bitcoin Unconference"
+          className="block md:hidden w-full h-auto"
+          loading="lazy"
+        />
+      </div>
+
+      <div className="section-padding bg-muted/30 border-t border-border">
       <div className="container-custom">
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
           {/* Logos */}
