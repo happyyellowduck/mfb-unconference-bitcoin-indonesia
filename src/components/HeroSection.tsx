@@ -27,15 +27,19 @@ const HeroSection = () => {
           transition={{ duration: 0.8 }}
           className="max-w-4xl mx-auto"
         >
-          {/* Main Title */}
-          <motion.h1
+          {/* Logo */}
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2, duration: 0.6 }}
-            className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-4"
+            className="flex justify-center mb-4"
           >
-            <span className="gradient-text-orange">{t('hero.title')}</span>
-          </motion.h1>
+            <img
+              src={unconferenceLogo}
+              alt="Bitcoin Unconference"
+              className="w-64 sm:w-80 md:w-96 h-auto"
+            />
+          </motion.div>
 
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
