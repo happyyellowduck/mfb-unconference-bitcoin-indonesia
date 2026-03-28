@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { Users, Mic, Sparkles } from 'lucide-react';
+import bitcoinFlower from '@/assets/bitcoin-flower.png';
 
 const UnconferenceSpiritSection = () => {
   const { t } = useTranslation();
