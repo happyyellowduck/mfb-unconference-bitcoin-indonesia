@@ -1,6 +1,8 @@
  import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import coinCharacter from '@/assets/coin-character.png';
+import leftPurple from '@/assets/left-purple-design.png';
+import rightPurple from '@/assets/right-purple-design.png';
  import {
    Accordion,
    AccordionContent,
