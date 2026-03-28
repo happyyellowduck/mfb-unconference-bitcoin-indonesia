@@ -43,7 +43,7 @@ const ZonesSection = () => {
 
   return (
     <section className="bg-muted/30 overflow-hidden">
-      <div className="container-custom py-16 sm:py-20 md:py-24">
+      <div className="container-custom py-10 sm:py-16 md:py-14">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
