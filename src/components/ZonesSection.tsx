@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { Users, Cpu, Palette, MessageCircle, BookOpen } from 'lucide-react';
-import eventAreasArt from '@/assets/event-areas-art.png';
+import unconferenceBanner from '@/assets/unconference-banner.png';
 
 const ZonesSection = () => {
   const { t } = useTranslation();
