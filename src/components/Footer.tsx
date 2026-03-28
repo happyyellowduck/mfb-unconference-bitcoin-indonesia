@@ -101,7 +101,13 @@ const Footer = () => {
         {/* Copyright */}
         <div className="mt-8 pt-8 border-t border-border text-center">
           <p className="text-sm text-muted-foreground">
-            {t('footer.rights')}
+            © 2026{' '}
+            <a href="https://bitcoinindonesia.xyz/" target="_blank" rel="noopener noreferrer" className="underline hover:text-foreground transition-colors">Bitcoin Indonesia</a>
+            {' & '}
+            <a href="https://myfirstbitcoin.io/" target="_blank" rel="noopener noreferrer" className="underline hover:text-foreground transition-colors">My First Bitcoin</a>
+            . Designs by{' '}
+            <a href="https://www.instagram.com/aculsw/" target="_blank" rel="noopener noreferrer" className="underline hover:text-foreground transition-colors">aculsw</a>
+            . All rights reserved.
           </p>
         </div>
       </div>
