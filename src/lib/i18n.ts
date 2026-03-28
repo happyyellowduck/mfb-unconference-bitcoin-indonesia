@@ -259,7 +259,7 @@ const resources = {
           badge: 'Harga Spesial',
           features: [
             'Akses Unconference sehari penuh',
-            'BBQ buffet & minuman termasuk',
+            'Lunch buffet & minuman termasuk',
             '2 panggung, 4 area workshop & 2 spot diskusi',
             'Dalam Bahasa 🇮🇩 & Inggris 🇬🇧',
             'Learning & building',
