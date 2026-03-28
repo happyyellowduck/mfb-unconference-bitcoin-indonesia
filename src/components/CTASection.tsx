@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { Calendar, GraduationCap, Instagram } from 'lucide-react';
 import coupleCharacter from '@/assets/couple-character.png';
+import orangeDesign from '@/assets/orange-design.png';
 
 const CTASection = () => {
   const { t } = useTranslation();
