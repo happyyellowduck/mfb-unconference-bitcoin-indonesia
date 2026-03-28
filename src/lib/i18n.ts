@@ -150,7 +150,7 @@ const resources = {
         },
         q3: {
           question: 'What is included in the ticket price?',
-          answer: 'Your ticket includes full access to all stages and workshop areas, a BBQ buffet lunch with beverages, networking opportunities, and the chance to participate in all Unconference sessions throughout the day.',
+          answer: 'Your ticket includes full access to all stages and workshop areas, a lunch buffet with beverages, networking opportunities, and the chance to participate in all Unconference sessions throughout the day.',
         },
         q4: {
           question: 'Can I pay with Bitcoin?',
