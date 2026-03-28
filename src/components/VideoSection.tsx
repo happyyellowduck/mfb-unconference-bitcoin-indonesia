@@ -18,7 +18,7 @@
              <img
                src={personCharacter}
                alt="Unconference character"
-               className="max-w-[5.75rem] sm:max-w-[6rem] md:max-w-[8rem] mx-auto mb-2"
+               className="max-w-[6.5rem] sm:max-w-[6rem] md:max-w-[8rem] mx-auto mb-2"
                loading="lazy"
              />
             <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
