@@ -37,7 +37,7 @@ import rightPurple from '@/assets/right-purple-design.png';
    ];
  
    return (
-     <section id="faq" className="pt-8 sm:pt-10 md:pt-12 pb-16 sm:pb-20 md:pb-24 px-4 sm:px-6 lg:px-8 bg-muted/30">
+     <section id="faq" className="pt-8 sm:pt-10 md:pt-12 pb-16 sm:pb-20 md:pb-24 px-4 sm:px-6 lg:px-8 bg-muted/30 relative overflow-hidden">
        <div className="container-custom">
          <motion.div
            initial={{ opacity: 0, y: 30 }}
