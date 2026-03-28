@@ -15,9 +15,15 @@
            transition={{ duration: 0.6 }}
            className="text-center mb-10"
          >
-           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
-             {t('video.description')}
-           </p>
+            <img
+              src={personCharacter}
+              alt="Unconference character"
+              className="max-w-[8rem] sm:max-w-[10rem] md:max-w-[12rem] mx-auto mb-4"
+              loading="lazy"
+            />
+            <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
+              {t('video.description')}
+            </p>
          </motion.div>
  
          <motion.div

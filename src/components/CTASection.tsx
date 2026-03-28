@@ -21,6 +21,12 @@ const CTASection = () => {
           <div className="absolute bottom-0 right-0 w-64 h-64 bg-gradient-to-tl from-secondary/10 to-transparent rounded-full translate-x-1/2 translate-y-1/2" />
 
           <div className="relative z-10 max-w-3xl mx-auto">
+            <img
+              src={coupleCharacter}
+              alt="Couple character"
+              className="max-w-[10rem] sm:max-w-[12rem] md:max-w-[14rem] mx-auto mb-4"
+              loading="lazy"
+            />
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
               {t('cta.title')}
             </h2>
