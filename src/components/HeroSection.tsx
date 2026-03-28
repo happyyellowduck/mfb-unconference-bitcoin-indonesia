@@ -84,7 +84,7 @@ const HeroSection = () => {
             transition={{ delay: 1, duration: 0.6 }}
             className="mt-12 flex justify-center"
           >
-            <a href="#tickets" className="btn-purple text-lg px-10">
+            <a href="https://megatix.co.id/events/bitcoin-unconference" target="_blank" rel="noopener noreferrer" className="btn-purple text-lg px-10">
               {t('tickets.ctaLearnMore')}
             </a>
           </motion.div>

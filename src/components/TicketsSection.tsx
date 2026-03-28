@@ -103,7 +103,7 @@ const TicketsSection = () => {
               </ul>
 
               <a
-                href="https://megatix.co.id"
+                href="https://megatix.co.id/events/bitcoin-unconference"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`${tier.btnClass} w-full text-center block flex items-center justify-center gap-2`}
