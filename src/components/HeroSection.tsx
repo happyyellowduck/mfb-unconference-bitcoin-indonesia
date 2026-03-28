@@ -57,7 +57,7 @@ const HeroSection = () => {
               return (
                 <>
                   {subtitle.slice(0, idx)}
-                  <span className="bg-gradient-to-b from-orange-400 to-primary bg-clip-text text-transparent" style={{ WebkitTextStroke: '1px black', paintOrder: 'stroke fill' }}>{match}</span>
+                  <span className="bg-gradient-to-b from-orange-400 to-primary bg-clip-text text-transparent font-bold">{match}</span>
                   {subtitle.slice(idx + match.length)}
                 </>
               );
