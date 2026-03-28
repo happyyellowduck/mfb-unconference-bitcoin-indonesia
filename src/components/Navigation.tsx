@@ -22,7 +22,7 @@ const Navigation = () => {
   const navItems = [
     { href: '#tickets', label: t('nav.tickets') },
     { href: '#about-unconference', label: t('nav.experience') },
-    { href: '#speakers', label: t('nav.speakers') },
+    { href: '#event-areas', label: t('nav.eventAreas', 'Event Areas') },
     { href: '#venue', label: t('nav.venue') },
     { href: '#faq', label: t('nav.faq') },
   ];
