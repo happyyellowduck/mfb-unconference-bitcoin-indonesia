@@ -19,10 +19,10 @@ const Index = () => {
       <Navigation />
       <main>
         <HeroSection />
-        {/* Corner decorations below hero */}
-        <div className="relative w-full h-0">
-          <img src={leftCorner} alt="" className="absolute top-0 left-0 w-32 sm:w-40 md:w-52 -translate-y-full pointer-events-none" />
-          <img src={rightCorner} alt="" className="absolute top-0 right-0 w-32 sm:w-40 md:w-52 -translate-y-full pointer-events-none" />
+        {/* Corner decorations at hero bottom */}
+        <div className="relative w-full h-0 z-10">
+          <img src={leftCorner} alt="" className="absolute bottom-0 left-0 w-28 sm:w-36 md:w-48 pointer-events-none" style={{ transform: 'translateY(-8px)' }} />
+          <img src={rightCorner} alt="" className="absolute bottom-0 right-0 w-28 sm:w-36 md:w-48 pointer-events-none" style={{ transform: 'translateY(-8px)' }} />
         </div>
         <TicketsSection />
         <UnconferenceSpiritSection />
