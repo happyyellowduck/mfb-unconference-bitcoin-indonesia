@@ -42,7 +42,7 @@ const ZonesSection = () => {
   ];
 
   return (
-    <section id="event-areas" className="bg-muted/30 overflow-hidden">
+    <section id="event-areas" className="bg-muted/30 overflow-hidden px-4 sm:px-6 lg:px-8">
       <div className="container-custom py-10 sm:py-16 md:py-14">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
