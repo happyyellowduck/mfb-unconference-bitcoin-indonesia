@@ -89,15 +89,6 @@ const ZonesSection = () => {
         </div>
       </div>
 
-      {/* Full-width artwork */}
-      <div className="w-screen relative left-1/2 -translate-x-1/2 -mb-1">
-        <img
-          src={eventAreasArt}
-          alt="Bitcoin Unconference event areas artwork"
-          className="w-full h-auto block"
-          loading="lazy"
-        />
-      </div>
     </section>
   );
 };
