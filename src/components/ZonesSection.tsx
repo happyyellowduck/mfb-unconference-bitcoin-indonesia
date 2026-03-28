@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { Users, Cpu, Palette, MessageCircle, BookOpen } from 'lucide-react';
+import eventAreasArt from '@/assets/event-areas-art.png';
 
 const ZonesSection = () => {
   const { t } = useTranslation();
@@ -41,7 +42,7 @@ const ZonesSection = () => {
   ];
 
   return (
-    <section className="section-padding bg-muted/30">
+    <section className="pt-16 sm:pt-20 md:pt-24 bg-muted/30 overflow-hidden">
       <div className="container-custom">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -80,6 +81,16 @@ const ZonesSection = () => {
             </motion.div>
           ))}
         </div>
+      </div>
+
+      {/* Full-width artwork */}
+      <div className="w-full -mb-1">
+        <img
+          src={eventAreasArt}
+          alt="Bitcoin Unconference event areas artwork"
+          className="w-full h-auto block"
+          loading="lazy"
+        />
       </div>
     </section>
   );
