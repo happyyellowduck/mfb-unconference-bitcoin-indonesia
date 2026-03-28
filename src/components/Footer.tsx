@@ -100,7 +100,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="mt-8 pt-8 border-t border-border text-center">
-          <p className="text-sm text-muted-foreground max-w-[16rem] sm:max-w-none mx-auto">
+          <p className="text-sm text-muted-foreground max-w-[80%] sm:max-w-none mx-auto">
             © 2026{' '}
             <a href="https://bitcoinindonesia.xyz/" target="_blank" rel="noopener noreferrer" className="underline hover:text-foreground transition-colors">Bitcoin Indonesia</a>
             {' & '}
