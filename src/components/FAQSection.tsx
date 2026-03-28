@@ -35,7 +35,7 @@ import coinCharacter from '@/assets/coin-character.png';
    ];
  
    return (
-     <section id="faq" className="section-padding bg-muted/30">
+     <section id="faq" className="pt-8 sm:pt-10 md:pt-12 pb-16 sm:pb-20 md:pb-24 px-4 sm:px-6 lg:px-8 bg-muted/30">
        <div className="container-custom">
          <motion.div
            initial={{ opacity: 0, y: 30 }}
@@ -47,7 +47,7 @@ import coinCharacter from '@/assets/coin-character.png';
             <img
               src={coinCharacter}
               alt="Bitcoin coin character"
-              className="max-w-xs sm:max-w-sm md:max-w-md mx-auto mb-6"
+              className="max-w-[10rem] sm:max-w-[12rem] md:max-w-[14rem] mx-auto mb-4"
               loading="lazy"
             />
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold">
