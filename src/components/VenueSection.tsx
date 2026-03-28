@@ -10,8 +10,8 @@ import venueLayoutEn from '@/assets/venue-layout-en.jpg';
 import venueLayoutId from '@/assets/venue-layout-id.jpg';
 
 // Original images to keep (venue-7 at position 2, venue-8 at position 4)
-import venueImage7 from '@/assets/venue-7.png';
-import venueImage8 from '@/assets/venue-8.png';
+import venueImage7 from '@/assets/venue-7.jpg';
+import venueImage8 from '@/assets/venue-8.jpg';
 
 // New venue images
 import venueNew1 from '@/assets/venue-new-1.jpg';
