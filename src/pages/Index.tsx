@@ -17,6 +17,11 @@ const Index = () => {
       <Navigation />
       <main>
         <HeroSection />
+        {/* Corner decorations below hero */}
+        <div className="relative w-full h-0">
+          <img src={leftCorner} alt="" className="absolute top-0 left-0 w-32 sm:w-40 md:w-52 -translate-y-full pointer-events-none" />
+          <img src={rightCorner} alt="" className="absolute top-0 right-0 w-32 sm:w-40 md:w-52 -translate-y-full pointer-events-none" />
+        </div>
         <TicketsSection />
         <UnconferenceSpiritSection />
         <VideoSection />
