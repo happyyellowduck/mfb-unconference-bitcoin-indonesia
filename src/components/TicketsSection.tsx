@@ -50,8 +50,14 @@ const TicketsSection = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="text-center mb-16"
-        >
+           className="text-center mb-12"
+         >
+           <img
+             src={flowerDesign}
+             alt="Flower decoration"
+             className="max-w-[6rem] sm:max-w-[7rem] md:max-w-[8rem] mx-auto mb-4"
+             loading="lazy"
+           />
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
             {t('tickets.title')}
           </h2>

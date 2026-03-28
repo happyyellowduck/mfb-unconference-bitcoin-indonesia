@@ -28,12 +28,6 @@ const CTASection = () => {
                className="max-w-[7rem] sm:max-w-[8rem] md:max-w-[10rem] mx-auto mb-2"
                loading="lazy"
              />
-             <img
-               src={orangeDesign}
-               alt=""
-               className="max-w-[8rem] sm:max-w-[10rem] md:max-w-[12rem] mx-auto mb-4"
-               loading="lazy"
-             />
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
               {t('cta.title')}
             </h2>
