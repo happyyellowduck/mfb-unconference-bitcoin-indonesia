@@ -42,7 +42,7 @@ const ZonesSection = () => {
   ];
 
   return (
-    <section className="pt-16 sm:pt-20 md:pt-24 bg-muted/30 overflow-hidden">
+    <section className="bg-muted/30 overflow-hidden">
       <div className="container-custom">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
