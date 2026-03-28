@@ -105,9 +105,9 @@ const Footer = () => {
             <a href="https://bitcoinindonesia.xyz/" target="_blank" rel="noopener noreferrer" className="underline hover:text-foreground transition-colors">Bitcoin Indonesia</a>
             {' & '}
             <a href="https://myfirstbitcoin.io/" target="_blank" rel="noopener noreferrer" className="underline hover:text-foreground transition-colors">My First Bitcoin</a>
-            . Designs by{' '}
+            . {t('footer.designsBy')}{' '}
             <a href="https://www.instagram.com/aculsw/" target="_blank" rel="noopener noreferrer" className="underline hover:text-foreground transition-colors">aculsw</a>
-            . All rights reserved.
+            . {t('footer.allRights')}
           </p>
         </div>
       </div>
