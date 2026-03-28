@@ -2,6 +2,8 @@ import { useTranslation } from 'react-i18next';
 import { Instagram, Send } from 'lucide-react';
 import bitcoinIndoLogo from '@/assets/bitcoin-indonesia-logo.svg';
 import mfbLogo from '@/assets/my-first-bitcoin-logo.webp';
+import footerArtDesktop from '@/assets/footer-art-desktop.png';
+import footerArtMobile from '@/assets/footer-art-mobile.png';
 
 // Custom X (Twitter) icon
 const XIcon = ({ className }: { className?: string }) => (
@@ -36,7 +38,24 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="section-padding bg-muted/30 border-t border-border">
+    <footer>
+      {/* Footer artwork - responsive */}
+      <div className="w-full">
+        <img
+          src={footerArtDesktop}
+          alt="Bitcoin Unconference"
+          className="hidden md:block w-full h-auto"
+          loading="lazy"
+        />
+        <img
+          src={footerArtMobile}
+          alt="Bitcoin Unconference"
+          className="block md:hidden w-full h-auto"
+          loading="lazy"
+        />
+      </div>
+
+      <div className="section-padding bg-muted/30 border-t border-border">
       <div className="container-custom">
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
           {/* Logos */}
@@ -85,6 +104,7 @@ const Footer = () => {
             {t('footer.rights')}
           </p>
         </div>
+      </div>
       </div>
     </footer>
   );
