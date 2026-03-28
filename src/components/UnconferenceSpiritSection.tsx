@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { Users, Mic, Sparkles } from 'lucide-react';
+import bitcoinFlower from '@/assets/bitcoin-flower.png';
 
 const UnconferenceSpiritSection = () => {
   const { t } = useTranslation();
@@ -36,6 +37,11 @@ const UnconferenceSpiritSection = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-12"
         >
+          <img
+            src={bitcoinFlower}
+            alt="Bitcoin flower"
+            className="w-16 h-16 sm:w-20 sm:h-20 mx-auto mb-4"
+          />
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold">
             {t('spirit.title')}
           </h2>
