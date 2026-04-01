@@ -21,7 +21,7 @@
                className="max-w-[6.5rem] sm:max-w-[6rem] md:max-w-[8rem] mx-auto mb-2"
                loading="lazy"
              />
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold font-marykate mb-3">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold font-marykate mb-3">
               <span className="text-bitcoin-orange">{t('video.headline1')}</span>{t('video.headline2')}
             </h2>
             <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
