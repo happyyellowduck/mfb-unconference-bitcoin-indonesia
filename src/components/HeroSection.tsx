@@ -71,10 +71,10 @@ const HeroSection = () => {
             transition={{ delay: 0.6, duration: 0.6 }}
             className="mb-12"
           >
-            <p className="text-lg sm:text-xl text-foreground/80 font-medium">
+            <p className="text-lg sm:text-xl text-black font-medium">
               {t('hero.hostedBy')}
             </p>
-            <p className="text-sm sm:text-base font-marykate text-muted-foreground mt-1">
+            <p className="text-sm sm:text-base font-marykate text-black mt-1">
               {t('hero.network')}
             </p>
           </motion.div>
@@ -85,7 +85,7 @@ const HeroSection = () => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.8, duration: 0.6 }}
           >
-            <p className="text-sm uppercase tracking-widest text-muted-foreground mb-6 font-medium">
+            <p className="text-sm uppercase tracking-widest text-black mb-6 font-medium">
               {t('hero.getTicket')}
             </p>
             <CountdownTimer />
