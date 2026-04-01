@@ -1,6 +1,6 @@
  import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
-import coinCharacter from '@/assets/coin-character.png';
+import questionCharacter from '@/assets/question.png';
 import leftPurple from '@/assets/left-purple-design.png';
 import rightPurple from '@/assets/right-purple-design.png';
  import {
@@ -46,12 +46,12 @@ import rightPurple from '@/assets/right-purple-design.png';
            transition={{ duration: 0.6 }}
            className="text-center mb-12"
          >
-            <img
-              src={coinCharacter}
-              alt="Bitcoin coin character"
-              className="max-w-[10rem] sm:max-w-[12rem] md:max-w-[14rem] mx-auto mb-4"
-              loading="lazy"
-            />
+             <img
+               src={questionCharacter}
+               alt="Question character"
+               className="max-w-[6rem] sm:max-w-[7rem] md:max-w-[8rem] mx-auto mb-4"
+               loading="lazy"
+             />
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold font-marykate">
               {t('faq.title')}
             </h2>
