@@ -144,7 +144,7 @@ const VenueSection = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-12"
         >
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold font-marykate mb-4">
 {t('venue.exploreMap', 'See where everything is')}
           </h2>
           <div className="relative max-w-4xl mx-auto">
@@ -170,7 +170,7 @@ const VenueSection = () => {
               className="max-w-[6rem] sm:max-w-[8rem] md:max-w-[10rem] mx-auto mb-4"
               loading="lazy"
             />
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-2">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold font-marykate mb-2">
             {t('venue.title')}
           </h2>
           <h3 className="text-2xl sm:text-3xl font-semibold gradient-text-purple mb-4">
