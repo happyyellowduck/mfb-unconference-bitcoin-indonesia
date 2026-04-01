@@ -25,10 +25,10 @@ const GraduationSection = () => {
             loading="lazy"
           />
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold font-marykate mb-3">
-            Celebrate your <span style={{ color: '#b149d2' }}>MFB graduation</span> together
+            {t('graduation.title1')}<span style={{ color: '#b149d2' }}>{t('graduation.titleHighlight')}</span>{t('graduation.title2')}
           </h2>
           <p className="text-lg sm:text-xl text-foreground/80 mb-8">
-            Get a placard and a certificate if you hold alumni ticket!
+            {t('graduation.subtitle')}
           </p>
         </motion.div>
 
