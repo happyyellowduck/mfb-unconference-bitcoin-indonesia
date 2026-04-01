@@ -161,6 +161,12 @@ const resources = {
           answer: 'The event is bilingual! Sessions and discussions will be held in both Bahasa Indonesia 🇮🇩 and English 🇬🇧. Feel free to participate in whichever language you\'re most comfortable with.',
         },
       },
+      graduation: {
+        title1: 'Celebrate your ',
+        titleHighlight: 'MFB graduation',
+        title2: ' together',
+        subtitle: 'Get a placard and a certificate if you hold alumni ticket!',
+      },
       cta: {
         title: 'Want to start learning about Bitcoin now?',
         subtitle: 'Bitcoin Indonesia provides FREE education opportunities. Start your learning journey today!',
@@ -335,6 +341,12 @@ const resources = {
           question: 'Apakah acaranya dalam bahasa Inggris atau Indonesia?',
           answer: 'Acara ini bilingual! Sesi dan diskusi akan diadakan dalam Bahasa Indonesia 🇮🇩 dan Inggris 🇬🇧. Silakan berpartisipasi dalam bahasa mana pun yang paling nyaman bagi Anda.',
         },
+      },
+      graduation: {
+        title1: 'Rayakan wisuda ',
+        titleHighlight: 'MFBmu',
+        title2: ' bersama!',
+        subtitle: 'Dapatkan plakat dan sertifikat jika kamu memiliki tiket alumni!',
       },
       cta: {
         title: 'Ingin mulai belajar tentang Bitcoin sekarang?',
