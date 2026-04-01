@@ -66,7 +66,7 @@ const CountdownTimer = () => {
             key={unit.value}
             initial={{ scale: 1.1 }}
             animate={{ scale: 1 }}
-            className="relative z-10 block text-2xl sm:text-5xl font-marykate gradient-text-orange"
+            className="relative z-10 block text-2xl sm:text-5xl font-sans font-extrabold gradient-text-orange"
           >
             {String(unit.value).padStart(2, '0')}
           </motion.span>
