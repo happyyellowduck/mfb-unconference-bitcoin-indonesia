@@ -11,7 +11,7 @@ const GraduationSection = () => {
 
 
 
-      <div className="container-custom text-center relative z-10">
+      <div className="container-custom text-center relative z-10 px-6 sm:px-8 md:px-4">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
