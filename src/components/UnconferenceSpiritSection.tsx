@@ -42,7 +42,7 @@ const UnconferenceSpiritSection = () => {
             alt="Bitcoin flower"
             className="w-16 h-16 sm:w-20 sm:h-20 mx-auto mb-4"
           />
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold font-marykate">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold">
             {t('spirit.title')}
           </h2>
         </motion.div>
