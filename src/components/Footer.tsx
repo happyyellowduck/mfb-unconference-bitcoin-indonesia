@@ -75,7 +75,7 @@ const Footer = () => {
 
           {/* Slogan */}
           <div className="text-center">
-            <p className="text-xl font-bold font-marykate gradient-text-orange">
+            <p className="text-2xl font-bold font-marykate gradient-text-orange">
               {t('footer.slogan')}
             </p>
           </div>
