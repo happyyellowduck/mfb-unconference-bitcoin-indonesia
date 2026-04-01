@@ -113,7 +113,7 @@ const TicketsSection = () => {
                 href="https://megatix.co.id/events/bitcoin-unconference"
                 target="_blank"
                 rel="noopener noreferrer"
-                className={`${tier.btnClass} w-full text-center block flex items-center justify-center gap-2`}
+                className={`${tier.btnClass} w-full text-center block flex items-center justify-center gap-2 !text-lg`}
               >
                 <Ticket className="w-4 h-4" />
                 {t('tickets.ctaMegatix')}
