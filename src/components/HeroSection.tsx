@@ -85,7 +85,7 @@ const HeroSection = () => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.8, duration: 0.6 }}
           >
-            <p className="text-sm uppercase tracking-widest text-muted-foreground mb-6 font-medium">
+            <p className="text-sm uppercase tracking-widest text-black mb-6 font-medium">
               {t('hero.getTicket')}
             </p>
             <CountdownTimer />
