@@ -206,7 +206,7 @@ const VenueSection = () => {
               <MapPin className="w-5 h-5 text-primary" />
             </div>
             <div>
-              <p className="font-semibold font-marykate text-2xl sm:text-3xl">{t('venue.address')}</p>
+              <p className="font-semibold font-marykate text-xl sm:text-2xl">{t('venue.address')}</p>
               <p className="text-sm text-muted-foreground">Surabaya, Indonesia</p>
             </div>
           </div>
