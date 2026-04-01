@@ -37,7 +37,7 @@ const GraduationSection = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="max-w-2xl mx-auto mb-0"
+          className="max-w-[80%] sm:max-w-[80%] md:max-w-xl mx-auto mb-0"
         >
           <img
             src={certificate}
