@@ -160,7 +160,7 @@
   }
 
   .btn-orange {
-    @apply px-8 py-4 rounded-xl font-semibold font-marykate text-white transition-all duration-300;
+    @apply px-8 py-4 rounded-xl text-base font-semibold font-marykate text-white transition-all duration-300;
     background: var(--gradient-orange);
     box-shadow: 0 4px 20px hsl(33 94% 53% / 0.3);
   }
@@ -171,7 +171,7 @@
   }
 
   .btn-purple {
-    @apply px-8 py-4 rounded-xl font-semibold font-marykate text-white transition-all duration-300;
+    @apply px-8 py-4 rounded-xl text-base font-semibold font-marykate text-white transition-all duration-300;
     background: var(--gradient-purple);
     box-shadow: 0 4px 20px hsl(243 75% 59% / 0.3);
   }
@@ -182,7 +182,7 @@
   }
 
   .btn-green {
-    @apply px-8 py-4 rounded-xl font-semibold font-marykate text-white transition-all duration-300;
+    @apply px-8 py-4 rounded-xl text-base font-semibold font-marykate text-white transition-all duration-300;
     background: linear-gradient(135deg, hsl(142 55% 40%) 0%, hsl(142 55% 33%) 100%);
     box-shadow: 0 4px 20px hsl(142 55% 40% / 0.3);
   }
@@ -193,7 +193,7 @@
   }
 
   .btn-cherry {
-    @apply px-8 py-4 rounded-xl font-semibold font-marykate text-white transition-all duration-300;
+    @apply px-8 py-4 rounded-xl text-base font-semibold font-marykate text-white transition-all duration-300;
     background: linear-gradient(135deg, hsl(348 83% 47%) 0%, hsl(348 83% 40%) 100%);
     box-shadow: 0 4px 20px hsl(348 83% 47% / 0.3);
   }

@@ -60,7 +60,7 @@ const UnconferenceSpiritSection = () => {
               <div className="w-14 h-14 rounded-xl bg-white/20 flex items-center justify-center mb-6">
                 <tile.icon className="w-7 h-7 text-white" />
               </div>
-              <h3 className="text-xl font-bold mb-3">{tile.title}</h3>
+              <h3 className="text-xl font-bold font-marykate mb-3">{tile.title}</h3>
               <p className="text-white/90 leading-relaxed">{tile.description}</p>
             </motion.div>
           ))}
