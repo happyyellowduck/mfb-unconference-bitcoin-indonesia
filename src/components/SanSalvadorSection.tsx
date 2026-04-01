@@ -12,7 +12,7 @@ const SanSalvadorSection = () => {
           className="text-center mb-8"
         >
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold font-marykate">
-            MFB Unconference in San Salvador
+            <span style={{ color: '#b149d2' }}>MFB Unconference</span> in San Salvador
           </h2>
         </motion.div>
 

@@ -10,6 +10,7 @@ import VenueSection from '@/components/VenueSection';
 import FAQSection from '@/components/FAQSection';
 import CTASection from '@/components/CTASection';
 import SanSalvadorSection from '@/components/SanSalvadorSection';
+import GraduationSection from '@/components/GraduationSection';
 import Footer from '@/components/Footer';
 import leftCorner from '@/assets/left-corner-design.png';
 import rightCorner from '@/assets/right-corner-design.png';
