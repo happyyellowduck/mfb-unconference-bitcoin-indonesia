@@ -171,7 +171,7 @@
   }
 
   .btn-purple {
-    @apply px-8 py-4 rounded-xl font-semibold font-marykate text-white transition-all duration-300;
+    @apply px-8 py-4 rounded-xl text-base font-semibold font-marykate text-white transition-all duration-300;
     background: var(--gradient-purple);
     box-shadow: 0 4px 20px hsl(243 75% 59% / 0.3);
   }
