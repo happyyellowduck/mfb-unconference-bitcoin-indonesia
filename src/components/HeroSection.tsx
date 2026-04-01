@@ -71,7 +71,7 @@ const HeroSection = () => {
             transition={{ delay: 0.6, duration: 0.6 }}
             className="mb-12"
           >
-            <p className="text-lg sm:text-xl text-foreground/80 font-medium">
+            <p className="text-lg sm:text-xl text-black font-medium">
               {t('hero.hostedBy')}
             </p>
             <p className="text-sm sm:text-base font-marykate text-muted-foreground mt-1">
