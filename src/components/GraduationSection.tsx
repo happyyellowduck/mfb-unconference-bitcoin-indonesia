@@ -1,9 +1,11 @@
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
+import coinRead from '@/assets/coin-read.png';
 import certificate from '@/assets/certificate.png';
 import graduationBottom from '@/assets/graduation-bottom.png';
 
 const GraduationSection = () => {
+  const { t } = useTranslation();
   return (
     <section className="pt-12 sm:pt-16 md:pt-20 pb-0 bg-[#eae0f5] relative overflow-hidden">
 
