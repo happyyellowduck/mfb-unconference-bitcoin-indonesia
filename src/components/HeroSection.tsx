@@ -6,7 +6,8 @@ import heroLogoEn from '@/assets/hero-logo-en.png';
 import heroLogoId from '@/assets/hero-logo-id.png';
 
 const HeroSection = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const heroLogo = i18n.language === 'id' ? heroLogoId : heroLogoEn;
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
