@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
+import bgCountdown from '@/assets/bg_countdown.png';
 
 interface TimeLeft {
   days: number;
@@ -54,17 +55,22 @@ const CountdownTimer = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: index * 0.1, duration: 0.5 }}
-          className="glass-card p-3 sm:p-6 min-w-[70px] sm:min-w-[100px] text-center"
+          className="relative p-3 sm:p-6 min-w-[70px] sm:min-w-[100px] text-center flex flex-col items-center justify-center"
         >
+          <img
+            src={bgCountdown}
+            alt=""
+            className="absolute inset-0 w-full h-full object-fill"
+          />
           <motion.span
             key={unit.value}
             initial={{ scale: 1.1 }}
             animate={{ scale: 1 }}
-            className="block text-2xl sm:text-5xl font-bold gradient-text-orange"
+            className="relative z-10 block text-2xl sm:text-5xl font-marykate text-foreground"
           >
             {String(unit.value).padStart(2, '0')}
           </motion.span>
-          <span className="text-xs sm:text-sm text-muted-foreground font-medium uppercase tracking-wider mt-2 block">
+          <span className="relative z-10 text-xs sm:text-sm font-marykate text-foreground/70 uppercase tracking-wider mt-2 block">
             {unit.label}
           </span>
         </motion.div>
