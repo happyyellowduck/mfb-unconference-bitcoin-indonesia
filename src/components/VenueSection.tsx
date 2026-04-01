@@ -214,7 +214,7 @@ const VenueSection = () => {
             href="https://maps.google.com/?q=Jl.+Golf+1+No.+159A,+Gunung+Sari,+Surabaya"
             target="_blank"
             rel="noopener noreferrer"
-            className="btn-orange text-sm"
+            className="btn-orange text-lg sm:text-xl"
           >
             {t('venue.viewMap')}
           </a>
