@@ -42,7 +42,7 @@ const UnconferenceSpiritSection = () => {
             alt="Bitcoin flower"
             className="w-16 h-16 sm:w-20 sm:h-20 mx-auto mb-4"
           />
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold font-marykate">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold">
             {t('spirit.title')}
           </h2>
         </motion.div>
@@ -60,7 +60,7 @@ const UnconferenceSpiritSection = () => {
               <div className="w-14 h-14 rounded-xl bg-white/20 flex items-center justify-center mb-6">
                 <tile.icon className="w-7 h-7 text-white" />
               </div>
-              <h3 className="text-xl font-bold font-marykate mb-3">{tile.title}</h3>
+              <h3 className="text-2xl font-bold font-marykate mb-3">{tile.title}</h3>
               <p className="text-white/90 leading-relaxed">{tile.description}</p>
             </motion.div>
           ))}
