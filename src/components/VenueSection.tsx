@@ -131,7 +131,7 @@ const VenueSection = () => {
   const { t, i18n } = useTranslation();
 
   // Get the venue layout image based on current language
-  const venueLayoutImage = i18n.language === 'id' ? venueLayoutId : venueLayoutEn;
+  const venueLayoutImage = i18n.language === 'id' ? venueMapId : venueMapEn;
 
   return (
     <section id="venue" className="section-padding bg-muted/30">
