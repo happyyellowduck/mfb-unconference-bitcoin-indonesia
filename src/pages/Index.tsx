@@ -21,6 +21,7 @@ const Index = () => {
       <Navigation />
       <main>
         <HeroSection />
+        <SanSalvadorSection />
         <div className="relative">
           <TicketsSection />
           <img src={leftCorner} alt="" className="absolute top-0 left-0 w-28 sm:w-36 md:w-48 z-10 pointer-events-none" />
@@ -32,7 +33,6 @@ const Index = () => {
         {/* <SpeakersSection /> */}
         <VenueSection />
         <FAQSection />
-        <SanSalvadorSection />
         <GraduationSection />
         <CTASection />
       </main>

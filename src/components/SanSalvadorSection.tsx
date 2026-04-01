@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import flowerDesign from '@/assets/flower-design.png';
 
 const SanSalvadorSection = () => {
   return (
@@ -11,6 +12,12 @@ const SanSalvadorSection = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-8"
         >
+          <img
+            src={flowerDesign}
+            alt="Flower decoration"
+            className="max-w-[6rem] sm:max-w-[7rem] md:max-w-[8rem] mx-auto mb-4"
+            loading="lazy"
+          />
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold font-marykate">
             <span style={{ color: '#b149d2' }}>MFB Unconference</span> in San Salvador
           </h2>
