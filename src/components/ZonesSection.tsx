@@ -75,7 +75,7 @@ const ZonesSection = () => {
               <div className="w-12 h-12 rounded-xl bg-white/20 flex items-center justify-center mb-4">
                 <zone.icon className="w-6 h-6 text-white" />
               </div>
-              <h4 className="text-lg font-bold mb-1">
+              <h4 className="text-xl sm:text-2xl font-bold font-marykate mb-1">
                 {zone.title}
                 {zone.capacity && (
                   <span className="text-sm font-normal text-white/80 ml-2">
