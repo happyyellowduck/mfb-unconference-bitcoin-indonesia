@@ -7,8 +7,8 @@ import Autoplay from 'embla-carousel-autoplay';
 import leafDesign from '@/assets/leaf-design.png';
 
 // Venue layout images (language-aware)
-import venueLayoutEn from '@/assets/venue-layout-en.jpg';
-import venueLayoutId from '@/assets/venue-layout-id.jpg';
+import venueMapEn from '@/assets/venue-map-en.png';
+import venueMapId from '@/assets/venue-map-id.png';
 
 // Original images to keep (venue-7 at position 2, venue-8 at position 4)
 import venueImage7 from '@/assets/venue-7.jpg';
