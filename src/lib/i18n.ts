@@ -40,8 +40,14 @@ const resources = {
           description: "New to Bitcoin? You're welcome here. This is a safe and supportive environment where newcomers and experienced Bitcoiners can learn, ask questions, and share knowledge together.",
         },
       },
+      sanSalvador: {
+        title1: 'MFB Unconference',
+        title2: ' in San Salvador',
+      },
       video: {
-        description: 'Learn from John Dennehy, founder of My First Bitcoin, about the idea and concept behind Unconferences.',
+        headline1: 'Idea and Concept',
+        headline2: ' behind Unconferences',
+        description: 'Learn from John Dennehy, founder of My First Bitcoin',
       },
       speakers: {
         title: 'Speakers',
@@ -221,8 +227,14 @@ const resources = {
           description: 'Baru mengenal Bitcoin? Kamu tetap sangat diterima. Ini adalah lingkungan yang aman dan suportif di mana pemula dan Bitcoiner berpengalaman bisa belajar, bertanya, dan berbagi pengetahuan bersama.',
         },
       },
+      sanSalvador: {
+        title1: 'MFB Unconference',
+        title2: ' di San Salvador',
+      },
       video: {
-        description: 'Belajar dari John Dennehy, pendiri My First Bitcoin, tentang ide dan konsep di balik Unconference.',
+        headline1: 'Ide dan Konsep',
+        headline2: ' di balik Unconference',
+        description: 'Belajar dari John Dennehy, pendiri My First Bitcoin',
       },
       speakers: {
         title: 'Pembicara',

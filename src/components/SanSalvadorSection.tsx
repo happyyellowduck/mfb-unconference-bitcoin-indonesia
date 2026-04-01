@@ -1,7 +1,9 @@
+import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import flowerDesign from '@/assets/flower-design.png';
 
 const SanSalvadorSection = () => {
+  const { t } = useTranslation();
   return (
     <section className="section-padding bg-[#eae0f5]">
       <div className="container-custom">
@@ -19,7 +21,7 @@ const SanSalvadorSection = () => {
             loading="lazy"
           />
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold font-marykate">
-            <span style={{ color: '#b149d2' }}>MFB Unconference</span> in San Salvador
+            <span style={{ color: '#b149d2' }}>{t('sanSalvador.title1')}</span>{t('sanSalvador.title2')}
           </h2>
         </motion.div>
 
