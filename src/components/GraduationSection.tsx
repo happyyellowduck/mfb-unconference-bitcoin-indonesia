@@ -1,5 +1,5 @@
+import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
-import coinRead from '@/assets/coin-read.png';
 import certificate from '@/assets/certificate.png';
 import graduationBottom from '@/assets/graduation-bottom.png';
 

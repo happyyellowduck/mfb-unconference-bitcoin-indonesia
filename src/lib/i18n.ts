@@ -342,6 +342,12 @@ const resources = {
           answer: 'Acara ini bilingual! Sesi dan diskusi akan diadakan dalam Bahasa Indonesia 🇮🇩 dan Inggris 🇬🇧. Silakan berpartisipasi dalam bahasa mana pun yang paling nyaman bagi Anda.',
         },
       },
+      graduation: {
+        title1: 'Rayakan wisuda ',
+        titleHighlight: 'MFBmu',
+        title2: ' bersama!',
+        subtitle: 'Dapatkan plakat dan sertifikat jika kamu memiliki tiket alumni!',
+      },
       cta: {
         title: 'Ingin mulai belajar tentang Bitcoin sekarang?',
         subtitle: 'Bitcoin Indonesia menyediakan kesempatan edukasi GRATIS. Mulai perjalanan belajar Anda hari ini!',
