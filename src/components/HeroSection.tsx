@@ -37,7 +37,7 @@ const HeroSection = () => {
             className="flex justify-center mb-4"
           >
             <img
-              src={unconferenceLogo}
+              src={heroLogo}
               alt="Bitcoin Unconference"
               className="w-80 sm:w-80 md:w-96 h-auto"
             />
