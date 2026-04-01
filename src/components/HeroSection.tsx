@@ -2,10 +2,12 @@ import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import CountdownTimer from './CountdownTimer';
 import heroImage from '@/assets/hero-unconference-optimized.jpg';
-import unconferenceLogo from '@/assets/unconference-logo.svg';
+import heroLogoEn from '@/assets/hero-logo-en.png';
+import heroLogoId from '@/assets/hero-logo-id.png';
 
 const HeroSection = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const heroLogo = i18n.language === 'id' ? heroLogoId : heroLogoEn;
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
@@ -35,7 +37,7 @@ const HeroSection = () => {
             className="flex justify-center mb-4"
           >
             <img
-              src={unconferenceLogo}
+              src={heroLogo}
               alt="Bitcoin Unconference"
               className="w-80 sm:w-80 md:w-96 h-auto"
             />
@@ -63,21 +65,6 @@ const HeroSection = () => {
               );
             })()}
           </motion.h2>
-
-          {/* Host Info */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.6, duration: 0.6 }}
-            className="mb-12"
-          >
-            <p className="text-lg sm:text-xl text-black font-medium">
-              {t('hero.hostedBy')}
-            </p>
-            <p className="text-sm sm:text-base font-marykate text-black mt-1">
-              {t('hero.network')}
-            </p>
-          </motion.div>
 
           {/* Countdown Timer */}
           <motion.div
