@@ -151,7 +151,7 @@ const VenueSection = () => {
             <img
               src={venueLayoutImage}
               alt={t('venue.mapAlt', 'Venue Layout Map')}
-              className="w-full rounded-xl shadow-lg"
+              className="w-full rounded-xl"
             />
           </div>
         </motion.div>
