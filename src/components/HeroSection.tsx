@@ -74,7 +74,7 @@ const HeroSection = () => {
             <p className="text-lg sm:text-xl text-black font-medium">
               {t('hero.hostedBy')}
             </p>
-            <p className="text-sm sm:text-base font-marykate text-muted-foreground mt-1">
+            <p className="text-sm sm:text-base font-marykate text-black mt-1">
               {t('hero.network')}
             </p>
           </motion.div>
