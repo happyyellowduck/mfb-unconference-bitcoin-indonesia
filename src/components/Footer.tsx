@@ -82,7 +82,7 @@ const Footer = () => {
 
           {/* Social Links */}
           <div className="flex items-center gap-4">
-            <span className="text-sm font-marykate text-muted-foreground mr-2">{t('footer.followUs')}</span>
+            <span className="text-base font-marykate text-muted-foreground mr-2">{t('footer.followUs')}</span>
             {socialLinks.map((social) => (
               <a
                 key={social.label}
