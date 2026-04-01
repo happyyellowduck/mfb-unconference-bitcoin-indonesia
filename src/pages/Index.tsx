@@ -31,8 +31,9 @@ const Index = () => {
         {/* <SpeakersSection /> */}
         <VenueSection />
         <FAQSection />
-        <CTASection />
         <SanSalvadorSection />
+        <GraduationSection />
+        <CTASection />
       </main>
       <Footer />
     </div>
