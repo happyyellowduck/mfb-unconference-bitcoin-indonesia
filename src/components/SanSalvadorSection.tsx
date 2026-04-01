@@ -3,7 +3,7 @@ import flowerDesign from '@/assets/flower-design.png';
 
 const SanSalvadorSection = () => {
   return (
-    <section className="section-padding">
+    <section className="section-padding bg-[#eae0f5]">
       <div className="container-custom">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
