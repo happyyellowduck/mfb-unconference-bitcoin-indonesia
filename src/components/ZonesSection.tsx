@@ -57,7 +57,7 @@ const ZonesSection = () => {
             className="max-w-xs sm:max-w-sm md:max-w-md mx-auto mb-6"
             loading="lazy"
           />
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold font-marykate">
             {t('zones.title')}
           </h2>
         </motion.div>

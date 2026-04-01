@@ -35,7 +35,7 @@ const HospitalitySection = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold font-marykate mb-4">
               {t('hospitality.title')}
             </h2>
             <p className="text-lg text-muted-foreground mb-8">

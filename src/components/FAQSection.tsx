@@ -52,7 +52,7 @@ import rightPurple from '@/assets/right-purple-design.png';
               className="max-w-[10rem] sm:max-w-[12rem] md:max-w-[14rem] mx-auto mb-4"
               loading="lazy"
             />
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold font-marykate">
               {t('faq.title')}
             </h2>
          </motion.div>
