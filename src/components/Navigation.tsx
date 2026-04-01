@@ -58,7 +58,7 @@ const Navigation = () => {
               <a
                 key={item.href}
                 href={item.href}
-                className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors"
+                className="text-sm font-medium font-marykate text-foreground/80 hover:text-primary transition-colors"
               >
                 {item.label}
               </a>
