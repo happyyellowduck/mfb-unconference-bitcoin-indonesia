@@ -70,7 +70,7 @@ const CountdownTimer = () => {
           >
             {String(unit.value).padStart(2, '0')}
           </motion.span>
-          <span className="relative z-10 text-xs sm:text-sm font-marykate text-black uppercase tracking-wider mt-2 block" style={{ WebkitTextStroke: '0.8px black' }}>
+          <span className="relative z-10 text-xs sm:text-sm font-sans font-extrabold text-black uppercase tracking-wider mt-2 block">
             {unit.label}
           </span>
         </motion.div>
