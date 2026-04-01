@@ -25,11 +25,11 @@ const Index = () => {
           <img src={leftCorner} alt="" className="absolute top-0 left-0 w-28 sm:w-36 md:w-48 z-10 pointer-events-none" />
           <img src={rightCorner} alt="" className="absolute top-0 right-0 w-28 sm:w-36 md:w-48 z-10 pointer-events-none" />
           <SanSalvadorSection />
+          <GraduationSection />
           <TicketsSection />
         </div>
         <UnconferenceSpiritSection />
         <VideoSection />
-        <GraduationSection />
         <ZonesSection />
         {/* <SpeakersSection /> */}
         <VenueSection />
