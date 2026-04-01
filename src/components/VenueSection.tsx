@@ -7,8 +7,8 @@ import Autoplay from 'embla-carousel-autoplay';
 import leafDesign from '@/assets/leaf-design.png';
 
 // Venue layout images (language-aware)
-import venueLayoutEn from '@/assets/venue-layout-en.jpg';
-import venueLayoutId from '@/assets/venue-layout-id.jpg';
+import venueMapEn from '@/assets/venue-map-en.png';
+import venueMapId from '@/assets/venue-map-id.png';
 
 // Original images to keep (venue-7 at position 2, venue-8 at position 4)
 import venueImage7 from '@/assets/venue-7.jpg';
@@ -131,7 +131,7 @@ const VenueSection = () => {
   const { t, i18n } = useTranslation();
 
   // Get the venue layout image based on current language
-  const venueLayoutImage = i18n.language === 'id' ? venueLayoutId : venueLayoutEn;
+  const venueLayoutImage = i18n.language === 'id' ? venueMapId : venueMapEn;
 
   return (
     <section id="venue" className="section-padding bg-muted/30">
@@ -206,7 +206,7 @@ const VenueSection = () => {
               <MapPin className="w-5 h-5 text-primary" />
             </div>
             <div>
-              <p className="font-semibold">{t('venue.address')}</p>
+              <p className="font-semibold font-marykate text-2xl sm:text-3xl">{t('venue.address')}</p>
               <p className="text-sm text-muted-foreground">Surabaya, Indonesia</p>
             </div>
           </div>
