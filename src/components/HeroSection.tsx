@@ -47,7 +47,7 @@ const HeroSection = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4, duration: 0.6 }}
-            className="text-2xl sm:text-3xl md:text-4xl font-semibold text-foreground mb-6"
+            className="text-2xl sm:text-3xl md:text-4xl font-semibold font-marykate text-foreground mb-6"
           >
             {(() => {
               const subtitle = t('hero.subtitle');
