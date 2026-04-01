@@ -80,7 +80,7 @@ const TicketsSection = () => {
                 </div>
               )}
 
-              <h3 className="text-2xl font-bold font-marykate mb-2">{tier.title}</h3>
+              <h3 className="text-3xl md:text-4xl font-bold font-marykate mb-2">{tier.title}</h3>
               <div className="flex items-baseline gap-3 mb-1">
                 <span className={`text-4xl font-bold font-marykate ${tier.gradientClass}`}>{tier.earlyBird}</span>
               </div>
