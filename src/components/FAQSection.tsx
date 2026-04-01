@@ -71,7 +71,7 @@ import rightPurple from '@/assets/right-purple-design.png';
                  value={`item-${index}`}
                  className="glass-card px-6 border-none"
                >
-                 <AccordionTrigger className="text-left text-lg font-semibold hover:no-underline">
+                 <AccordionTrigger className="text-left text-2xl sm:text-3xl font-marykate font-semibold hover:no-underline">
                    {faq.question}
                  </AccordionTrigger>
                  <AccordionContent className="text-muted-foreground">
