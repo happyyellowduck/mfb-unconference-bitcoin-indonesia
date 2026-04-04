@@ -98,7 +98,7 @@ const TicketsSection = () => {
                 </span>
               </div>
 
-              <ul className="space-y-4 mb-8">
+              <ul className="space-y-4 mb-8 flex-grow">
                 {tier.features.map((feature, index) => {
                   const isGraduation = index === 1 && tier.key === 'alumni';
                   return (
