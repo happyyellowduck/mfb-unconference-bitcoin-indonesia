@@ -100,7 +100,7 @@ const TicketsSection = () => {
 
               <ul className="space-y-4 mb-8">
                 {tier.features.map((feature, index) => {
-                  const isGraduation = index === tier.features.length - 1 && tier.key === 'alumni';
+                  const isGraduation = index === 1 && tier.key === 'alumni';
                   return (
                     <li key={index} className="flex items-center gap-3">
                       <div className={`w-5 h-5 rounded-full flex items-center justify-center ${isGraduation ? 'bg-primary/20' : `bg-${tier.accentColor}/20`}`}>
