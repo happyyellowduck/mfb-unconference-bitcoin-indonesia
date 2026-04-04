@@ -74,7 +74,7 @@ const TicketsSection = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: tier.delay }}
-              className={`glass-card p-8 relative overflow-hidden group hover:scale-[1.02] transition-transform duration-300 ${tier.borderColor}`}
+              className={`glass-card p-8 relative overflow-hidden group hover:scale-[1.02] transition-transform duration-300 flex flex-col ${tier.borderColor}`}
             >
               <div className={`absolute top-0 right-0 w-40 h-40 bg-gradient-to-br ${tier.bgGradient} to-transparent rounded-full -translate-y-1/2 translate-x-1/2`} />
 
