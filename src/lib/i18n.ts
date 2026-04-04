@@ -280,11 +280,11 @@ const resources = {
           badge: 'Harga Spesial',
           features: [
             'Akses Unconference sehari penuh',
+            'Perayaan wisuda dapat plakat & sertifikat',
             'Lunch buffet & minuman termasuk',
             '2 panggung, 4 area workshop & 2 spot diskusi',
             'Dalam Bahasa 🇮🇩 & Inggris 🇬🇧',
             'Learning & building',
-            'Perayaan wisuda dapat plakat & sertifikat',
           ],
         },
         public: {
