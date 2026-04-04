@@ -284,6 +284,7 @@ const resources = {
             '2 panggung, 4 area workshop & 2 spot diskusi',
             'Dalam Bahasa 🇮🇩 & Inggris 🇬🇧',
             'Learning & building',
+            'Perayaan wisuda dapat plakat & sertifikat',
           ],
         },
         public: {
