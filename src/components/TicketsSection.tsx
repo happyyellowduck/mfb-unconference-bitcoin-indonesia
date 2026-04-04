@@ -99,14 +99,17 @@ const TicketsSection = () => {
               </div>
 
               <ul className="space-y-4 mb-8">
-                {tier.features.map((feature, index) => (
-                  <li key={index} className="flex items-center gap-3">
-                    <div className={`w-5 h-5 rounded-full flex items-center justify-center bg-${tier.accentColor}/20`}>
-                      <Check className={`w-3 h-3 text-${tier.accentColor}`} />
-                    </div>
-                    <span className="text-foreground/80">{feature}</span>
-                  </li>
-                ))}
+                {tier.features.map((feature, index) => {
+                  const isGraduation = index === tier.features.length - 1 && tier.key === 'alumni';
+                  return (
+                    <li key={index} className="flex items-center gap-3">
+                      <div className={`w-5 h-5 rounded-full flex items-center justify-center ${isGraduation ? 'bg-primary/20' : `bg-${tier.accentColor}/20`}`}>
+                        <Check className={`w-3 h-3 ${isGraduation ? 'text-primary' : `text-${tier.accentColor}`}`} />
+                      </div>
+                      <span className={isGraduation ? 'text-primary font-bold' : 'text-foreground/80'}>{feature}</span>
+                    </li>
+                  );
+                })}
               </ul>
 
               <a

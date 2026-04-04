@@ -96,6 +96,7 @@ const resources = {
             '2 stages, 4 workshop areas & 2 discussion spots',
             'In Bahasa 🇮🇩 & English 🇬🇧',
             'Learning & building',
+            'Graduation ceremony get placard & certificate',
           ],
         },
         public: {
@@ -283,6 +284,7 @@ const resources = {
             '2 panggung, 4 area workshop & 2 spot diskusi',
             'Dalam Bahasa 🇮🇩 & Inggris 🇬🇧',
             'Learning & building',
+            'Perayaan wisuda dapat plakat & sertifikat',
           ],
         },
         public: {
