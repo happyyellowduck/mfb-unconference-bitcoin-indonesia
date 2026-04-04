@@ -92,11 +92,11 @@ const resources = {
           badge: 'Special Rate',
           features: [
             'Full day Unconference pass',
+            'Graduation ceremony get placard & certificate',
             'Lunch buffet & beverages included',
             '2 stages, 4 workshop areas & 2 discussion spots',
             'In Bahasa 🇮🇩 & English 🇬🇧',
             'Learning & building',
-            'Graduation ceremony get placard & certificate',
           ],
         },
         public: {
