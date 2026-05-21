@@ -48,6 +48,12 @@ const AttendeesSection = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-12"
         >
+          <img
+            src={whoWillBeThere}
+            alt=""
+            className="max-w-[6.5rem] sm:max-w-[6rem] md:max-w-[8rem] mx-auto mb-2"
+            loading="lazy"
+          />
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold font-marykate">
             {t('attendees.title')}
           </h2>
