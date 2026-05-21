@@ -80,6 +80,7 @@ const resources = {
       },
       women: {
         title: 'Women & Bitcoin',
+        subtitle: 'A safe and welcoming space for women to connect, learn, and grow in Bitcoin.',
         description: 'A warm space for women at My First Bitcoin Unconference 2026 to sit together, share stories, and explore Bitcoin in a more relaxed and approachable way. No need to be an expert — just come, meet new friends, and enjoy conversations about money, the future, and life from a women\u2019s perspective.',
       },
       attendees: {
@@ -316,6 +317,7 @@ const resources = {
       },
       women: {
         title: 'Wanita dan Bitcoin',
+        subtitle: 'Ruang yang aman dan nyaman untuk perempuan terhubung, belajar, dan berkembang di Bitcoin.',
         description: 'Ruang hangat untuk perempuan di My First Bitcoin Unconference 2026 untuk duduk bareng, ngobrol, berbagi cerita, dan mengenal Bitcoin dengan cara yang lebih santai dan dekat. Tidak perlu jadi expert \u2014 cukup datang, bertemu teman baru, dan menikmati percakapan tentang uang, masa depan, dan kehidupan dari sudut pandang perempuan.',
       },
       attendees: {

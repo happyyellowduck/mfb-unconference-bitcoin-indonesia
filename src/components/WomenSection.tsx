@@ -7,36 +7,37 @@ const WomenSection = () => {
 
   return (
     <section id="women" className="section-padding bg-muted/30">
-      <div className="container-custom">
-        <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center max-w-5xl mx-auto">
-          <motion.div
-            initial={{ opacity: 0, x: -30 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-            className="flex justify-center"
-          >
-            <img
-              src={womenImage}
-              alt={t('women.title')}
-              className="max-w-xs md:max-w-sm w-full"
-              loading="lazy"
-            />
-          </motion.div>
-          <motion.div
-            initial={{ opacity: 0, x: 30 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-          >
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold font-marykate mb-6">
-              {t('women.title')}
-            </h2>
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              {t('women.description')}
-            </p>
-          </motion.div>
-        </div>
+      <div className="container-custom max-w-4xl mx-auto text-center">
+        <motion.div
+          initial={{ opacity: 1, y: 0 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 1 }}
+          className="mb-10"
+        >
+          <img
+            src={womenImage}
+            alt={t('women.title')}
+            className="max-w-[6.5rem] sm:max-w-[6rem] md:max-w-[8rem] mx-auto mb-2"
+            loading="lazy"
+          />
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold font-marykate">
+            {t('women.title')}
+          </h2>
+          <p className="text-xl text-muted-foreground mt-3 max-w-2xl mx-auto">
+            {t('women.subtitle')}
+          </p>
+        </motion.div>
+
+        <motion.p
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+          className="text-lg text-muted-foreground leading-relaxed"
+        >
+          {t('women.description')}
+        </motion.p>
       </div>
     </section>
   );
