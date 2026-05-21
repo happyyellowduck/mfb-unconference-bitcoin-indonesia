@@ -78,6 +78,50 @@ const resources = {
           bio: 'At an Unconference, everyone has the chance to share their thoughts and knowledge. Whether you have a project to present, insights to share, or just want to participate in the conversation – the stage is yours!',
         },
       },
+      attendees: {
+        title: 'Who Will Be There?',
+        subtitle: 'Meet some of the Bitcoiners joining us at the Unconference',
+        baskoro: {
+          name: 'Baskoro Nugroho',
+          bio: 'Programmer and Bitcoiner who actively contributes to and teaches at Bitcoin Indonesia Surabaya.',
+        },
+        chresna: {
+          name: 'Chresna Sanubari',
+          bio: 'Bitcoiner who actively contributes to and teaches at Bitcoin Indonesia Surabaya, especially about mining.',
+        },
+        bitcoinSports: {
+          name: 'Bitcoin Sports',
+          bio: 'Part of the Bitcoin Indonesia community helping drive Bitcoin adoption in the Bogor region, West Java Province. Initially focused on sports communities (such as basketball) for Bitcoin adoption, and is now expanding outreach to other segments, both offline and online.\n\nX: bitcoinsportsid\nInstagram: bitcoinsports.id\nTikTok: bitcoinsports.id',
+        },
+        asadid: {
+          name: 'Asadid',
+          bio: 'Cat-loving Bitcoiner who actively teaches the technical side of self-custody, nodes, and more.',
+        },
+        zed: {
+          name: 'Bang Zed',
+          bio: 'Bitcoiner from Aceh who is active in the Bitcoin Indonesia community and helped lead sats-based donation efforts for Aceh flood victims, showcasing how Bitcoin can be used for fast and direct humanitarian aid.',
+        },
+        kanda: {
+          name: 'Igp Kanda',
+          bio: 'National Community Manager of Bitcoin Indonesia. With a degree in Cybersecurity Engineering and various cybersecurity certifications, he currently works at a government institution focused on security and cryptography. Through his technical expertise, Kanda strengthens education within the Bitcoin Indonesia community.',
+        },
+        aadb: {
+          name: 'aadb',
+          bio: '@aadbitcoin contributes to Bitcoin education through content, discussions, and learning materials that help people understand Bitcoin in a simpler, more critical, and more responsible way.',
+        },
+        bull: {
+          name: 'Bull',
+          bio: 'An active Bitcoiner who actively contributes to and teaches at Bitcoin Indonesia, especially about running nodes, self-custody, the importance of decentralization, and the spirit of "Don\'t trust, verify!"',
+        },
+        khaf: {
+          name: 'Khaf',
+          bio: 'Bitcoin Indonesia content creator.',
+        },
+        esther: {
+          name: 'Esther Jesshan',
+          bio: 'Esther Jesshan is a Bitcoiner with a big dream of becoming a successful entrepreneur. For her, Bitcoin is not just a digital asset, but a symbol of freedom and a way to express her concerns about the economic system in her country.',
+        },
+      },
       zones: {
         title: 'The event areas',
       },
@@ -264,6 +308,50 @@ const resources = {
           name: 'Anda?',
           role: 'Pembicara berikutnya',
           bio: 'Di Unconference, semua orang memiliki kesempatan untuk berbagi pemikiran dan pengetahuan mereka. Apakah Anda memiliki proyek untuk dipresentasikan, wawasan untuk dibagikan, atau hanya ingin berpartisipasi dalam percakapan – panggungnya adalah milik Anda!',
+        },
+      },
+      attendees: {
+        title: 'Siapa Yang Akan Ada Disana?',
+        subtitle: 'Temui beberapa Bitcoiner yang akan hadir di Unconference',
+        baskoro: {
+          name: 'Baskoro Nugroho',
+          bio: 'Programmer dan Bitcoiners yang aktif berkontribusi dan mengajar di Bitcoin Indonesia Surabaya.',
+        },
+        chresna: {
+          name: 'Chresna Sanubari',
+          bio: 'Bitcoiners yang aktif berkontribusi dan mengajar di Bitcoin Indonesia Surabaya terutama tentang mining.',
+        },
+        bitcoinSports: {
+          name: 'Bitcoin Sports',
+          bio: 'Bagian dari komunitas Bitcoin Indonesia yang turut mendorong adopsi Bitcoin di wilayah Bogor, Provinsi Jawa Barat. Awalnya, berfokus pada sektor olahraga saja (seperti bola basket) untuk adopsi Bitcoin, saat ini sedang memperluas jangkauan ke segmen lain, baik secara offline maupun online.\n\nX: bitcoinsportsid\nInstagram: bitcoinsports.id\nTikTok: bitcoinsports.id',
+        },
+        asadid: {
+          name: 'Asadid',
+          bio: 'Bitcoiners Pencinta Kucing yang aktif mengajarkan sisi teknis self-custody, node, dll.',
+        },
+        zed: {
+          name: 'Bang Zed',
+          bio: 'Bitcoiner asal Aceh yang aktif di komunitas Bitcoin Indonesia dan turut memimpin penggalangan donasi berbasis sats untuk korban banjir Aceh, sebagai contoh penggunaan Bitcoin untuk bantuan kemanusiaan yang cepat dan langsung.',
+        },
+        kanda: {
+          name: 'Igp Kanda',
+          bio: 'Community Manager Bitcoin Indonesia Nasional. Berbekal gelar di Cybersecurity Engineering dan berbagai sertifikasi keamanan siber, ia kini bekerja di lembaga pemerintah yang berfokus pada keamanan dan kriptografi. Dengan keahlian teknisnya, Kanda memperkuat edukasi di komunitas Bitcoin Indonesia.',
+        },
+        aadb: {
+          name: 'aadb',
+          bio: '@aadbitcoin berkontribusi dalam edukasi Bitcoin melalui konten, diskusi, dan materi pembelajaran yang membantu masyarakat memahami Bitcoin secara lebih sederhana, kritis, dan bertanggung jawab.',
+        },
+        bull: {
+          name: 'Bull',
+          bio: 'Bitcoiner yang aktif berkontribusi dan mengajar di Bitcoin Indonesia terutama tentang running node, self custody, pentingnya desentralisasi, serta semangat "don\'t trust, verify!"',
+        },
+        khaf: {
+          name: 'Khaf',
+          bio: 'Konten kreator Bitcoin Indonesia.',
+        },
+        esther: {
+          name: 'Esther Jesshan',
+          bio: 'Esther Jesshan, seorang Bitcoiner dengan mimpi besar menjadi entrepreneur sukses. Baginya, Bitcoin bukan sekadar aset digital, tetapi simbol kebebasan dan cara menyuarakan keresahan terhadap sistem ekonomi di negaranya.',
         },
       },
       zones: {
