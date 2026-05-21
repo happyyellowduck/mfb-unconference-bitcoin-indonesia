@@ -12,6 +12,7 @@ import attendeeAadb from '@/assets/attendee-aadb.jpg';
 import attendeeBull from '@/assets/attendee-bull.png';
 import attendeeKhaf from '@/assets/attendee-khaf.jpg';
 import attendeeEsther from '@/assets/attendee-esther.jpg';
+import whoWillBeThere from '@/assets/who-will-be-there.png';
 
 interface Attendee {
   id: string;
