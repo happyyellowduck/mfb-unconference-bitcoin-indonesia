@@ -78,6 +78,10 @@ const resources = {
           bio: 'At an Unconference, everyone has the chance to share their thoughts and knowledge. Whether you have a project to present, insights to share, or just want to participate in the conversation – the stage is yours!',
         },
       },
+      women: {
+        title: 'Women & Bitcoin',
+        description: 'A warm space for women at My First Bitcoin Unconference 2026 to sit together, share stories, and explore Bitcoin in a more relaxed and approachable way. No need to be an expert — just come, meet new friends, and enjoy conversations about money, the future, and life from a women\u2019s perspective.',
+      },
       attendees: {
         title: 'Who Will Be There?',
         subtitle: 'Meet some of the Bitcoiners joining us at the Unconference',
@@ -309,6 +313,10 @@ const resources = {
           role: 'Pembicara berikutnya',
           bio: 'Di Unconference, semua orang memiliki kesempatan untuk berbagi pemikiran dan pengetahuan mereka. Apakah Anda memiliki proyek untuk dipresentasikan, wawasan untuk dibagikan, atau hanya ingin berpartisipasi dalam percakapan – panggungnya adalah milik Anda!',
         },
+      },
+      women: {
+        title: 'Wanita dan Bitcoin',
+        description: 'Ruang hangat untuk perempuan di My First Bitcoin Unconference 2026 untuk duduk bareng, ngobrol, berbagi cerita, dan mengenal Bitcoin dengan cara yang lebih santai dan dekat. Tidak perlu jadi expert \u2014 cukup datang, bertemu teman baru, dan menikmati percakapan tentang uang, masa depan, dan kehidupan dari sudut pandang perempuan.',
       },
       attendees: {
         title: 'Siapa Yang Akan Ada Disana?',
