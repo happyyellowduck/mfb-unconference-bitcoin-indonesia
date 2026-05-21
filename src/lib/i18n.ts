@@ -314,6 +314,10 @@ const resources = {
           bio: 'Di Unconference, semua orang memiliki kesempatan untuk berbagi pemikiran dan pengetahuan mereka. Apakah Anda memiliki proyek untuk dipresentasikan, wawasan untuk dibagikan, atau hanya ingin berpartisipasi dalam percakapan – panggungnya adalah milik Anda!',
         },
       },
+      women: {
+        title: 'Wanita dan Bitcoin',
+        description: 'Ruang hangat untuk perempuan di My First Bitcoin Unconference 2026 untuk duduk bareng, ngobrol, berbagi cerita, dan mengenal Bitcoin dengan cara yang lebih santai dan dekat. Tidak perlu jadi expert \u2014 cukup datang, bertemu teman baru, dan menikmati percakapan tentang uang, masa depan, dan kehidupan dari sudut pandang perempuan.',
+      },
       attendees: {
         title: 'Siapa Yang Akan Ada Disana?',
         subtitle: 'Temui beberapa Bitcoiner yang akan hadir di Unconference',
