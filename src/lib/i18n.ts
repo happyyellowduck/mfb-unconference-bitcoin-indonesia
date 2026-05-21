@@ -78,6 +78,10 @@ const resources = {
           bio: 'At an Unconference, everyone has the chance to share their thoughts and knowledge. Whether you have a project to present, insights to share, or just want to participate in the conversation – the stage is yours!',
         },
       },
+      women: {
+        title: 'Women & Bitcoin',
+        description: 'A warm space for women at My First Bitcoin Unconference 2026 to sit together, share stories, and explore Bitcoin in a more relaxed and approachable way. No need to be an expert — just come, meet new friends, and enjoy conversations about money, the future, and life from a women\u2019s perspective.',
+      },
       attendees: {
         title: 'Who Will Be There?',
         subtitle: 'Meet some of the Bitcoiners joining us at the Unconference',
