@@ -7,6 +7,7 @@ import ZonesSection from '@/components/ZonesSection';
 import VideoSection from '@/components/VideoSection';
 import SpeakersSection from '@/components/SpeakersSection';
 import AttendeesSection from '@/components/AttendeesSection';
+import WomenSection from '@/components/WomenSection';
 import VenueSection from '@/components/VenueSection';
 import FAQSection from '@/components/FAQSection';
 import CTASection from '@/components/CTASection';
@@ -32,6 +33,7 @@ const Index = () => {
         <UnconferenceSpiritSection />
         <VideoSection />
         <AttendeesSection />
+        <WomenSection />
         <ZonesSection />
         {/* <SpeakersSection /> */}
         <VenueSection />
