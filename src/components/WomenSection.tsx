@@ -1,6 +1,8 @@
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import womenImage from '@/assets/women-bitcoin.png';
+import womenPhoto1 from '@/assets/women-bitcoin-1.png';
+import womenPhoto2 from '@/assets/women-bitcoin-2.png';
 
 const WomenSection = () => {
   const { t } = useTranslation();
@@ -27,6 +29,17 @@ const WomenSection = () => {
           <p className="text-xl text-muted-foreground mt-3 max-w-2xl mx-auto">
             {t('women.subtitle')}
           </p>
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: 0.1 }}
+          className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8"
+        >
+          <img src={womenPhoto1} alt={t('women.title')} className="w-full h-64 sm:h-72 object-cover rounded-lg shadow-md" loading="lazy" />
+          <img src={womenPhoto2} alt={t('women.title')} className="w-full h-64 sm:h-72 object-cover rounded-lg shadow-md" loading="lazy" />
         </motion.div>
 
         <motion.p
