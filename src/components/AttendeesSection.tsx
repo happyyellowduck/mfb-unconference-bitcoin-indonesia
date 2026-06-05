@@ -12,6 +12,11 @@ import attendeeAadb from '@/assets/attendee-aadb.jpg';
 import attendeeBull from '@/assets/attendee-bull.png';
 import attendeeKhaf from '@/assets/attendee-khaf.jpg';
 import attendeeEsther from '@/assets/attendee-esther.jpg';
+import attendeeDimas from '@/assets/attendee-dimas.jpg';
+import attendeeBhBali from '@/assets/attendee-bitcoin-house-bali.png';
+import attendeeBhBogor from '@/assets/attendee-bitcoin-house-bogor.webp';
+import attendeePatrick from '@/assets/attendee-patrick.webp';
+import attendeeAhPrayo from '@/assets/attendee-ah-prayo.jpeg';
 import whoWillBeThere from '@/assets/who-will-be-there.png';
 
 interface Attendee {
@@ -26,10 +31,15 @@ const AttendeesSection = () => {
   const [selected, setSelected] = useState<Attendee | null>(null);
 
   const attendees: Attendee[] = [
+    { id: 'dimas', name: t('attendees.dimas.name'), bio: t('attendees.dimas.bio'), image: attendeeDimas },
     { id: 'baskoro', name: t('attendees.baskoro.name'), bio: t('attendees.baskoro.bio'), image: attendeeBaskoro },
+    { id: 'bhBali', name: t('attendees.bhBali.name'), bio: t('attendees.bhBali.bio'), image: attendeeBhBali },
     { id: 'chresna', name: t('attendees.chresna.name'), bio: t('attendees.chresna.bio'), image: attendeeChresna },
+    { id: 'patrick', name: t('attendees.patrick.name'), bio: t('attendees.patrick.bio'), image: attendeePatrick },
     { id: 'bitcoinSports', name: t('attendees.bitcoinSports.name'), bio: t('attendees.bitcoinSports.bio'), image: attendeeBitcoinSports },
+    { id: 'bhBogor', name: t('attendees.bhBogor.name'), bio: t('attendees.bhBogor.bio'), image: attendeeBhBogor },
     { id: 'asadid', name: t('attendees.asadid.name'), bio: t('attendees.asadid.bio'), image: attendeeAsadid },
+    { id: 'ahPrayo', name: t('attendees.ahPrayo.name'), bio: t('attendees.ahPrayo.bio'), image: attendeeAhPrayo },
     { id: 'zed', name: t('attendees.zed.name'), bio: t('attendees.zed.bio'), image: attendeeZed },
     { id: 'kanda', name: t('attendees.kanda.name'), bio: t('attendees.kanda.bio'), image: attendeeKanda },
     { id: 'aadb', name: t('attendees.aadb.name'), bio: t('attendees.aadb.bio'), image: attendeeAadb },

@@ -86,6 +86,26 @@ const resources = {
       attendees: {
         title: 'Who Will Be There?',
         subtitle: 'Meet some of the Bitcoiners joining us at the Unconference',
+        dimas: {
+          name: 'Dimas',
+          bio: 'Dimas Surya Alfaruq is the co-founder of Bitcoin Indonesia and Bitcoin House Bali, two of the leading initiatives driving Bitcoin education and adoption across Indonesia. As a Bitcoin educator, podcaster, YouTuber, and community builder, he has helped grow a nationwide movement focused on financial literacy, economic freedom, and grassroots Bitcoin adoption. Through his content, events, and educational programs, Dimas is dedicated to making Bitcoin accessible to millions of Indonesians while fostering one of Southeast Asia\u2019s most active Bitcoin communities.',
+        },
+        bhBali: {
+          name: 'Bitcoin House Bali',
+          bio: 'Bitcoin House Bali has become one of Asia\u2019s most active Bitcoin community hubs, bringing together Bitcoiners, entrepreneurs, developers, educators, and curious newcomers from around the world. Located in the heart of Canggu, it serves as a center for education, collaboration, and innovation, hosting regular meetups, workshops, conferences, and international events. Through its strong grassroots community and commitment to Bitcoin-only education, Bitcoin House Bali has helped thousands of people discover new ways to understand, use, and integrate Bitcoin into their everyday lives.',
+        },
+        bhBogor: {
+          name: 'Bitcoin House Bogor',
+          bio: 'Bitcoin House Bogor extends the mission of Bitcoin education and community building beyond Bali, creating a welcoming space for learning, discussion, and collaboration. By connecting local communities with the broader Indonesian Bitcoin movement, it helps make Bitcoin education more accessible while fostering meaningful relationships between Bitcoiners, entrepreneurs, young athletes, students, and families.',
+        },
+        patrick: {
+          name: 'Patrick Korting',
+          bio: 'Patrick Korting is the Director of Communications & Events at My First Bitcoin, one of the world\u2019s leading Bitcoin education organizations. Through strategic communications, global partnerships, and educational events, Patrick helps expand the reach of open-source Bitcoin education to communities around the world. His work focuses on connecting people, building strong networks, and creating opportunities for individuals to learn about Bitcoin through accessible and community-driven initiatives.',
+        },
+        ahPrayo: {
+          name: 'AH Prayo',
+          bio: 'Bitcoin enthusiast who actively participates in driving the circular economy within Indonesia\u2019s Bitcoin ecosystem.',
+        },
         baskoro: {
           name: 'Baskoro Nugroho',
           bio: 'Programmer and Bitcoiner who actively contributes to and teaches at Bitcoin Indonesia Surabaya.',
@@ -323,6 +343,26 @@ const resources = {
       attendees: {
         title: 'Siapa Yang Akan Ada Disana?',
         subtitle: 'Temui beberapa Bitcoiner yang akan hadir di Unconference',
+        dimas: {
+          name: 'Dimas',
+          bio: 'Dimas Surya Alfaruq adalah Co-Founder Bitcoin Indonesia dan Bitcoin House Bali, dua inisiatif yang berperan penting dalam mendorong edukasi dan adopsi Bitcoin di Indonesia. Sebagai podcaster, YouTuber, pendidik, dan tokoh aktif di komunitas Bitcoin Indonesia, Dimas telah menginspirasi ribuan orang untuk memahami Bitcoin, kedaulatan finansial, dan masa depan uang. Melalui konten, acara komunitas, dan berbagai program edukasi, ia berkomitmen untuk membantu membangun generasi Indonesia yang lebih melek finansial dan siap menghadapi era ekonomi digital.',
+        },
+        bhBali: {
+          name: 'Bitcoin House Bali',
+          bio: 'Bitcoin House Bali telah berkembang menjadi salah satu pusat komunitas Bitcoin paling aktif di Asia. Berlokasi di Canggu, tempat ini menjadi rumah bagi para Bitcoiner, pengusaha, pengembang, pendidik, dan pemula yang ingin belajar lebih dalam tentang Bitcoin. Melalui berbagai meetup, workshop, konferensi, dan acara internasional, Bitcoin House Bali membangun komunitas yang kuat dan berperan penting dalam membantu ribuan orang memahami serta menggunakan Bitcoin dalam kehidupan sehari-hari.',
+        },
+        bhBogor: {
+          name: 'Bitcoin House Bogor',
+          bio: 'Bitcoin House Bogor memperluas misi edukasi dan pembangunan komunitas Bitcoin ke luar Bali, menciptakan ruang yang ramah untuk belajar, berdiskusi, dan berkolaborasi. Dengan menghubungkan komunitas lokal dengan gerakan Bitcoin Indonesia yang lebih luas, tempat ini membantu membuat edukasi Bitcoin lebih mudah diakses sekaligus mempererat hubungan antara Bitcoiner, pengusaha, atlet muda, pelajar, dan keluarga.',
+        },
+        patrick: {
+          name: 'Patrick Korting',
+          bio: 'Patrick Korting adalah Director of Communications & Events di My First Bitcoin, salah satu organisasi edukasi Bitcoin terkemuka di dunia. Melalui komunikasi strategis, kemitraan global, dan berbagai acara edukasi, Patrick membantu memperluas akses terhadap pendidikan Bitcoin yang terbuka dan mudah diakses oleh siapa saja. Fokus utamanya adalah membangun jaringan, memperkuat komunitas, dan membantu lebih banyak orang memahami Bitcoin melalui pendekatan yang inklusif dan berbasis komunitas.',
+        },
+        ahPrayo: {
+          name: 'AH Prayo',
+          bio: 'Bitcoin antusias yang ikut serta sebagai penggerak sirkular ekonomi pada ekosistem Bitcoin Indonesia.',
+        },
         baskoro: {
           name: 'Baskoro Nugroho',
           bio: 'Programmer dan Bitcoiners yang aktif berkontribusi dan mengajar di Bitcoin Indonesia Surabaya.',
