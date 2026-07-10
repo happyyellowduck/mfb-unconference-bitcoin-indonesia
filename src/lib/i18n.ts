@@ -379,6 +379,10 @@ const resources = {
           name: 'Bitcoin Sports',
           bio: 'Bagian dari komunitas Bitcoin Indonesia yang turut mendorong adopsi Bitcoin di wilayah Bogor, Provinsi Jawa Barat. Awalnya, berfokus pada sektor olahraga saja (seperti bola basket) untuk adopsi Bitcoin, saat ini sedang memperluas jangkauan ke segmen lain, baik secara offline maupun online.\n\nX: bitcoinsportsid\nInstagram: bitcoinsports.id\nTikTok: bitcoinsports.id',
         },
+        emilio: {
+          name: 'Emilio Rivas',
+          bio: 'Emilio Rivas adalah Events Coordinator di My First Bitcoin, yang berdedikasi untuk memberdayakan individu melalui edukasi Bitcoin.\n\nEmilio memimpin penyelenggaraan Bitcoin Unconferences, meetups, dan acara komunitas, menghubungkan para pendidik, builder, dan Bitcoiners di seluruh dunia.',
+        },
         asadid: {
           name: 'Asadid',
           bio: 'Bitcoiners Pencinta Kucing yang aktif mengajarkan sisi teknis self-custody, node, dll.',
