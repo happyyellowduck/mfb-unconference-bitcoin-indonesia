@@ -17,6 +17,7 @@ import attendeeBhBali from '@/assets/attendee-bitcoin-house-bali.png';
 import attendeeBhBogor from '@/assets/attendee-bitcoin-house-bogor.webp';
 import attendeePatrick from '@/assets/attendee-patrick.webp';
 import attendeeAhPrayo from '@/assets/attendee-ah-prayo.jpeg';
+import attendeeEmilio from '@/assets/attendee-emilio.png';
 import whoWillBeThere from '@/assets/who-will-be-there.png';
 
 interface Attendee {
