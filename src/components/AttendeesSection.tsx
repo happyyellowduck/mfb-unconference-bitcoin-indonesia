@@ -34,10 +34,10 @@ const AttendeesSection = () => {
   const attendees: Attendee[] = [
     { id: 'dimas', name: t('attendees.dimas.name'), bio: t('attendees.dimas.bio'), image: attendeeDimas },
     { id: 'baskoro', name: t('attendees.baskoro.name'), bio: t('attendees.baskoro.bio'), image: attendeeBaskoro },
+    { id: 'emilio', name: t('attendees.emilio.name'), bio: t('attendees.emilio.bio'), image: attendeeEmilio },
     { id: 'bhBali', name: t('attendees.bhBali.name'), bio: t('attendees.bhBali.bio'), image: attendeeBhBali },
     { id: 'chresna', name: t('attendees.chresna.name'), bio: t('attendees.chresna.bio'), image: attendeeChresna },
     { id: 'patrick', name: t('attendees.patrick.name'), bio: t('attendees.patrick.bio'), image: attendeePatrick },
-    { id: 'bitcoinSports', name: t('attendees.bitcoinSports.name'), bio: t('attendees.bitcoinSports.bio'), image: attendeeBitcoinSports },
     { id: 'bhBogor', name: t('attendees.bhBogor.name'), bio: t('attendees.bhBogor.bio'), image: attendeeBhBogor },
     { id: 'asadid', name: t('attendees.asadid.name'), bio: t('attendees.asadid.bio'), image: attendeeAsadid },
     { id: 'ahPrayo', name: t('attendees.ahPrayo.name'), bio: t('attendees.ahPrayo.bio'), image: attendeeAhPrayo },
@@ -47,6 +47,7 @@ const AttendeesSection = () => {
     { id: 'bull', name: t('attendees.bull.name'), bio: t('attendees.bull.bio'), image: attendeeBull },
     { id: 'khaf', name: t('attendees.khaf.name'), bio: t('attendees.khaf.bio'), image: attendeeKhaf },
     { id: 'esther', name: t('attendees.esther.name'), bio: t('attendees.esther.bio'), image: attendeeEsther },
+    { id: 'bitcoinSports', name: t('attendees.bitcoinSports.name'), bio: t('attendees.bitcoinSports.bio'), image: attendeeBitcoinSports },
   ];
 
   return (
