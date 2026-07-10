@@ -31,9 +31,11 @@ const Index = () => {
           <SanSalvadorSection />
           <GraduationSection />
           <TicketsSection />
+          <AlumniSpecialSection />
         </div>
         <UnconferenceSpiritSection />
         <VideoSection />
+        <AgendaSection />
         <AttendeesSection />
         <WomenSection />
         <ZonesSection />
