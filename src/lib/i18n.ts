@@ -118,6 +118,10 @@ const resources = {
           name: 'Bitcoin Sports',
           bio: 'Part of the Bitcoin Indonesia community helping drive Bitcoin adoption in the Bogor region, West Java Province. Initially focused on sports communities (such as basketball) for Bitcoin adoption, and is now expanding outreach to other segments, both offline and online.\n\nX: bitcoinsportsid\nInstagram: bitcoinsports.id\nTikTok: bitcoinsports.id',
         },
+        emilio: {
+          name: 'Emilio Rivas',
+          bio: 'Emilio Rivas is an Events Coordinator at My First Bitcoin, dedicated to empowering individuals through Bitcoin education.\n\nEmilio leads the organization of Bitcoin Unconferences, meetups, and community events, connecting educators, builders, and Bitcoiners around the world.',
+        },
         asadid: {
           name: 'Asadid',
           bio: 'Cat-loving Bitcoiner who actively teaches the technical side of self-custody, nodes, and more.',
