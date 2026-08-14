@@ -18,6 +18,7 @@ import attendeeBhBogor from '@/assets/attendee-bitcoin-house-bogor.webp';
 import attendeePatrick from '@/assets/attendee-patrick.webp';
 import attendeeAhPrayo from '@/assets/attendee-ah-prayo.jpeg';
 import attendeeEmilio from '@/assets/attendee-emilio.png';
+import attendeeManyMore from '@/assets/attendee-many-more.jpg';
 import whoWillBeThere from '@/assets/who-will-be-there.png';
 
 interface Attendee {
@@ -48,6 +49,7 @@ const AttendeesSection = () => {
     { id: 'khaf', name: t('attendees.khaf.name'), bio: t('attendees.khaf.bio'), image: attendeeKhaf },
     { id: 'esther', name: t('attendees.esther.name'), bio: t('attendees.esther.bio'), image: attendeeEsther },
     { id: 'bitcoinSports', name: t('attendees.bitcoinSports.name'), bio: t('attendees.bitcoinSports.bio'), image: attendeeBitcoinSports },
+    { id: 'manyMore', name: t('attendees.manyMore.name'), bio: t('attendees.manyMore.bio'), image: attendeeManyMore },
   ];
 
   return (

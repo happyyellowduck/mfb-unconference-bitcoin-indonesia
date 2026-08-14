@@ -88,14 +88,8 @@ const TicketsSection = () => {
               )}
 
               <h3 className="text-3xl md:text-4xl font-bold font-marykate mb-2">{tier.title}</h3>
-              <div className="flex items-baseline gap-3 mb-1">
+              <div className="flex items-baseline gap-3 mb-6">
                 <span className={`text-4xl font-bold font-marykate ${tier.gradientClass}`}>{tier.earlyBird}</span>
-              </div>
-              <div className="flex items-center gap-2 mb-6">
-                <span className="text-sm text-muted-foreground line-through">{tier.regular}</span>
-                <span className={`text-xs font-semibold px-2 py-0.5 rounded-full text-${tier.accentColor} bg-${tier.accentColor}/10`}>
-                  {t('tickets.saveLabel')}
-                </span>
               </div>
 
               <ul className="space-y-4 mb-8 flex-grow">
