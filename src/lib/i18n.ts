@@ -150,6 +150,10 @@ const resources = {
           name: 'Esther Jesshan',
           bio: 'Esther Jesshan is a Bitcoiner with a big dream of becoming a successful entrepreneur. For her, Bitcoin is not just a digital asset, but a symbol of freedom and a way to express her concerns about the economic system in her country.',
         },
+        manyMore: {
+          name: 'Many more',
+          bio: 'Many more interesting Bitcoiners from all over the world will be joining us at the Unconference. Come meet them, share ideas, and build connections with the global Bitcoin community.',
+        },
       },
       zones: {
         title: 'The event areas',
@@ -157,11 +161,9 @@ const resources = {
       tickets: {
         title: 'Secure Your Spot',
         subtitle: 'Exclusive Event — Strictly capped at 200 participants',
-        saveLabel: '50% off',
         alumni: {
           title: 'MFB Alumni',
-          earlyBirdPrice: '75.000 IDR',
-          regularPrice: '150.000 IDR',
+          earlyBirdPrice: '150.000 IDR',
           badge: 'Special Rate',
           features: [
             'Full day Unconference pass',
@@ -174,8 +176,7 @@ const resources = {
         },
         public: {
           title: 'Public',
-          earlyBirdPrice: '150.000 IDR',
-          regularPrice: '300.000 IDR',
+          earlyBirdPrice: '300.000 IDR',
           features: [
             'Full day Unconference pass',
             'Lunch buffet & beverages included',
@@ -184,7 +185,7 @@ const resources = {
             'Learning & building',
           ],
         },
-        ctaMegatix: 'Get Early Bird Ticket Now',
+        ctaMegatix: 'Get Ticket Now',
         ctaLearnMore: 'Learn more',
       },
       venue: {
@@ -441,6 +442,10 @@ const resources = {
           name: 'Esther Jesshan',
           bio: 'Esther Jesshan, seorang Bitcoiner dengan mimpi besar menjadi entrepreneur sukses. Baginya, Bitcoin bukan sekadar aset digital, tetapi simbol kebebasan dan cara menyuarakan keresahan terhadap sistem ekonomi di negaranya.',
         },
+        manyMore: {
+          name: 'Dan banyak lagi',
+          bio: 'Banyak Bitcoiner menarik dari seluruh dunia akan bergabung bersama kami di Unconference. Datang dan temui mereka, berbagi ide, serta bangun koneksi dengan komunitas Bitcoin global.',
+        },
       },
       zones: {
         title: 'Area acara',
@@ -448,11 +453,9 @@ const resources = {
       tickets: {
         title: 'Amankan Tempatmu',
         subtitle: 'Acara Eksklusif — Terbatas hanya 200 peserta',
-        saveLabel: 'Hemat 50%',
         alumni: {
           title: 'Alumni MFB',
-          earlyBirdPrice: '75.000 IDR',
-          regularPrice: '150.000 IDR',
+          earlyBirdPrice: '150.000 IDR',
           badge: 'Harga Spesial',
           features: [
             'Akses Unconference sehari penuh',
@@ -465,8 +468,7 @@ const resources = {
         },
         public: {
           title: 'Umum',
-          earlyBirdPrice: '150.000 IDR',
-          regularPrice: '300.000 IDR',
+          earlyBirdPrice: '300.000 IDR',
           features: [
             'Akses Unconference sehari penuh',
             'Lunch buffet & minuman termasuk',
@@ -475,7 +477,7 @@ const resources = {
             'Learning & building',
           ],
         },
-        ctaMegatix: 'Dapatkan Tiket Early Bird Sekarang',
+        ctaMegatix: 'Dapatkan Tiket Sekarang',
         ctaLearnMore: 'Pelajari lebih lanjut',
       },
       venue: {
