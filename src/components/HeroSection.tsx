@@ -76,7 +76,7 @@ const HeroSection = () => {
             transition={{ delay: 0.8, duration: 0.6 }}
           >
             <p className="text-sm uppercase tracking-widest text-black mb-6 font-medium">
-              {t('hero.getTicket')}
+              {isOver ? t('hero.daysSince') : t('hero.getTicket')}
             </p>
             <CountdownTimer />
           </motion.div>
@@ -86,12 +86,18 @@ const HeroSection = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 1, duration: 0.6 }}
-            className="mt-8 sm:mt-12 flex justify-center"
+            className="mt-8 sm:mt-12 flex flex-col sm:flex-row gap-4 justify-center items-center"
           >
             <a href="https://megatix.co.id/events/bitcoin-unconference" target="_blank" rel="noopener noreferrer" className="btn-purple text-lg px-10">
               {t('tickets.ctaLearnMore')}
             </a>
+            {isOver && (
+              <a href="https://t.me/+dfgAKTKBu8A4ZjY1" target="_blank" rel="noopener noreferrer" className="btn-orange text-lg px-10">
+                {t('hero.signUpNext')}
+              </a>
+            )}
           </motion.div>
+
         </motion.div>
       </div>
 
