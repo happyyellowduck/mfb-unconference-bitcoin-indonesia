@@ -1,13 +1,16 @@
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import CountdownTimer from './CountdownTimer';
+import { useEventCountdown } from '@/hooks/useEventCountdown';
 import heroImage from '@/assets/hero-unconference-optimized.jpg';
 import heroLogoEn from '@/assets/hero-logo-en.png';
 import heroLogoId from '@/assets/hero-logo-id.png';
 
 const HeroSection = () => {
   const { t, i18n } = useTranslation();
+  const { isOver } = useEventCountdown();
   const heroLogo = i18n.language === 'id' ? heroLogoId : heroLogoEn;
+
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
