@@ -2,9 +2,12 @@ import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { Check, Star, Ticket } from 'lucide-react';
 import orangeGateDesign from '@/assets/orange-gate-design.png';
+import { useEventCountdown } from '@/hooks/useEventCountdown';
 
 const TicketsSection = () => {
   const { t } = useTranslation();
+  const { isOver } = useEventCountdown();
+
 
   const alumniFeatures = t('tickets.alumni.features', { returnObjects: true }) as string[];
   const publicFeatures = t('tickets.public.features', { returnObjects: true }) as string[];
@@ -106,15 +109,27 @@ const TicketsSection = () => {
                 })}
               </ul>
 
-              <a
-                href="https://megatix.co.id/events/bitcoin-unconference"
-                target="_blank"
-                rel="noopener noreferrer"
-                className={`${tier.btnClass} w-full text-center block flex items-center justify-center gap-2 !text-lg`}
-              >
-                <Ticket className="w-4 h-4" />
-                {t('tickets.ctaMegatix')}
-              </a>
+              {isOver ? (
+                <button
+                  type="button"
+                  disabled
+                  className={`${tier.btnClass} w-full text-center flex items-center justify-center gap-2 !text-lg opacity-60 cursor-not-allowed`}
+                >
+                  <Ticket className="w-4 h-4" />
+                  {t('tickets.soldOut')}
+                </button>
+              ) : (
+                <a
+                  href="https://megatix.co.id/events/bitcoin-unconference"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={`${tier.btnClass} w-full text-center block flex items-center justify-center gap-2 !text-lg`}
+                >
+                  <Ticket className="w-4 h-4" />
+                  {t('tickets.ctaMegatix')}
+                </a>
+              )}
+
             </motion.div>
           ))}
         </div>
