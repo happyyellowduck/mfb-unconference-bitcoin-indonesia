@@ -2,9 +2,12 @@ import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { Check, Star, Ticket } from 'lucide-react';
 import orangeGateDesign from '@/assets/orange-gate-design.png';
+import { useEventCountdown } from '@/hooks/useEventCountdown';
 
 const TicketsSection = () => {
   const { t } = useTranslation();
+  const { isOver } = useEventCountdown();
+
 
   const alumniFeatures = t('tickets.alumni.features', { returnObjects: true }) as string[];
   const publicFeatures = t('tickets.public.features', { returnObjects: true }) as string[];
