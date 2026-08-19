@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
 import LanguageToggle from './LanguageToggle';
 import bitcoinIndoLogo from '@/assets/bitcoin-indonesia-logo.svg';
-import mfbLogo from '@/assets/my-first-bitcoin-logo.webp';
+import mfbLogo from '@/assets/my-first-bitcoin-logo.svg';
 
 const Navigation = () => {
   const { t } = useTranslation();

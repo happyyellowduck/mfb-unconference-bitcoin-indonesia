@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { Instagram, Send } from 'lucide-react';
 import bitcoinIndoLogo from '@/assets/bitcoin-indonesia-logo.svg';
-import mfbLogo from '@/assets/my-first-bitcoin-logo.webp';
+import mfbLogo from '@/assets/my-first-bitcoin-logo.svg';
 import footerArtDesktop from '@/assets/footer-art-desktop-hq.jpg';
 import footerArtMobile from '@/assets/footer-art-mobile.png';
 
